@@ -1,8 +1,13 @@
+
 {
   "decks": [
     {
-      "title": "Social Studies Chapter 10 Study Guide",
+      "title": "Social Studies Chapter 10",
       "file": "social-studies-chapter-10.json"
+    },
+    {
+      "title": "Religion Chapter 13",
+      "file": "religion-chapter-13.json"
     }
   ]
 }
