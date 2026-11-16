@@ -1,6 +1,10 @@
 {
   "decks": [
     {
+      "title": "Grammar — 100 Sentences: Parts of Speech & Sentence Types",
+      "file": "grammar-100-sentences-parts-of-speech.json"
+    },
+    {
       "title": "Math Chapter 4 — Two-Digit Addition (Mixed Regrouping)",
       "file": "math-chapter-4-addition.json"
     },
