@@ -1,0 +1,405 @@
+{
+  "title": "Grammar — 100 Sentences: Parts of Speech & Sentence Types",
+  "cards": [
+    {
+      "front": "[A] little boy walked beside the large dog.\nWhat kind of word is [A]?\nA. Subject Noun (SN)\nB. Verb\nC. Article\nD. Adjective",
+      "back": "C. Article\nWhy? A points to the noun boy."
+    },
+    {
+      "front": "[The] happy girl waved at her friend.\nWhat kind of word is [The]?\nA. Article\nB. Adjective\nC. Verb\nD. Subject Noun (SN)",
+      "back": "A. Article\nWhy? The points to the noun girl."
+    },
+    {
+      "front": "[An] orange bird sat on the fence.\nWhat kind of word is [An]?\nA. Adjective\nB. Verb\nC. Subject Noun (SN)\nD. Article",
+      "back": "D. Article\nWhy? An comes before the noun bird."
+    },
+    {
+      "front": "[A] tiny mouse hid under the bed.\nWhat kind of word is [A]?\nA. Verb\nB. Adjective\nC. Subject Noun (SN)\nD. Article",
+      "back": "D. Article\nWhy? A points to the noun mouse."
+    },
+    {
+      "front": "[The] blue kite flew above the trees.\nWhat kind of word is [The]?\nA. Article\nB. Verb\nC. Subject Noun (SN)\nD. Adjective",
+      "back": "A. Article\nWhy? The comes before the noun kite."
+    },
+    {
+      "front": "[An] old turtle rested near the pond.\nWhat kind of word is [An]?\nA. Article\nB. Adjective\nC. Verb\nD. Subject Noun (SN)",
+      "back": "A. Article\nWhy? An comes before the noun turtle."
+    },
+    {
+      "front": "[A] brave firefighter helped the family.\nWhat kind of word is [A]?\nA. Subject Noun (SN)\nB. Adjective\nC. Verb\nD. Article",
+      "back": "D. Article\nWhy? A comes before the noun firefighter."
+    },
+    {
+      "front": "[The] sleepy puppy curled up by the door.\nWhat kind of word is [The]?\nA. Subject Noun (SN)\nB. Article\nC. Adjective\nD. Verb",
+      "back": "B. Article\nWhy? The points to the noun puppy."
+    },
+    {
+      "front": "[An] eager student raised her hand.\nWhat kind of word is [An]?\nA. Adjective\nB. Subject Noun (SN)\nC. Article\nD. Verb",
+      "back": "C. Article\nWhy? An comes before the noun student."
+    },
+    {
+      "front": "[A] yellow bus stopped at the corner.\nWhat kind of word is [A]?\nA. Verb\nB. Article\nC. Subject Noun (SN)\nD. Adjective",
+      "back": "B. Article\nWhy? A points to the noun bus."
+    },
+    {
+      "front": "The [fluffy] rabbit hopped across the grass.\nWhat kind of word is [fluffy]?\nA. Adverb\nB. Article\nC. Preposition\nD. Adjective",
+      "back": "D. Adjective\nWhy? Fluffy tells what kind of rabbit."
+    },
+    {
+      "front": "A [green] frog jumped into the water.\nWhat kind of word is [green]?\nA. Article\nB. Adjective\nC. Adverb\nD. Preposition",
+      "back": "B. Adjective\nWhy? Green tells what color the frog is."
+    },
+    {
+      "front": "The [tall] tree shaded our yard.\nWhat kind of word is [tall]?\nA. Preposition\nB. Adjective\nC. Adverb\nD. Article",
+      "back": "B. Adjective\nWhy? Tall describes the tree."
+    },
+    {
+      "front": "A [sweet] peach fell from the branch.\nWhat kind of word is [sweet]?\nA. Preposition\nB. Adjective\nC. Adverb\nD. Article",
+      "back": "B. Adjective\nWhy? Sweet tells what kind of peach."
+    },
+    {
+      "front": "The [noisy] truck rolled down the road.\nWhat kind of word is [noisy]?\nA. Article\nB. Adverb\nC. Adjective\nD. Preposition",
+      "back": "C. Adjective\nWhy? Noisy describes the truck."
+    },
+    {
+      "front": "[Three] ducks swam across the lake.\nWhat kind of word is [Three]?\nA. Adverb\nB. Article\nC. Preposition\nD. Adjective",
+      "back": "D. Adjective\nWhy? Three tells how many ducks."
+    },
+    {
+      "front": "The [cold] wind blew through the window.\nWhat kind of word is [cold]?\nA. Adverb\nB. Adjective\nC. Preposition\nD. Article",
+      "back": "B. Adjective\nWhy? Cold describes the wind."
+    },
+    {
+      "front": "A [round] ball bounced into the street.\nWhat kind of word is [round]?\nA. Article\nB. Adverb\nC. Adjective\nD. Preposition",
+      "back": "C. Adjective\nWhy? Round tells the shape of the ball."
+    },
+    {
+      "front": "The [gentle] horse walked toward the barn.\nWhat kind of word is [gentle]?\nA. Adjective\nB. Preposition\nC. Article\nD. Adverb",
+      "back": "A. Adjective\nWhy? Gentle describes the horse."
+    },
+    {
+      "front": "[Two] children played behind the house.\nWhat kind of word is [Two]?\nA. Adjective\nB. Adverb\nC. Preposition\nD. Article",
+      "back": "A. Adjective\nWhy? Two tells how many children."
+    },
+    {
+      "front": "The [kitten] slept beside the sofa.\nWhat kind of word is [kitten]?\nA. Adjective\nB. Object of Preposition\nC. Verb\nD. Subject Noun (SN)",
+      "back": "D. Subject Noun (SN)\nWhy? Kitten tells who slept."
+    },
+    {
+      "front": "A [farmer] planted seeds in the field.\nWhat kind of word is [farmer]?\nA. Subject Noun (SN)\nB. Object of Preposition\nC. Verb\nD. Adjective",
+      "back": "A. Subject Noun (SN)\nWhy? Farmer tells who planted."
+    },
+    {
+      "front": "The [bell] rang loudly after lunch.\nWhat kind of word is [bell]?\nA. Adjective\nB. Subject Noun (SN)\nC. Object of Preposition\nD. Verb",
+      "back": "B. Subject Noun (SN)\nWhy? Bell tells what rang."
+    },
+    {
+      "front": "A [butterfly] landed on the flower.\nWhat kind of word is [butterfly]?\nA. Verb\nB. Adjective\nC. Object of Preposition\nD. Subject Noun (SN)",
+      "back": "D. Subject Noun (SN)\nWhy? Butterfly tells what landed."
+    },
+    {
+      "front": "The [teacher] smiled at the class.\nWhat kind of word is [teacher]?\nA. Verb\nB. Subject Noun (SN)\nC. Adjective\nD. Object of Preposition",
+      "back": "B. Subject Noun (SN)\nWhy? Teacher tells who smiled."
+    },
+    {
+      "front": "A [wagon] rolled down the hill.\nWhat kind of word is [wagon]?\nA. Verb\nB. Adjective\nC. Object of Preposition\nD. Subject Noun (SN)",
+      "back": "D. Subject Noun (SN)\nWhy? Wagon tells what rolled."
+    },
+    {
+      "front": "The [baby] laughed in the stroller.\nWhat kind of word is [baby]?\nA. Subject Noun (SN)\nB. Adjective\nC. Object of Preposition\nD. Verb",
+      "back": "A. Subject Noun (SN)\nWhy? Baby tells who laughed."
+    },
+    {
+      "front": "A [train] stopped near the station.\nWhat kind of word is [train]?\nA. Adjective\nB. Subject Noun (SN)\nC. Object of Preposition\nD. Verb",
+      "back": "B. Subject Noun (SN)\nWhy? Train tells what stopped."
+    },
+    {
+      "front": "The [squirrel] climbed up the tree.\nWhat kind of word is [squirrel]?\nA. Subject Noun (SN)\nB. Verb\nC. Adjective\nD. Object of Preposition",
+      "back": "A. Subject Noun (SN)\nWhy? Squirrel tells what climbed."
+    },
+    {
+      "front": "A [chef] cooked dinner for the guests.\nWhat kind of word is [chef]?\nA. Adjective\nB. Subject Noun (SN)\nC. Verb\nD. Object of Preposition",
+      "back": "B. Subject Noun (SN)\nWhy? Chef tells who cooked."
+    },
+    {
+      "front": "The small dog [barked] at the mail carrier.\nWhat kind of word is [barked]?\nA. Preposition\nB. Adverb\nC. Article\nD. Verb",
+      "back": "D. Verb\nWhy? Barked tells what the dog did."
+    },
+    {
+      "front": "A bright star [twinkled] above the house.\nWhat kind of word is [twinkled]?\nA. Adverb\nB. Preposition\nC. Article\nD. Verb",
+      "back": "D. Verb\nWhy? Twinkled tells what the star did."
+    },
+    {
+      "front": "The children [skipped] along the path.\nWhat kind of word is [skipped]?\nA. Adverb\nB. Preposition\nC. Article\nD. Verb",
+      "back": "D. Verb\nWhy? Skipped tells what the children did."
+    },
+    {
+      "front": "A fish [splashed] near the boat.\nWhat kind of word is [splashed]?\nA. Article\nB. Adverb\nC. Verb\nD. Preposition",
+      "back": "C. Verb\nWhy? Splashed tells what the fish did."
+    },
+    {
+      "front": "The mother [baked] bread in the kitchen.\nWhat kind of word is [baked]?\nA. Article\nB. Adverb\nC. Preposition\nD. Verb",
+      "back": "D. Verb\nWhy? Baked tells what the mother did."
+    },
+    {
+      "front": "A red leaf [floated] onto the sidewalk.\nWhat kind of word is [floated]?\nA. Adverb\nB. Verb\nC. Article\nD. Preposition",
+      "back": "B. Verb\nWhy? Floated tells what the leaf did."
+    },
+    {
+      "front": "The puppy [chased] a ball around the yard.\nWhat kind of word is [chased]?\nA. Adverb\nB. Verb\nC. Preposition\nD. Article",
+      "back": "B. Verb\nWhy? Chased tells what the puppy did."
+    },
+    {
+      "front": "A bird [sang] outside my window.\nWhat kind of word is [sang]?\nA. Adverb\nB. Verb\nC. Preposition\nD. Article",
+      "back": "B. Verb\nWhy? Sang tells what the bird did."
+    },
+    {
+      "front": "The children [painted] pictures after school.\nWhat kind of word is [painted]?\nA. Verb\nB. Adverb\nC. Preposition\nD. Article",
+      "back": "A. Verb\nWhy? Painted tells what the children did."
+    },
+    {
+      "front": "A little lamb [followed] the shepherd.\nWhat kind of word is [followed]?\nA. Adverb\nB. Article\nC. Preposition\nD. Verb",
+      "back": "D. Verb\nWhy? Followed tells what the lamb did."
+    },
+    {
+      "front": "The rabbit [quickly] ran into its hole.\nWhat kind of word is [quickly]?\nA. Verb\nB. Adjective\nC. Adverb\nD. Article",
+      "back": "C. Adverb\nWhy? Quickly tells how the rabbit ran."
+    },
+    {
+      "front": "A child [carefully] carried the glass.\nWhat kind of word is [carefully]?\nA. Article\nB. Verb\nC. Adverb\nD. Adjective",
+      "back": "C. Adverb\nWhy? Carefully tells how the child carried it."
+    },
+    {
+      "front": "The crowd cheered [loudly] at the game.\nWhat kind of word is [loudly]?\nA. Adjective\nB. Adverb\nC. Verb\nD. Article",
+      "back": "B. Adverb\nWhy? Loudly tells how the crowd cheered."
+    },
+    {
+      "front": "The turtle [slowly] crossed the path.\nWhat kind of word is [slowly]?\nA. Adjective\nB. Adverb\nC. Article\nD. Verb",
+      "back": "B. Adverb\nWhy? Slowly tells how the turtle crossed."
+    },
+    {
+      "front": "A dancer [gracefully] moved across the stage.\nWhat kind of word is [gracefully]?\nA. Adverb\nB. Verb\nC. Adjective\nD. Article",
+      "back": "A. Adverb\nWhy? Gracefully tells how the dancer moved."
+    },
+    {
+      "front": "The boy [happily] shared his snack.\nWhat kind of word is [happily]?\nA. Verb\nB. Adjective\nC. Adverb\nD. Article",
+      "back": "C. Adverb\nWhy? Happily tells how the boy shared."
+    },
+    {
+      "front": "The puppy [eagerly] waited by the gate.\nWhat kind of word is [eagerly]?\nA. Verb\nB. Adverb\nC. Adjective\nD. Article",
+      "back": "B. Adverb\nWhy? Eagerly tells how the puppy waited."
+    },
+    {
+      "front": "The rain [gently] tapped on the roof.\nWhat kind of word is [gently]?\nA. Adjective\nB. Article\nC. Adverb\nD. Verb",
+      "back": "C. Adverb\nWhy? Gently tells how the rain tapped."
+    },
+    {
+      "front": "A student [neatly] wrote her name.\nWhat kind of word is [neatly]?\nA. Adjective\nB. Article\nC. Adverb\nD. Verb",
+      "back": "C. Adverb\nWhy? Neatly tells how the student wrote."
+    },
+    {
+      "front": "The baby slept [peacefully] in the crib.\nWhat kind of word is [peacefully]?\nA. Verb\nB. Adverb\nC. Article\nD. Adjective",
+      "back": "B. Adverb\nWhy? Peacefully tells how the baby slept."
+    },
+    {
+      "front": "The cat hid [under] the wooden chair.\nWhat kind of word is [under]?\nA. Preposition\nB. Adverb\nC. Verb\nD. Article",
+      "back": "A. Preposition\nWhy? Under shows where the cat hid."
+    },
+    {
+      "front": "A girl walked [through] the quiet park.\nWhat kind of word is [through]?\nA. Verb\nB. Adverb\nC. Article\nD. Preposition",
+      "back": "D. Preposition\nWhy? Through shows the path she walked."
+    },
+    {
+      "front": "The bird flew [over] the tall fence.\nWhat kind of word is [over]?\nA. Verb\nB. Preposition\nC. Adverb\nD. Article",
+      "back": "B. Preposition\nWhy? Over shows where the bird flew."
+    },
+    {
+      "front": "A boy stood [beside] his sister.\nWhat kind of word is [beside]?\nA. Verb\nB. Article\nC. Preposition\nD. Adverb",
+      "back": "C. Preposition\nWhy? Beside shows the boy’s position."
+    },
+    {
+      "front": "The toy fell [behind] the bookshelf.\nWhat kind of word is [behind]?\nA. Verb\nB. Article\nC. Preposition\nD. Adverb",
+      "back": "C. Preposition\nWhy? Behind shows where the toy fell."
+    },
+    {
+      "front": "The frog jumped [into] the shallow pond.\nWhat kind of word is [into]?\nA. Preposition\nB. Verb\nC. Adverb\nD. Article",
+      "back": "A. Preposition\nWhy? Into shows where the frog jumped."
+    },
+    {
+      "front": "A boat sailed [across] the wide river.\nWhat kind of word is [across]?\nA. Preposition\nB. Article\nC. Verb\nD. Adverb",
+      "back": "A. Preposition\nWhy? Across shows the path of the boat."
+    },
+    {
+      "front": "The shoes rested [near] the front door.\nWhat kind of word is [near]?\nA. Adverb\nB. Article\nC. Preposition\nD. Verb",
+      "back": "C. Preposition\nWhy? Near shows where the shoes rested."
+    },
+    {
+      "front": "The puppy slept [between] two pillows.\nWhat kind of word is [between]?\nA. Article\nB. Verb\nC. Adverb\nD. Preposition",
+      "back": "D. Preposition\nWhy? Between shows where the puppy slept."
+    },
+    {
+      "front": "A balloon floated [above] the playground.\nWhat kind of word is [above]?\nA. Article\nB. Adverb\nC. Preposition\nD. Verb",
+      "back": "C. Preposition\nWhy? Above shows where the balloon floated."
+    },
+    {
+      "front": "The red ball rolled under the [table].\nWhat kind of word is [table]?\nA. Adjective\nB. Subject Noun (SN)\nC. Object of Preposition\nD. Verb",
+      "back": "C. Object of Preposition\nWhy? Table is the noun after under."
+    },
+    {
+      "front": "A rabbit ran behind the [shed].\nWhat kind of word is [shed]?\nA. Adjective\nB. Object of Preposition\nC. Verb\nD. Subject Noun (SN)",
+      "back": "B. Object of Preposition\nWhy? Shed is the noun after behind."
+    },
+    {
+      "front": "The child sat beside the [teacher].\nWhat kind of word is [teacher]?\nA. Adjective\nB. Verb\nC. Object of Preposition\nD. Subject Noun (SN)",
+      "back": "C. Object of Preposition\nWhy? Teacher is the noun after beside."
+    },
+    {
+      "front": "A plane flew above the [clouds].\nWhat kind of word is [clouds]?\nA. Subject Noun (SN)\nB. Object of Preposition\nC. Adjective\nD. Verb",
+      "back": "B. Object of Preposition\nWhy? Clouds is the noun after above."
+    },
+    {
+      "front": "The puppy ran toward the [gate].\nWhat kind of word is [gate]?\nA. Adjective\nB. Verb\nC. Subject Noun (SN)\nD. Object of Preposition",
+      "back": "D. Object of Preposition\nWhy? Gate is the noun after toward."
+    },
+    {
+      "front": "A leaf drifted across the [pond].\nWhat kind of word is [pond]?\nA. Verb\nB. Object of Preposition\nC. Subject Noun (SN)\nD. Adjective",
+      "back": "B. Object of Preposition\nWhy? Pond is the noun after across."
+    },
+    {
+      "front": "The girl looked inside the [box].\nWhat kind of word is [box]?\nA. Subject Noun (SN)\nB. Adjective\nC. Object of Preposition\nD. Verb",
+      "back": "C. Object of Preposition\nWhy? Box is the noun after inside."
+    },
+    {
+      "front": "The bike leaned against the [wall].\nWhat kind of word is [wall]?\nA. Subject Noun (SN)\nB. Adjective\nC. Object of Preposition\nD. Verb",
+      "back": "C. Object of Preposition\nWhy? Wall is the noun after against."
+    },
+    {
+      "front": "A bird rested on the [branch].\nWhat kind of word is [branch]?\nA. Object of Preposition\nB. Verb\nC. Subject Noun (SN)\nD. Adjective",
+      "back": "A. Object of Preposition\nWhy? Branch is the noun after on."
+    },
+    {
+      "front": "The family walked around the [garden].\nWhat kind of word is [garden]?\nA. Adjective\nB. Subject Noun (SN)\nC. Verb\nD. Object of Preposition",
+      "back": "D. Object of Preposition\nWhy? Garden is the noun after around."
+    },
+    {
+      "front": "Where did the brown rabbit go[?]\nWhat kind of end mark is [ ? ]?\nA. Exclamation Point\nB. Question Mark\nC. Comma\nD. Period",
+      "back": "B. Question Mark\nWhy? A question ends with a question mark."
+    },
+    {
+      "front": "The children played at recess[.]\nWhat kind of end mark is [ . ]?\nA. Exclamation Point\nB. Question Mark\nC. Period\nD. Comma",
+      "back": "C. Period\nWhy? A statement ends with a period."
+    },
+    {
+      "front": "What a huge rainbow[!]\nWhat kind of end mark is [ ! ]?\nA. Period\nB. Comma\nC. Question Mark\nD. Exclamation Point",
+      "back": "D. Exclamation Point\nWhy? Strong excitement ends with an exclamation point."
+    },
+    {
+      "front": "Please close the door[.]\nWhat kind of end mark is [ . ]?\nA. Exclamation Point\nB. Question Mark\nC. Period\nD. Comma",
+      "back": "C. Period\nWhy? This polite command ends with a period."
+    },
+    {
+      "front": "Can you find my red mitten[?]\nWhat kind of end mark is [ ? ]?\nA. Comma\nB. Exclamation Point\nC. Question Mark\nD. Period",
+      "back": "C. Question Mark\nWhy? The sentence asks a question."
+    },
+    {
+      "front": "Hooray, our team won[!]\nWhat kind of end mark is [ ! ]?\nA. Comma\nB. Exclamation Point\nC. Question Mark\nD. Period",
+      "back": "B. Exclamation Point\nWhy? Hooray shows strong excitement."
+    },
+    {
+      "front": "A little duck followed its mother[.]\nWhat kind of end mark is [ . ]?\nA. Question Mark\nB. Period\nC. Exclamation Point\nD. Comma",
+      "back": "B. Period\nWhy? The sentence tells something."
+    },
+    {
+      "front": "Who left the book on the desk[?]\nWhat kind of end mark is [ ? ]?\nA. Question Mark\nB. Comma\nC. Exclamation Point\nD. Period",
+      "back": "A. Question Mark\nWhy? Who begins a question."
+    },
+    {
+      "front": "Watch out for that puddle[!]\nWhat kind of end mark is [ ! ]?\nA. Comma\nB. Period\nC. Exclamation Point\nD. Question Mark",
+      "back": "C. Exclamation Point\nWhy? The warning shows strong feeling."
+    },
+    {
+      "front": "Put your crayons in the box[.]\nWhat kind of end mark is [ . ]?\nA. Period\nB. Comma\nC. Exclamation Point\nD. Question Mark",
+      "back": "A. Period\nWhy? This command ends with a period."
+    },
+    {
+      "front": "The purple flowers grew beside the fence.\nWhat kind of sentence is this?\nA. Declarative\nB. Interrogative\nC. Imperative\nD. Exclamatory",
+      "back": "A. Declarative\nWhy? It makes a statement."
+    },
+    {
+      "front": "Did the puppy eat its dinner?\nWhat kind of sentence is this?\nA. Declarative\nB. Interrogative\nC. Imperative\nD. Exclamatory",
+      "back": "B. Interrogative\nWhy? It asks a question."
+    },
+    {
+      "front": "Wow, that was an amazing catch!\nWhat kind of sentence is this?\nA. Exclamatory\nB. Interrogative\nC. Declarative\nD. Imperative",
+      "back": "A. Exclamatory\nWhy? It shows strong excitement."
+    },
+    {
+      "front": "Please wash your hands before lunch.\nWhat kind of sentence is this?\nA. Interrogative\nB. Declarative\nC. Exclamatory\nD. Imperative",
+      "back": "D. Imperative\nWhy? It gives a polite command."
+    },
+    {
+      "front": "Our class visited the science museum.\nWhat kind of sentence is this?\nA. Interrogative\nB. Imperative\nC. Exclamatory\nD. Declarative",
+      "back": "D. Declarative\nWhy? It tells what happened."
+    },
+    {
+      "front": "Where is the little yellow boat?\nWhat kind of sentence is this?\nA. Imperative\nB. Interrogative\nC. Declarative\nD. Exclamatory",
+      "back": "B. Interrogative\nWhy? It asks for information."
+    },
+    {
+      "front": "What a wonderful surprise!\nWhat kind of sentence is this?\nA. Declarative\nB. Imperative\nC. Interrogative\nD. Exclamatory",
+      "back": "D. Exclamatory\nWhy? It shows a strong feeling."
+    },
+    {
+      "front": "Place your shoes beside the mat.\nWhat kind of sentence is this?\nA. Exclamatory\nB. Declarative\nC. Interrogative\nD. Imperative",
+      "back": "D. Imperative\nWhy? It tells someone what to do."
+    },
+    {
+      "front": "The brown horse trotted across the field.\nWhat kind of sentence is this?\nA. Declarative\nB. Interrogative\nC. Exclamatory\nD. Imperative",
+      "back": "A. Declarative\nWhy? It makes a statement."
+    },
+    {
+      "front": "Stop at the red light!\nWhat kind of sentence is this?\nA. Exclamatory\nB. Interrogative\nC. Imperative\nD. Declarative",
+      "back": "C. Imperative\nWhy? It gives a command, even with an exclamation point."
+    },
+    {
+      "front": "The young fox rested [beneath] the tree.\nWhich kind of word shows a relationship such as where?\nA. Adverb\nB. Article\nC. Preposition\nD. Adjective",
+      "back": "C. Preposition\nWhy? Ask where the fox rested: beneath the tree."
+    },
+    {
+      "front": "A cheerful child sang [softly] at home.\nWhich kind of word answers HOW an action happens?\nA. Adjective\nB. Adverb\nC. Article\nD. Preposition",
+      "back": "B. Adverb\nWhy? Ask how the child sang: softly."
+    },
+    {
+      "front": "The [sleepy] owl watched the moon.\nWhich kind of word answers WHAT KIND or HOW MANY?\nA. Subject Noun (SN)\nB. Article\nC. Adjective\nD. Verb",
+      "back": "C. Adjective\nWhy? Ask what kind of owl: sleepy."
+    },
+    {
+      "front": "[An] excited puppy wagged its tail.\nWhich kind of word is A, AN, or THE?\nA. Article\nB. Subject Noun (SN)\nC. Adjective\nD. Verb",
+      "back": "A. Article\nWhy? Ask which small word points to puppy: An."
+    },
+    {
+      "front": "The strong swimmer [dived] into the pool.\nWhich kind of word tells WHAT SOMEONE DOES?\nA. Adjective\nB. Subject Noun (SN)\nC. Article\nD. Verb",
+      "back": "D. Verb\nWhy? Ask what the swimmer did: dived."
+    },
+    {
+      "front": "A busy [bee] buzzed near the flowers.\nWhich kind of word answers WHO or WHAT does the action?\nA. Article\nB. Adjective\nC. Verb\nD. Subject Noun (SN)",
+      "back": "D. Subject Noun (SN)\nWhy? Ask what buzzed: bee."
+    },
+    {
+      "front": "The boy ran past the [mailbox].\nWhich kind of word answers preposition + WHO or WHAT?\nA. Adjective\nB. Verb\nC. Subject Noun (SN)\nD. Object of Preposition",
+      "back": "D. Object of Preposition\nWhy? Ask past what: mailbox."
+    },
+    {
+      "front": "The kind nurse spoke [gently] to us.\nWhich kind of word answers HOW an action happens?\nA. Preposition\nB. Article\nC. Adverb\nD. Adjective",
+      "back": "C. Adverb\nWhy? Ask how the nurse spoke: gently."
+    },
+    {
+      "front": "The [spotted] cow stood by the fence.\nWhich kind of word answers WHAT KIND or HOW MANY?\nA. Subject Noun (SN)\nB. Adjective\nC. Verb\nD. Article",
+      "back": "B. Adjective\nWhy? Ask what kind of cow: spotted."
+    },
+    {
+      "front": "A bright moon shone over the [lake].\nWhich kind of word answers preposition + WHO or WHAT?\nA. Verb\nB. Object of Preposition\nC. Adjective\nD. Subject Noun (SN)",
+      "back": "B. Object of Preposition\nWhy? Ask over what: lake."
+    }
+  ]
+}
