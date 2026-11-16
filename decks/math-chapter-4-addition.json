@@ -1,85 +1,85 @@
 {
-  "title": "Math Chapter 4 \u2014 Two-Digit Addition with Regrouping",
+  "title": "Math Chapter 4 — Two-Digit Addition (With and Without Regrouping)",
   "cards": [
     {
-      "front": "47 + 28 = ?",
-      "back": "75"
+      "front": "  47\n+ 28\n────\n  ?",
+      "back": "  1\n  47\n+ 28\n────\n  75"
     },
     {
-      "front": "36 + 27 = ?",
-      "back": "63"
+      "front": "  36\n+ 22\n────\n  ?",
+      "back": "  36\n+ 22\n────\n  58"
     },
     {
-      "front": "58 + 24 = ?",
-      "back": "82"
+      "front": "  58\n+ 24\n────\n  ?",
+      "back": "  1\n  58\n+ 24\n────\n  82"
     },
     {
-      "front": "29 + 35 = ?",
-      "back": "64"
+      "front": "  29\n+ 30\n────\n  ?",
+      "back": "  29\n+ 30\n────\n  59"
     },
     {
-      "front": "46 + 38 = ?",
-      "back": "84"
+      "front": "  46\n+ 38\n────\n  ?",
+      "back": "  1\n  46\n+ 38\n────\n  84"
     },
     {
-      "front": "57 + 26 = ?",
-      "back": "83"
+      "front": "  57\n+ 21\n────\n  ?",
+      "back": "  57\n+ 21\n────\n  78"
     },
     {
-      "front": "18 + 47 = ?",
-      "back": "65"
+      "front": "  18\n+ 47\n────\n  ?",
+      "back": "  1\n  18\n+ 47\n────\n  65"
     },
     {
-      "front": "39 + 25 = ?",
-      "back": "64"
+      "front": "  39\n+ 20\n────\n  ?",
+      "back": "  39\n+ 20\n────\n  59"
     },
     {
-      "front": "68 + 17 = ?",
-      "back": "85"
+      "front": "  68\n+ 17\n────\n  ?",
+      "back": "  1\n  68\n+ 17\n────\n  85"
     },
     {
-      "front": "27 + 46 = ?",
-      "back": "73"
+      "front": "  27\n+ 42\n────\n  ?",
+      "back": "  27\n+ 42\n────\n  69"
     },
     {
-      "front": "59 + 23 = ?",
-      "back": "82"
+      "front": "  59\n+ 23\n────\n  ?",
+      "back": "  1\n  59\n+ 23\n────\n  82"
     },
     {
-      "front": "48 + 36 = ?",
-      "back": "84"
+      "front": "  48\n+ 31\n────\n  ?",
+      "back": "  48\n+ 31\n────\n  79"
     },
     {
-      "front": "35 + 28 = ?",
-      "back": "63"
+      "front": "  35\n+ 28\n────\n  ?",
+      "back": "  1\n  35\n+ 28\n────\n  63"
     },
     {
-      "front": "67 + 15 = ?",
-      "back": "82"
+      "front": "  67\n+ 12\n────\n  ?",
+      "back": "  67\n+ 12\n────\n  79"
     },
     {
-      "front": "26 + 48 = ?",
-      "back": "74"
+      "front": "  26\n+ 48\n────\n  ?",
+      "back": "  1\n  26\n+ 48\n────\n  74"
     },
     {
-      "front": "49 + 27 = ?",
-      "back": "76"
+      "front": "  49\n+ 20\n────\n  ?",
+      "back": "  49\n+ 20\n────\n  69"
     },
     {
-      "front": "38 + 29 = ?",
-      "back": "67"
+      "front": "  38\n+ 29\n────\n  ?",
+      "back": "  1\n  38\n+ 29\n────\n  67"
     },
     {
-      "front": "56 + 37 = ?",
-      "back": "93"
+      "front": "  56\n+ 32\n────\n  ?",
+      "back": "  56\n+ 32\n────\n  88"
     },
     {
-      "front": "19 + 54 = ?",
-      "back": "73"
+      "front": "  19\n+ 54\n────\n  ?",
+      "back": "  1\n  19\n+ 54\n────\n  73"
     },
     {
-      "front": "28 + 56 = ?",
-      "back": "84"
+      "front": "  28\n+ 51\n────\n  ?",
+      "back": "  28\n+ 51\n────\n  79"
     }
   ]
 }
