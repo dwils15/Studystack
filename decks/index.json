@@ -1,12 +1,16 @@
 {
   "decks": [
     {
-      "title": "Math Chapter 4 — Two-Digit Addition (With and Without Regrouping)",
+      "title": "Math Chapter 4 — Two-Digit Addition (Mixed Regrouping)",
       "file": "math-chapter-4-addition.json"
     },
     {
       "title": "Math Chapter 5 — Two-Digit Subtraction Without Borrowing",
       "file": "math-chapter-5-subtraction.json"
+    },
+    {
+      "title": "Math Chapter 6 — Two-Digit Subtraction with Borrowing",
+      "file": "math-chapter-6-subtraction-borrowing.json"
     },
     {
       "title": "Religion Chapter 13 Study Guide",
