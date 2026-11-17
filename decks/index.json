@@ -1,10 +1,6 @@
 {
   "decks": [
     {
-      "title": "English Chapter 4 — Grammar and Vocabulary",
-      "file": "english-chapter-4.json"
-    },
-    {
       "title": "Grammar — 100 Sentences: Parts of Speech & Sentence Types",
       "file": "grammar-100-sentences-parts-of-speech.json"
     },
