@@ -1,0 +1,293 @@
+{
+  "title": "English Chapter 4 — Grammar and Vocabulary",
+  "cards": [
+    {
+      "front": "What is a noun?",
+      "back": "A person, place, thing, idea, or animal."
+    },
+    {
+      "front": "What is a common noun?",
+      "back": "A general name."
+    },
+    {
+      "front": "What is a proper noun?",
+      "back": "A special name."
+    },
+    {
+      "front": "What kind of letter begins a proper noun?",
+      "back": "A capital letter."
+    },
+    {
+      "front": "What is a singular noun?",
+      "back": "Names one."
+    },
+    {
+      "front": "What is a plural noun?",
+      "back": "Names more than one."
+    },
+    {
+      "front": "What is an irregular plural noun?",
+      "back": "A plural that does not follow the usual -s or -es rule."
+    },
+    {
+      "front": "Is dog a common noun or proper noun?",
+      "back": "Common noun"
+    },
+    {
+      "front": "Is Baton Rouge a common noun or proper noun?",
+      "back": "Proper noun"
+    },
+    {
+      "front": "Is teacher a common noun or proper noun?",
+      "back": "Common noun"
+    },
+    {
+      "front": "Is Dr. Kelley a common noun or proper noun?",
+      "back": "Proper noun"
+    },
+    {
+      "front": "Is cat singular or plural?",
+      "back": "Singular"
+    },
+    {
+      "front": "Is cats singular or plural?",
+      "back": "Plural"
+    },
+    {
+      "front": "What is the plural of shoe?",
+      "back": "shoes"
+    },
+    {
+      "front": "What is the plural of glass?",
+      "back": "glasses"
+    },
+    {
+      "front": "What is the plural of child?",
+      "back": "children"
+    },
+    {
+      "front": "What is the plural of man?",
+      "back": "men"
+    },
+    {
+      "front": "What is the plural of woman?",
+      "back": "women"
+    },
+    {
+      "front": "What is the plural of goose?",
+      "back": "geese"
+    },
+    {
+      "front": "What is the plural of fish?",
+      "back": "fish"
+    },
+    {
+      "front": "What is the plural of deer?",
+      "back": "deer"
+    },
+    {
+      "front": "What does SN stand for?",
+      "back": "Subject noun"
+    },
+    {
+      "front": "What does V stand for?",
+      "back": "Verb"
+    },
+    {
+      "front": "What does Adv stand for?",
+      "back": "Adverb"
+    },
+    {
+      "front": "What does Adj stand for?",
+      "back": "Adjective"
+    },
+    {
+      "front": "What does A stand for in sentence classification?",
+      "back": "Article adjective"
+    },
+    {
+      "front": "What is Pattern 1?",
+      "back": "SN V"
+    },
+    {
+      "front": "Which three questions do adverbs answer?",
+      "back": "How? When? Where?"
+    },
+    {
+      "front": "Which three questions do adjectives answer?",
+      "back": "What kind? Which one? How many?"
+    },
+    {
+      "front": "What are the three article adjectives?",
+      "back": "a, an, the"
+    },
+    {
+      "front": "What is a verb?",
+      "back": "A word that tells what someone or something does."
+    },
+    {
+      "front": "What is an adjective?",
+      "back": "A word that describes a noun."
+    },
+    {
+      "front": "What is an adverb?",
+      "back": "A word that tells how, when, or where."
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the subject noun?",
+      "back": "goats"
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the verb?",
+      "back": "walked"
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the adverb?",
+      "back": "slowly"
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the adjective?",
+      "back": "brown"
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the article adjective?",
+      "back": "The"
+    },
+    {
+      "front": "In “The brown goats walked slowly,” what is the sentence pattern?",
+      "back": "SN V"
+    },
+    {
+      "front": "To find the subject noun in “The brown goats walked slowly,” what question do you ask?",
+      "back": "What walked slowly?"
+    },
+    {
+      "front": "To find the adverb in “The brown goats walked slowly,” what question do you ask?",
+      "back": "Walked how?"
+    },
+    {
+      "front": "To find the adjective in “The brown goats walked slowly,” what question do you ask?",
+      "back": "What kind of goats?"
+    },
+    {
+      "front": "In “The happy dog ran quickly,” what is the subject noun?",
+      "back": "dog"
+    },
+    {
+      "front": "In “The happy dog ran quickly,” what is the verb?",
+      "back": "ran"
+    },
+    {
+      "front": "In “The happy dog ran quickly,” what is the adjective?",
+      "back": "happy"
+    },
+    {
+      "front": "In “The happy dog ran quickly,” what is the adverb?",
+      "back": "quickly"
+    },
+    {
+      "front": "In “The happy dog ran quickly,” what is the article adjective?",
+      "back": "The"
+    },
+    {
+      "front": "What is a preposition?",
+      "back": "A word that connects words and shows a relationship."
+    },
+    {
+      "front": "What does P stand for?",
+      "back": "Preposition"
+    },
+    {
+      "front": "What does OP stand for?",
+      "back": "Object of the preposition"
+    },
+    {
+      "front": "What questions help find the object of a preposition?",
+      "back": "What? or Whom?"
+    },
+    {
+      "front": "In “The boy walked near the dog,” what is the preposition?",
+      "back": "near"
+    },
+    {
+      "front": "In “The boy walked near the dog,” what is the object of the preposition?",
+      "back": "dog"
+    },
+    {
+      "front": "To find the object in “near the dog,” what do you ask?",
+      "back": "Near what?"
+    },
+    {
+      "front": "In “The cat slept under the table,” what is the preposition?",
+      "back": "under"
+    },
+    {
+      "front": "In “The cat slept under the table,” what is the object of the preposition?",
+      "back": "table"
+    },
+    {
+      "front": "In “The book is on the desk,” what is the preposition?",
+      "back": "on"
+    },
+    {
+      "front": "In “The book is on the desk,” what is the object of the preposition?",
+      "back": "desk"
+    },
+    {
+      "front": "In “The girl stood beside her friend,” what is the preposition?",
+      "back": "beside"
+    },
+    {
+      "front": "In “The girl stood beside her friend,” what is the object of the preposition?",
+      "back": "friend"
+    },
+    {
+      "front": "In “The ball rolled behind the chair,” what is the preposition?",
+      "back": "behind"
+    },
+    {
+      "front": "In “The ball rolled behind the chair,” what is the object of the preposition?",
+      "back": "chair"
+    },
+    {
+      "front": "What is cargo?",
+      "back": "Goods carried by a plane, train, or ship."
+    },
+    {
+      "front": "In “The cargo ship was loaded with toys,” what does cargo mean?",
+      "back": "Goods being carried."
+    },
+    {
+      "front": "What are synonyms?",
+      "back": "Words with similar meanings."
+    },
+    {
+      "front": "What are antonyms?",
+      "back": "Words with opposite meanings."
+    },
+    {
+      "front": "cargo — freight",
+      "back": "Synonym"
+    },
+    {
+      "front": "select — choose",
+      "back": "Synonym"
+    },
+    {
+      "front": "price — cost",
+      "back": "Synonym"
+    },
+    {
+      "front": "cargo — passengers",
+      "back": "Antonym"
+    },
+    {
+      "front": "long — short",
+      "back": "Antonym"
+    },
+    {
+      "front": "vacant — full",
+      "back": "Antonym"
+    }
+  ]
+}
