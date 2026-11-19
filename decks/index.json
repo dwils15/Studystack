@@ -1,6 +1,10 @@
 {
   "decks": [
     {
+      "title": "Social Studies Chapter 11 — Vocabulary",
+      "file": "Social_Studies_Chapter_11_StudyStack.json"
+    },
+    {
       "title": "English Chapter 4 — Grammar and Vocabulary",
       "file": "english-chapter-4.json"
     },
