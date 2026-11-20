@@ -1,1091 +1,723 @@
 {
-  "title": "Physics Midterm — Definitions, Constants, Formulas & Original 83 Problems",
+  "title": "Physics Midterm — Quick Recall (Clear Answer Types)",
   "subject": "Physics",
-  "description": "Worksheet-aligned Physics flashcards: exact rounding rules, definitions, standard values, formula selection and all 83 original assigned problems. No generic study-strategy questions.",
+  "description": "179 short-answer flashcards clearly labeled FORMULA, DEFINITION, RULE, VALUE, TERM, UNIT, CONVERSION, etc. No worked math problems.",
   "cards": [
     {
-      "front": "For measured ADDITION (+), round based on what?",
-      "back": "Fewest DECIMAL PLACES. Example: 8.9435 + 79.86 = 88.80."
+      "front": "RULE • For measured addition (+): round using what?",
+      "back": "Fewest decimal places"
     },
     {
-      "front": "For measured SUBTRACTION (−), round based on what?",
-      "back": "Fewest DECIMAL PLACES. Example: 35.864 − 7.2 = 28.7."
+      "front": "RULE • For measured subtraction (−): round using what?",
+      "back": "Fewest decimal places"
     },
     {
-      "front": "For measured MULTIPLICATION (×), round based on what?",
-      "back": "Fewest SIGNIFICANT FIGURES. Example: 4.241 × 6.4 = 27 (2 sig figs)."
+      "front": "RULE • For measured multiplication (×): round using what?",
+      "back": "Fewest significant figures"
     },
     {
-      "front": "For measured DIVISION (÷), round based on what?",
-      "back": "Fewest SIGNIFICANT FIGURES. Example: 83.6364 ÷ 83.6 = 1.00 (3 sig figs)."
+      "front": "RULE • For measured division (÷): round using what?",
+      "back": "Fewest significant figures"
     },
     {
-      "front": "35.864 minus 7.2: which precision rule controls the result?",
-      "back": "Subtraction → decimal PLACES. 7.2 has 1 decimal place; 28.664 becomes 28.7."
+      "front": "DEFINITION • What are significant figures?",
+      "back": "Meaningful measured digits"
     },
     {
-      "front": "4.241 times 6.4: which precision rule controls the result?",
-      "back": "Multiplication → significant FIGURES. 6.4 has 2 significant figures; 27.1424 becomes 27."
+      "front": "DEFINITION • What are decimal places?",
+      "back": "Digits after decimal"
     },
     {
-      "front": "Which has three significant figures: 0.00450 or 0.0045?",
-      "back": "0.00450 has 3 significant figures (4, 5, trailing 0); 0.0045 has 2."
+      "front": "YES / NO • Do nonzero digits count as significant?",
+      "back": "Yes"
     },
     {
-      "front": "For measured 12.11 plus 0.3, how many decimal places?",
-      "back": "One decimal place. The exact sum is 12.41, reported as 12.4."
+      "front": "YES / NO • Do leading zeros count as significant?",
+      "back": "No"
     },
     {
-      "front": "For measured 3.14 times 2.0, how many significant figures?",
-      "back": "Two significant figures. The product is 6.28, reported as 6.3."
+      "front": "YES / NO • Do zeros between nonzero digits count?",
+      "back": "Yes"
     },
     {
-      "front": "For measured addition or subtraction, how should you round?",
-      "back": "To the fewest decimal places among the measured inputs."
+      "front": "YES / NO • Do trailing zeros after a decimal count?",
+      "back": "Yes"
     },
     {
-      "front": "For measured multiplication or division, how should you round?",
-      "back": "To the fewest significant figures among measured inputs."
+      "front": "TERM • Name the NOTATION used to show significant trailing zeros clearly.",
+      "back": "Scientific notation"
     },
     {
-      "front": "Do leading zeros count as significant figures?",
-      "back": "No. They only position the decimal point."
+      "front": "RULE • Do exact counted quantities limit significant figures?",
+      "back": "No"
     },
     {
-      "front": "Do zeros between nonzero digits count as significant?",
-      "back": "Yes. These are called captive zeros."
+      "front": "RULE • Should you round intermediate calculations early?",
+      "back": "No"
     },
     {
-      "front": "Do trailing zeros after a decimal point count as significant?",
-      "back": "Yes. They communicate measurement precision."
+      "front": "RULE • State the RULE for the sequence of mixed calculations.",
+      "back": "Order of operations"
     },
     {
-      "front": "Why can a whole number ending in zeros be ambiguous?",
-      "back": "Without notation, it may not show which trailing zeros were measured."
+      "front": "RULE • Name the PRECISION RULE for + and −.",
+      "back": "Decimal places"
     },
     {
-      "front": "How can scientific notation clarify significant figures?",
-      "back": "It explicitly displays the measured digits in the coefficient."
+      "front": "RULE • Name the PRECISION RULE for × and ÷.",
+      "back": "Significant figures"
     },
     {
-      "front": "Do exact counts limit significant-figure precision?",
-      "back": "No. Exact counts and exact unit definitions do not limit precision."
+      "front": "TERM • Which zero type never counts as significant?",
+      "back": "Leading zeros"
     },
     {
-      "front": "Why is 4.241 × 6.4 rounded to 27, not 27.1424?",
-      "back": "6.4 has only 2 significant figures. Products are reported to the fewest sig figs."
+      "front": "TERM • Which zeros always count between nonzero digits?",
+      "back": "Captive zeros"
     },
     {
-      "front": "For a calculation combining + and ×, which precision rule applies?",
-      "back": "Apply decimal-place limits at +/− steps and sig-fig limits at ×/÷ steps. Avoid early rounding."
+      "front": "PURPOSE • What is dimensional analysis used for?",
+      "back": "Unit conversion"
     },
     {
-      "front": "What rounding rule applies to mixed operations?",
-      "back": "Apply the rule for each operation; retain guard digits until the final report."
+      "front": "DEFINITION • What is a conversion factor?",
+      "back": "Ratio equal to 1"
     },
     {
-      "front": "What happens when the input numbers are exact counts?",
-      "back": "Exact counts do not restrict significant figures; measured values still determine the reported precision."
+      "front": "RESULT • What happens to unwanted units in dimensional analysis?",
+      "back": "Cancel out"
     },
     {
-      "front": "What is the purpose of dimensional analysis?",
-      "back": "Change units systematically by multiplying by equivalent ratios."
+      "front": "EXACT CONVERSION • 1 kilometer equals how many meters?",
+      "back": "1,000 m"
     },
     {
-      "front": "What is a conversion factor?",
-      "back": "A ratio of equivalent quantities that equals 1."
+      "front": "EXACT CONVERSION • 1 meter equals how many centimeters?",
+      "back": "100 cm"
     },
     {
-      "front": "Where should the unwanted unit appear in a conversion fraction?",
-      "back": "Opposite its position in the original quantity, so it cancels."
+      "front": "EXACT CONVERSION • 1 kilogram equals how many grams?",
+      "back": "1,000 g"
     },
     {
-      "front": "What exact relation connects kilometers and meters?",
-      "back": "1 km = 1,000 m."
+      "front": "EXACT CONVERSION • 1 gram equals how many milligrams?",
+      "back": "1,000 mg"
     },
     {
-      "front": "What exact relation connects meters and centimeters?",
-      "back": "1 m = 100 cm."
+      "front": "EXACT CONVERSION • 1 hour equals how many minutes?",
+      "back": "60 min"
     },
     {
-      "front": "What exact relation connects hours and seconds?",
-      "back": "1 h = 3,600 s."
+      "front": "EXACT CONVERSION • 1 hour equals how many seconds?",
+      "back": "3,600 s"
     },
     {
-      "front": "What exact relation connects inches and centimeters?",
-      "back": "1 in = 2.54 cm."
+      "front": "EXACT CONVERSION • 1 minute equals how many seconds?",
+      "back": "60 s"
     },
     {
-      "front": "What exact relation connects liters and cubic centimeters?",
-      "back": "1 L = 1,000 cm³."
+      "front": "EXACT CONVERSION • 1 foot equals how many inches?",
+      "back": "12 in"
     },
     {
-      "front": "What exact relation connects feet and inches?",
-      "back": "1 ft = 12 in."
+      "front": "EXACT CONVERSION • 1 mile equals how many feet?",
+      "back": "5,280 ft"
     },
     {
-      "front": "What is the formula for average speed?",
-      "back": "Speed = total distance traveled ÷ elapsed time."
+      "front": "EXACT CONVERSION • 1 inch equals how many centimeters?",
+      "back": "2.54 cm"
     },
     {
-      "front": "What is the definition of density?",
-      "back": "Mass divided by volume, often expressed in kg/m³ or g/cm³."
+      "front": "EXACT CONVERSION • 1 liter equals how many cubic centimeters?",
+      "back": "1,000 cm³"
     },
     {
-      "front": "How do you convert an area unit?",
-      "back": "Square the entire length conversion factor."
+      "front": "EXACT CONVERSION • 1 cubic meter equals how many liters?",
+      "back": "1,000 L"
     },
     {
-      "front": "How do you convert a volume unit?",
-      "back": "Cube the entire length conversion factor."
+      "front": "EXACT CONVERSION • 1 carat equals how many grams?",
+      "back": "0.2 g"
     },
     {
-      "front": "Why is 1 m² equal to 10,000 cm²?",
-      "back": "Because (100 cm / 1 m)² = 10,000 cm²/m²."
+      "front": "FORMULA • State the FORMULA for average speed.",
+      "back": "Distance ÷ time"
     },
     {
-      "front": "When converting acceleration to another time unit, what must change?",
-      "back": "The squared time conversion as well as the distance unit."
+      "front": "FORMULA • State the FORMULA for density.",
+      "back": "Mass ÷ volume"
     },
     {
-      "front": "For an echo problem, why double the distance to a cliff?",
-      "back": "Sound travels to the cliff and returns before it is heard."
+      "front": "SYMBOL • What does the symbol ρ (rho) mean?",
+      "back": "Density"
     },
     {
-      "front": "Is sound speed in air a fixed universal number?",
-      "back": "No. It varies with conditions, notably temperature."
+      "front": "UNIT • What is the SI unit of speed?",
+      "back": "m/s"
     },
     {
-      "front": "About how fast is sound in air at 20°C?",
-      "back": "About 343 m/s; this is a temperature-dependent approximation."
+      "front": "UNIT • What is the SI unit of acceleration?",
+      "back": "m/s²"
     },
     {
-      "front": "What is the exact length of 1 mile in feet?",
-      "back": "1 mile = 5,280 feet (exact)."
+      "front": "UNIT • What is a common density unit?",
+      "back": "kg/m³"
     },
     {
-      "front": "What is the exact length of 1 mile in meters?",
-      "back": "1 international mile = 1,609.344 meters (exact)."
+      "front": "EXPONENT • What exponent applies to an area conversion?",
+      "back": "Square (²)"
     },
     {
-      "front": "What is the exact conversion from hours to minutes?",
-      "back": "1 hour = 60 minutes (exact)."
+      "front": "EXPONENT • What exponent applies to a volume conversion?",
+      "back": "Cube (³)"
     },
     {
-      "front": "What is the exact conversion from minutes to seconds?",
-      "back": "1 minute = 60 seconds (exact)."
+      "front": "NUMBER • An echo travels how many times the one-way distance?",
+      "back": "Twice"
     },
     {
-      "front": "What is the exact conversion from kilograms to grams?",
-      "back": "1 kilogram = 1,000 grams (exact)."
+      "front": "APPROX. VALUE • Speed of sound in air at 20°C?",
+      "back": "343 m/s"
     },
     {
-      "front": "What is the exact conversion from grams to milligrams?",
-      "back": "1 gram = 1,000 milligrams (exact)."
+      "front": "YES / NO • Is sound speed constant at every temperature?",
+      "back": "No"
     },
     {
-      "front": "What is 1 cubic meter in liters?",
-      "back": "1 m³ = 1,000 L (exact)."
+      "front": "UNIT • What units measure area?",
+      "back": "Square units"
     },
     {
-      "front": "What is 1 meter squared in square centimeters?",
-      "back": "1 m² = 10,000 cm²; square the 100-to-1 linear conversion."
+      "front": "UNIT • What units measure volume?",
+      "back": "Cubic units"
     },
     {
-      "front": "What is 1 meter cubed in cubic centimeters?",
-      "back": "1 m³ = 1,000,000 cm³; cube the 100-to-1 linear conversion."
+      "front": "ABBREVIATION • Speed in miles per hour is abbreviated how?",
+      "back": "mph"
     },
     {
-      "front": "In the guide, how many grams equal one carat?",
-      "back": "1 carat = 0.2 grams (exact metric carat definition)."
+      "front": "DEFINITION • What is a scalar?",
+      "back": "Magnitude only"
     },
     {
-      "front": "What approximate speed of sound does the echo problem use?",
-      "back": "343 m/s for air near 20°C; estimated, temperature-dependent, not universal."
+      "front": "DEFINITION • What is a vector?",
+      "back": "Magnitude and direction"
     },
     {
-      "front": "A worksheet says “convert mi/h to m/s.” What method should you choose?",
-      "back": "Dimensional analysis. Multiply by length and time conversion factors, orienting each so unwanted units cancel."
+      "front": "DEFINITION • What is displacement?",
+      "back": "Change in position"
     },
     {
-      "front": "A worksheet says “convert m² to cm².” What must be squared?",
-      "back": "Square the full length conversion: (100 cm / 1 m)²."
+      "front": "DEFINITION • What is vector magnitude?",
+      "back": "Vector length"
     },
     {
-      "front": "A worksheet says “convert inches cubed to centimeters cubed.” What method?",
-      "back": "Cube the linear factor: (2.54 cm / 1 in)³."
+      "front": "AXIS • Which axis is horizontal?",
+      "back": "x-axis"
     },
     {
-      "front": "A worksheet says “convert g/cm³ to kg/m³.” What method?",
-      "back": "Change mass numerator and cubic-length denominator separately; use 1 kg = 1,000 g and 1 m = 100 cm."
+      "front": "AXIS • Which axis is vertical?",
+      "back": "y-axis"
     },
     {
-      "front": "A worksheet asks for distance per time. Which relationship?",
-      "back": "Average speed = total distance ÷ elapsed time; d is distance and t is elapsed time."
+      "front": "SIGN • What sign represents east on the x-axis?",
+      "back": "Positive (+)"
     },
     {
-      "front": "An echo returns from a cliff. Which distance belongs in the time formula?",
-      "back": "The round-trip distance: 2 × the one-way distance. Time = total distance ÷ sound speed."
+      "front": "SIGN • What sign represents west on the x-axis?",
+      "back": "Negative (−)"
     },
     {
-      "front": "What must you do when changing m/s² to km/h²?",
-      "back": "Convert length from meters to kilometers AND square the seconds-to-hours conversion factor."
+      "front": "SIGN • What sign represents north on the y-axis?",
+      "back": "Positive (+)"
     },
     {
-      "front": "A worksheet asks for density. What equation applies?",
-      "back": "ρ = m/V; ρ is density, m is mass, V is volume. Use mass/volume units such as kg/m³."
+      "front": "SIGN • What sign represents south on the y-axis?",
+      "back": "Negative (−)"
     },
     {
-      "front": "What distinguishes a vector from a scalar?",
-      "back": "A vector has magnitude and direction; a scalar has magnitude only."
+      "front": "DEFINITION • What is a resultant vector?",
+      "back": "Vector sum"
     },
     {
-      "front": "What is displacement?",
-      "back": "The directed change from starting position to final position."
+      "front": "THEOREM NAME • Resultant magnitude from perpendicular components: which theorem?",
+      "back": "Pythagorean theorem"
     },
     {
-      "front": "Is total distance traveled always equal to displacement magnitude?",
-      "back": "No. A changing path may be longer than the straight-line displacement."
+      "front": "FORMULA • Magnitude from perpendicular x and y components.",
+      "back": "R = √(x²+y²)"
     },
     {
-      "front": "How can perpendicular vector components be combined?",
-      "back": "Magnitude R = √(x² + y²), for perpendicular x and y."
+      "front": "FORMULA • X-component when θ is measured from +x.",
+      "back": "x = Rcosθ"
     },
     {
-      "front": "What does θ represent in a vector calculation?",
-      "back": "An angle measured from a specified reference axis, usually in degrees."
+      "front": "FORMULA • Y-component when θ is measured from +x.",
+      "back": "y = Rsinθ"
     },
     {
-      "front": "When an angle is measured from the +x axis, what is x?",
-      "back": "x = R cos θ, with direction determining the sign."
+      "front": "FORMULA • Vector direction from x and y components.",
+      "back": "θ = atan2(y,x)"
     },
     {
-      "front": "When an angle is measured from the +x axis, what is y?",
-      "back": "y = R sin θ, with direction determining the sign."
+      "front": "TRIG RATIO • Give the TRIG RATIO for sine (SOH).",
+      "back": "Opposite / hypotenuse"
     },
     {
-      "front": "What does SOH mean?",
-      "back": "sin θ = opposite ÷ hypotenuse."
+      "front": "TRIG RATIO • Give the TRIG RATIO for cosine (CAH).",
+      "back": "Adjacent / hypotenuse"
     },
     {
-      "front": "What does CAH mean?",
-      "back": "cos θ = adjacent ÷ hypotenuse."
+      "front": "TRIG RATIO • Give the TRIG RATIO for tangent (TOA).",
+      "back": "Opposite / adjacent"
     },
     {
-      "front": "What does TOA mean?",
-      "back": "tan θ = opposite ÷ adjacent."
+      "front": "FUNCTION NAME • Which trig function uses opposite and adjacent?",
+      "back": "Tangent"
     },
     {
-      "front": "What is the hypotenuse of a right triangle?",
-      "back": "The side opposite the 90° angle; the triangle’s longest side."
+      "front": "FUNCTION NAME • Which trig function uses opposite and hypotenuse?",
+      "back": "Sine"
     },
     {
-      "front": "What does inverse tangent calculate?",
-      "back": "An angle from a known opposite-to-adjacent side ratio."
+      "front": "FUNCTION NAME • Which trig function uses adjacent and hypotenuse?",
+      "back": "Cosine"
     },
     {
-      "front": "What calculator setting is used for angles in this course?",
-      "back": "Degrees (DEG), not radians."
+      "front": "FUNCTION NAME • Which function finds an angle from a trig ratio?",
+      "back": "Inverse trig"
     },
     {
-      "front": "Why check the quadrant when finding a vector direction?",
-      "back": "The signs of x and y determine the correct direction."
+      "front": "CALCULATOR MODE • What calculator mode is used for degree angles?",
+      "back": "DEG mode"
     },
     {
-      "front": "How should you add two angled vectors?",
-      "back": "Resolve each into x and y components, add like components, then find result."
+      "front": "DEFINITION • Define the hypotenuse of a RIGHT TRIANGLE.",
+      "back": "Longest side"
     },
     {
-      "front": "When should the Pythagorean theorem NOT be used directly?",
-      "back": "When components are not perpendicular."
+      "front": "ANGLE VALUE • What angle defines a right triangle?",
+      "back": "90°"
     },
     {
-      "front": "A hiker walks east, then north. Need straight-line displacement. Which formula?",
-      "back": "R = √(x²+y²) if x and y are perpendicular components; R is displacement magnitude."
+      "front": "DEFINITION • What is kinematics?",
+      "back": "Study of motion"
     },
     {
-      "front": "Two perpendicular components are known; direction is requested. Which formula?",
-      "back": "θ = tan⁻¹(y/x), check the quadrant (or use atan2). θ is the direction angle."
+      "front": "DEFINITION • What is distance?",
+      "back": "Total path length"
     },
     {
-      "front": "An angled vector’s size and angle from horizontal are given. Find horizontal part?",
-      "back": "x = R cos θ; R is magnitude, θ is angle from +x, x is the horizontal component."
+      "front": "DEFINITION • What is velocity?",
+      "back": "Speed with direction"
     },
     {
-      "front": "An angled vector’s size and angle from horizontal are given. Find vertical part?",
-      "back": "y = R sin θ; R is magnitude, θ is angle from +x, y is the vertical component."
+      "front": "DEFINITION • What is acceleration?",
+      "back": "Velocity change per time"
     },
     {
-      "front": "A right triangle gives rise and hypotenuse. Which inverse trig finds an angle?",
-      "back": "θ = sin⁻¹(opposite/hypotenuse), using degree mode if the angle is in degrees."
+      "front": "SYMBOL • What does t represent?",
+      "back": "Elapsed time"
     },
     {
-      "front": "A right triangle gives run and hypotenuse. Which inverse trig finds an angle?",
-      "back": "θ = cos⁻¹(adjacent/hypotenuse), using degree mode."
+      "front": "SYMBOL • What does vᵢ represent?",
+      "back": "Initial velocity"
     },
     {
-      "front": "Two vectors are not at right angles. How do you add them?",
-      "back": "Find each vector’s signed x/y components, add x values and y values, then calculate resultant magnitude and angle."
+      "front": "SYMBOL • What does v𝒇 represent?",
+      "back": "Final velocity"
     },
     {
-      "front": "In a vector diagram, is west positive or negative x?",
-      "back": "Usually west is negative x and east positive x, if that coordinate convention is chosen."
+      "front": "SYMBOL • What does Δx represent?",
+      "back": "Horizontal displacement"
     },
     {
-      "front": "What does kinematics describe?",
-      "back": "Motion, such as displacement, velocity, acceleration, and time."
+      "front": "SYMBOL • What does Δy represent?",
+      "back": "Vertical displacement"
     },
     {
-      "front": "What unit is used for velocity?",
-      "back": "Meters per second (m/s) in SI."
+      "front": "SYMBOL • What does g represent?",
+      "back": "Gravitational acceleration"
     },
     {
-      "front": "What unit is used for acceleration?",
-      "back": "Meters per second squared (m/s²) in SI."
+      "front": "STANDARD VALUE • Magnitude of g near Earth?",
+      "back": "9.8 m/s²"
     },
     {
-      "front": "What does acceleration measure?",
-      "back": "Change in velocity per second; SI unit m/s²."
+      "front": "DIRECTION • Direction of gravity near Earth?",
+      "back": "Downward"
     },
     {
-      "front": "Under constant acceleration, how is final velocity calculated?",
-      "back": "v_f = v_i + a t."
+      "front": "YES / NO • Is g = 9.8 m/s² exact everywhere?",
+      "back": "No"
     },
     {
-      "front": "Under constant acceleration, how is displacement calculated from time?",
-      "back": "Δx = v_i t + ½ a t²."
+      "front": "VALUE • Starting from rest: initial velocity?",
+      "back": "0 m/s"
     },
     {
-      "front": "Which constant-acceleration equation omits time?",
-      "back": "v_f² = v_i² + 2 a Δx."
+      "front": "VALUE • Dropped object: initial vertical velocity?",
+      "back": "0 m/s"
     },
     {
-      "front": "When do constant-acceleration equations apply?",
-      "back": "When acceleration is constant over the interval."
+      "front": "VALUE • Horizontally launched object: initial vertical velocity?",
+      "back": "0 m/s"
     },
     {
-      "front": "In ideal projectile motion, what happens to horizontal velocity?",
-      "back": "It stays constant when air resistance is neglected."
+      "front": "VALUE • At the top of projectile flight: vertical velocity?",
+      "back": "0 m/s"
     },
     {
-      "front": "In ideal projectile motion, what changes vertical velocity?",
-      "back": "Gravity, approximated as 9.8 m/s² downward near Earth."
+      "front": "VALUE • Without air drag: horizontal acceleration?",
+      "back": "0 m/s²"
     },
     {
-      "front": "How is horizontal launch velocity split into components?",
-      "back": "v₀x = v₀ cos θ and v₀y = v₀ sin θ, for angle from horizontal."
+      "front": "BEHAVIOR • Without air drag: horizontal velocity?",
+      "back": "Constant"
     },
     {
-      "front": "With upward positive, what is vertical displacement of a projectile?",
-      "back": "Δy = v₀y t − ½ g t²; ignore drag."
+      "front": "AXIS • For projectile motion, which axis has gravitational acceleration?",
+      "back": "Vertical (y)"
     },
     {
-      "front": "With upward positive, what is vertical projectile velocity?",
-      "back": "v_y = v₀y − g t; ignore drag."
+      "front": "SHARED QUANTITY • Which quantity is shared by horizontal and vertical motion?",
+      "back": "Time"
     },
     {
-      "front": "At the highest point of a projectile, what is its vertical velocity?",
-      "back": "Momentarily zero, although gravity still accelerates it downward."
+      "front": "FORMULA • Final velocity using vᵢ, a, and t (constant a).",
+      "back": "v𝒇 = vᵢ + at"
     },
     {
-      "front": "When does t_flight = 2 v₀y/g apply?",
-      "back": "Only if launch and landing heights are equal, without air drag."
+      "front": "FORMULA • Displacement using vᵢ, a, and t (constant a).",
+      "back": "Δx = vᵢt + ½at²"
     },
     {
-      "front": "What is the free-fall time from rest through height h?",
-      "back": "t = √(2h/g), assuming constant downward g and no drag."
+      "front": "FORMULA • Give the FORMULA relating v𝒇, vᵢ, a, and Δx (no time).",
+      "back": "v𝒇² = vᵢ² + 2aΔx"
     },
     {
-      "front": "How can the speed from perpendicular velocity parts be found?",
-      "back": "|v| = √(v_x² + v_y²)."
+      "front": "FORMULA • Fall distance from rest (constant g).",
+      "back": "h = ½gt²"
     },
     {
-      "front": "What is the difference between speed and velocity?",
-      "back": "Speed is scalar; velocity includes direction."
+      "front": "FORMULA • Fall time from rest, given height h.",
+      "back": "t = √(2h/g)"
     },
     {
-      "front": "Known initial speed, acceleration, and time; asked final speed. Which formula?",
-      "back": "v_f = v_i + at. v_f/v_i: velocities (m/s); a: constant acceleration (m/s²); t: time (s)."
+      "front": "FORMULA • Launch horizontal velocity from v₀ and θ.",
+      "back": "v₀cosθ"
     },
     {
-      "front": "Known initial velocity, time and acceleration; asked displacement. Which formula?",
-      "back": "Δx = v_i t + ½at². Δx: displacement (m); v_i: initial velocity (m/s); a: constant acceleration (m/s²)."
+      "front": "FORMULA • Launch vertical velocity from v₀ and θ.",
+      "back": "v₀sinθ"
     },
     {
-      "front": "Initial/final speeds and displacement are involved, but time is absent. Which formula?",
-      "back": "v_f² = v_i² + 2aΔx. v: velocity (m/s), a: constant acceleration (m/s²), Δx: displacement (m)."
+      "front": "FORMULA • Vertical velocity during a projectile (up = +).",
+      "back": "vᵧ = v₀ᵧ − gt"
     },
     {
-      "front": "A ball is dropped from rest through height h. Which time formula?",
-      "back": "t = √(2h/g): h = falling distance (m), g ≈ 9.8 m/s² downward; only for constant g and negligible drag."
+      "front": "FORMULA • Horizontal displacement with no air drag.",
+      "back": "Δx = v₀ₓt"
     },
     {
-      "front": "A projectile is launched horizontally. How do you find horizontal distance?",
-      "back": "Δx = v₀x t; v₀x is horizontal velocity (m/s), t is elapsed time (s); assume no drag."
+      "front": "FORMULA • Vertical displacement of a projectile (up = +).",
+      "back": "Δy = v₀ᵧt − ½gt²"
     },
     {
-      "front": "An angled projectile is launched and time t is known. Which vertical position formula?",
-      "back": "Δy = v₀y t − ½gt². Δy: vertical displacement; v₀y: initial vertical speed; g: gravity, up is positive."
+      "front": "FORMULA • Flight time if launch and landing heights match.",
+      "back": "2v₀ᵧ/g"
     },
     {
-      "front": "Need vertical speed of a projectile at a certain time. Which formula?",
-      "back": "v_y = v₀y − gt. v_y: vertical velocity (m/s); v₀y: initial vertical velocity; g: gravity."
+      "front": "FORMULA • Speed from horizontal and vertical velocities.",
+      "back": "√(vₓ²+vᵧ²)"
     },
     {
-      "front": "Need horizontal and vertical launch speed from total speed and angle. Which formulas?",
-      "back": "v₀x = v₀ cosθ; v₀y = v₀ sinθ. v₀ is launch speed, θ angle from horizontal."
+      "front": "YES / NO • Can equal-height flight-time formula apply to cliff landings?",
+      "back": "No"
     },
     {
-      "front": "A projectile lands at the same height it launched. Find total flight time?",
-      "back": "t = 2v₀y/g. v₀y is initial vertical velocity (m/s), g downward acceleration; equal heights and no drag."
+      "front": "DEFINITION • What is a force?",
+      "back": "Push or pull"
     },
     {
-      "front": "A projectile lands at a different height from launch. Can 2v₀y/g be used?",
-      "back": "No. Solve Δy = v₀y t − ½gt² using the actual height change."
+      "front": "DEFINITION • What is net force?",
+      "back": "Sum of forces"
     },
     {
-      "front": "Does zero vertical speed at the top of a flight mean zero acceleration?",
-      "back": "No. At the top, vertical velocity is momentarily zero but acceleration remains g downward."
+      "front": "UNIT • SI unit of force?",
+      "back": "Newton (N)"
     },
     {
-      "front": "A projectile has v_x and v_y at impact. How do you find total speed?",
-      "back": "|v| = √(v_x²+v_y²), because horizontal and vertical velocity components are perpendicular."
+      "front": "EXACT UNIT RELATION • one newton equals?",
+      "back": "1 kg·m/s²"
     },
     {
-      "front": "What is a common near-Earth approximation for g?",
-      "back": "9.8 m/s² downward, near Earth’s surface."
+      "front": "FORMULA • Newton’s SECOND LAW?",
+      "back": "ΣF = ma"
     },
     {
-      "front": "Is g = 9.8 m/s² an exact universal constant?",
-      "back": "No. It is a near-Earth approximation; use a stated problem value if given."
+      "front": "FORMULA • Net force from mass and acceleration.",
+      "back": "Fnet = ma"
     },
     {
-      "front": "What exact SI unit relation defines a newton?",
-      "back": "1 N = 1 kg·m/s²."
+      "front": "FORMULA • Acceleration from net force and mass.",
+      "back": "a = Fnet/m"
     },
     {
-      "front": "What does Newton’s second law state?",
-      "back": "Net force ΣF = m a, using consistent units."
+      "front": "UNIT • What is mass measured in?",
+      "back": "Kilograms (kg)"
     },
     {
-      "front": "What is net force?",
-      "back": "The vector sum of all real forces on an object."
+      "front": "DEFINITION • What is weight?",
+      "back": "Gravitational force"
     },
     {
-      "front": "When is net force zero?",
-      "back": "When acceleration is zero: at rest or moving at constant velocity."
+      "front": "FORMULA • Weight near Earth.",
+      "back": "W = mg"
     },
     {
-      "front": "What is weight near Earth?",
-      "back": "Weight = m g, a downward force in newtons."
+      "front": "SYMBOL • What does N mean as a force variable?",
+      "back": "Normal force"
     },
     {
-      "front": "Is mass the same physical quantity as weight?",
-      "back": "No. Mass is measured in kg; weight is gravitational force in N."
+      "front": "DIRECTION • Direction of normal force?",
+      "back": "Perpendicular to surface"
     },
     {
-      "front": "What is the normal force N?",
-      "back": "The force from a surface perpendicular to it; measured in newtons (N)."
+      "front": "DEFINITION • What is tension?",
+      "back": "Rope pulling force"
     },
     {
-      "front": "Can normal force differ from mg?",
-      "back": "Yes, on slopes or when additional vertical forces or acceleration exist."
+      "front": "DEFINITION • What is friction?",
+      "back": "Opposing contact force"
     },
     {
-      "front": "What is kinetic friction for a sliding object?",
-      "back": "f_k = μ_k N, where μ_k is unitless and N is the normal force."
+      "front": "SYMBOL • What does μₖ represent?",
+      "back": "Kinetic friction coefficient"
     },
     {
-      "front": "In which direction does kinetic friction act?",
-      "back": "Opposite the relative sliding motion along the surface."
+      "front": "YES / NO • Does μₖ have units?",
+      "back": "No"
     },
     {
-      "front": "For a simple ramp, what is gravity’s component down the slope?",
-      "back": "m g sin θ, parallel to the ramp."
+      "front": "FORMULA • Kinetic friction while sliding.",
+      "back": "fₖ = μₖN"
     },
     {
-      "front": "For a simple ramp, what is gravity’s component into the slope?",
-      "back": "m g cos θ, perpendicular to the ramp."
+      "front": "DIRECTION • Direction of kinetic friction?",
+      "back": "Opposite sliding"
     },
     {
-      "front": "When does a ramp have N = mg cos θ?",
-      "back": "When no other perpendicular forces act and normal acceleration is zero."
+      "front": "VALUE • At rest: net force?",
+      "back": "Zero"
     },
     {
-      "front": "If an applied force points θ above horizontal, what is F_x?",
-      "back": "F_x = F cos θ."
+      "front": "VALUE • At constant velocity: net force?",
+      "back": "Zero"
     },
     {
-      "front": "If an applied force points θ above horizontal, what is F_y?",
-      "back": "F_y = F sin θ."
+      "front": "DEFINITION • What is equilibrium?",
+      "back": "Zero net force"
     },
     {
-      "front": "How do you begin a free-body diagram?",
-      "back": "Isolate one object and draw only actual external forces on it."
+      "front": "FORMULA • Gravity PARALLEL to a ramp.",
+      "back": "mg sinθ"
     },
     {
-      "front": "What is tension T in a rope?",
-      "back": "A pulling force transmitted by the rope, measured in newtons (N)."
+      "front": "FORMULA • Gravity PERPENDICULAR to a ramp.",
+      "back": "mg cosθ"
     },
     {
-      "front": "What are ideal Atwood-machine assumptions?",
-      "back": "Massless rope and pulley, negligible friction, consistent acceleration."
+      "front": "FORMULA • Normal force on a simple ramp (no extra forces).",
+      "back": "N = mg cosθ"
     },
     {
-      "front": "How is ideal Atwood acceleration found?",
-      "back": "a = (m_heavy − m_light)g/(m_heavy + m_light)."
+      "front": "FORMULA • Horizontal applied-force component at θ.",
+      "back": "F cosθ"
     },
     {
-      "front": "In an elevator moving upward with acceleration, how is N related to mg?",
-      "back": "N − mg = ma with upward chosen positive."
+      "front": "FORMULA • Vertical applied-force component at θ.",
+      "back": "F sinθ"
     },
     {
-      "front": "What does a bathroom scale measure in an elevator?",
-      "back": "Normal force (apparent weight), not mass directly."
+      "front": "EFFECT • Angled upward pull changes normal force how?",
+      "back": "Decreases it"
     },
     {
-      "front": "What does the symbol g mean, and what value should you learn?",
-      "back": "g = downward gravitational acceleration ≈ 9.8 m/s² near Earth’s surface. It is an approximation."
+      "front": "EFFECT • Angled downward push changes normal force how?",
+      "back": "Increases it"
     },
     {
-      "front": "When would you NOT use 9.8 m/s² for g?",
-      "back": "When the problem supplies a different g or the near-Earth surface approximation is not appropriate."
+      "front": "DEFINITION • What is an Atwood machine?",
+      "back": "Two pulley-linked masses"
     },
     {
-      "front": "What is the exact definition of 1 newton (N)?",
-      "back": "1 N = 1 kg·m/s². Force has units of mass × acceleration."
+      "front": "WHICH MASS • Ideal Atwood pulley: which mass descends?",
+      "back": "Heavier mass"
     },
     {
-      "front": "A box has known net force Fnet and mass m. Find acceleration a. Formula?",
-      "back": "a = Fnet/m. Fnet in N; m in kg; a in m/s²."
+      "front": "FORMULA • Ideal Atwood-machine acceleration.",
+      "back": "a = (mₕ−mₗ)g/(mₕ+mₗ)"
     },
     {
-      "front": "A box has known mass m and acceleration a. Find net force Fnet. Formula?",
-      "back": "Fnet = ma. m in kg; a in m/s²; Fnet in N."
+      "front": "PROPERTY • In an ideal rope, how does tension vary?",
+      "back": "Same throughout"
     },
     {
-      "front": "Given mass m and gravity g, how do you calculate weight W?",
-      "back": "W = mg. m in kg, g ≈ 9.8 m/s² near Earth; W is downward force in N."
+      "front": "PROPERTY • In an ideal rope, both masses have what acceleration size?",
+      "back": "Same magnitude"
     },
     {
-      "front": "A box rests on a level floor with no vertical acceleration. What is N?",
-      "back": "N = mg if only weight and floor normal force act vertically. N is normal force (newtons)."
+      "front": "FORCE NAME • Elevator scale measures which force?",
+      "back": "Normal force"
     },
     {
-      "front": "A box slides across a surface and μₖ and N are given. Find friction?",
-      "back": "fₖ = μₖN; fₖ is kinetic friction (N), μₖ unitless friction coefficient, N normal force (N)."
+      "front": "EFFECT • Elevator accelerating upward: apparent weight?",
+      "back": "Increases"
     },
     {
-      "front": "An object slides down a frictionless inclined plane. Find acceleration?",
-      "back": "a = g sinθ down the ramp, assuming no other parallel force. θ is slope angle; g is gravitational acceleration."
+      "front": "EFFECT • Elevator accelerating downward: apparent weight?",
+      "back": "Decreases"
     },
     {
-      "front": "For a ramp with angle θ, which gravity component pulls down the ramp?",
-      "back": "F_parallel = mg sinθ; m mass (kg), g gravity (m/s²), θ ramp angle."
+      "front": "EFFECT • Elevator moving at constant speed: apparent weight?",
+      "back": "Equals mg"
     },
     {
-      "front": "For a simple ramp, which gravity component pushes into the ramp?",
-      "back": "F_perp = mg cosθ; normal force N equals this only if no other perpendicular forces/acceleration."
+      "front": "FORMULA • Elevator net force (up positive).",
+      "back": "N − mg = ma"
     },
     {
-      "front": "A pull force F makes angle θ above horizontal. Which components?",
-      "back": "Fₓ = F cosθ (horizontal); Fᵧ = F sinθ (upward), for θ measured above horizontal."
+      "front": "DEFINITION • What does a free-body diagram show?",
+      "back": "Forces on one object"
     },
     {
-      "front": "A pull points upward at an angle on a level floor. How is N found?",
-      "back": "N = mg − F sinθ if vertical acceleration is zero and only weight, normal and upward pull act vertically."
+      "front": "DEFINITION • What is electric current?",
+      "back": "Charge flow rate"
     },
     {
-      "front": "A push points downward at an angle on a level floor. How is N found?",
-      "back": "N = mg + F sinθ if vertical acceleration is zero and only weight, normal and downward push act vertically."
+      "front": "SYMBOL • Symbol for current?",
+      "back": "I"
     },
     {
-      "front": "Two hanging masses over an ideal pulley move together. Find acceleration?",
-      "back": "a = (m_heavy − m_light)g/(m_heavy + m_light); ideal rope and pulley, negligible friction."
+      "front": "UNIT • Unit of current?",
+      "back": "Ampere (A)"
     },
     {
-      "front": "A pulley problem asks how far a mass falls after t seconds. What sequence?",
-      "back": "First find a with ΣF = ma for the system, then use Δx = v_i t + ½at² if a is constant."
+      "front": "DEFINITION • What is voltage?",
+      "back": "Electric potential difference"
     },
     {
-      "front": "An elevator accelerates upward. Find scale reading N. Which equation?",
-      "back": "N = m(g+a), with upward-positive acceleration a. N is apparent weight in newtons."
+      "front": "SYMBOL • Symbol for voltage?",
+      "back": "V"
     },
     {
-      "front": "An elevator accelerates downward. Find scale reading N. Which equation?",
-      "back": "N = m(g−a_down) if a_down is the positive magnitude of downward acceleration."
+      "front": "UNIT • Unit of voltage?",
+      "back": "Volt (V)"
     },
     {
-      "front": "An elevator moves at constant speed. How does scale reading compare to mg?",
-      "back": "N = mg when acceleration is zero and the only vertical forces are normal and gravity."
+      "front": "DEFINITION • What is electrical resistance?",
+      "back": "Opposition to current"
     },
     {
-      "front": "A box is at rest. What must net force and acceleration be?",
-      "back": "ΣF = 0 N and a = 0 m/s². All force components balance."
+      "front": "SYMBOL • Symbol for resistance?",
+      "back": "R"
     },
     {
-      "front": "What does voltage measure?",
-      "back": "Electric potential difference, measured in volts (V)."
+      "front": "UNIT • Unit of resistance?",
+      "back": "Ohm (Ω)"
     },
     {
-      "front": "What is current I?",
-      "back": "Electric charge flow per second, measured in amperes (A)."
+      "front": "EXACT UNIT RELATION • State the EXACT UNIT RELATION for 1 ohm (Ω).",
+      "back": "1 V/A"
     },
     {
-      "front": "What is resistance R?",
-      "back": "Opposition to electric current, measured in ohms (Ω)."
+      "front": "DEFINITION • What is electrical power?",
+      "back": "Energy per time"
     },
     {
-      "front": "What is electrical power P?",
-      "back": "Energy transferred per second, measured in watts (W)."
+      "front": "SYMBOL • Symbol for electrical power?",
+      "back": "P"
     },
     {
-      "front": "What does Ohm’s law state?",
-      "back": "V = IR for an ohmic component under applicable conditions."
+      "front": "UNIT • Unit of electrical power?",
+      "back": "Watt (W)"
     },
     {
-      "front": "How can current be calculated from voltage and resistance?",
-      "back": "I = V/R."
+      "front": "FORMULA • Ohm’s Law?",
+      "back": "V = IR"
     },
     {
-      "front": "How can resistance be calculated from voltage and current?",
-      "back": "R = V/I, for nonzero current."
+      "front": "FORMULA • Current from voltage and resistance.",
+      "back": "I = V/R"
     },
     {
-      "front": "How is electrical power calculated from voltage and current?",
-      "back": "P = IV."
+      "front": "FORMULA • Resistance from voltage and current.",
+      "back": "R = V/I"
     },
     {
-      "front": "How does current behave in a series circuit?",
-      "back": "The same current flows through each component."
+      "front": "FORMULA • Voltage from current and resistance.",
+      "back": "V = IR"
     },
     {
-      "front": "How does voltage behave in parallel branches?",
-      "back": "Each branch across the same two nodes has the same voltage."
+      "front": "FORMULA • Power from current and voltage.",
+      "back": "P = IV"
     },
     {
-      "front": "What is total resistance in series?",
-      "back": "R_eq = R₁ + R₂ + … ."
+      "front": "FORMULA • Current from power and voltage.",
+      "back": "I = P/V"
     },
     {
-      "front": "How is equivalent parallel resistance calculated?",
-      "back": "1/R_eq = 1/R₁ + 1/R₂ + … ."
+      "front": "DEFINITION • What is a series circuit?",
+      "back": "Single path"
     },
     {
-      "front": "How should a series-parallel combination be simplified?",
-      "back": "Combine obvious series or parallel groups step by step."
+      "front": "PROPERTY • What stays equal in series resistors?",
+      "back": "Current"
     },
     {
-      "front": "What is the voltage-sum check in a simple closed circuit loop?",
-      "back": "The sum of voltage drops equals the applied source voltage."
+      "front": "PROPERTY • What adds across series resistors?",
+      "back": "Voltage drops"
     },
     {
-      "front": "What is the current-sum check at a junction?",
-      "back": "Total current entering equals total current leaving."
+      "front": "FORMULA • Equivalent resistance in series.",
+      "back": "Rₑq=R₁+R₂+…"
     },
     {
-      "front": "Why is parallel equivalent resistance below the smallest branch resistance?",
-      "back": "Adding branches creates more current paths for the same voltage."
+      "front": "EFFECT • If one series bulb burns out, what happens?",
+      "back": "All go out"
     },
     {
-      "front": "What is the exact definition of 1 ohm (Ω)?",
-      "back": "1 Ω = 1 V/A: one volt of potential difference per ampere of current."
+      "front": "DEFINITION • What is a parallel circuit?",
+      "back": "Multiple branches"
     },
     {
-      "front": "Given voltage V and resistance R, find current I. Formula?",
-      "back": "I = V/R. V in volts, R in ohms, I in amperes (Ohm’s law)."
+      "front": "PROPERTY • What stays equal across parallel branches?",
+      "back": "Voltage"
     },
     {
-      "front": "An electrical problem gives I and R, asks voltage. Which equation?",
-      "back": "V = IR; V: voltage (V), I: current (A), R: resistance (Ω), for an ohmic element."
+      "front": "PROPERTY • What adds at a parallel junction?",
+      "back": "Branch currents"
     },
     {
-      "front": "An electrical problem gives V and I, asks resistance. Which equation?",
-      "back": "R = V/I, I ≠ 0; V voltage (V), I current (A), R resistance (Ω), for an ohmic element."
+      "front": "FORMULA • Equivalent resistance in parallel.",
+      "back": "1/Rₑq = Σ(1/Rᵢ)"
     },
     {
-      "front": "Given voltage V and current I, find electrical power P. Formula?",
-      "back": "P = IV. P in watts; V in volts; I in amperes."
+      "front": "REASON • Why are household outlets wired in parallel?",
+      "back": "Independent operation"
     },
     {
-      "front": "A circuit gives current and resistance; asks power. Which formula?",
-      "back": "P = I²R; P: power (W), I: current (A), R: resistance (Ω), for an ohmic resistor."
+      "front": "ORDER • In a mixed circuit, which network is simplified first?",
+      "back": "Inner groups"
     },
     {
-      "front": "A circuit gives voltage and resistance; asks power. Which formula?",
-      "back": "P = V²/R; P: power (W), V: voltage (V), R: resistance (Ω), for an ohmic resistor."
+      "front": "YES / NO • Does adding a parallel branch increase total resistance?",
+      "back": "No"
     },
     {
-      "front": "One continuous path through resistors: series or parallel?",
-      "back": "Series. Current I is the same through each resistor; resistances add."
-    },
-    {
-      "front": "Multiple resistor branches share the same two endpoints: series or parallel?",
-      "back": "Parallel. Voltage V is the same across every branch; branch currents add."
-    },
-    {
-      "front": "Find equivalent resistance of series resistors. Which formula?",
-      "back": "R_eq = R₁+R₂+...; sum all resistor values in ohms (Ω)."
-    },
-    {
-      "front": "Find equivalent resistance of parallel resistors. Which formula?",
-      "back": "1/R_eq = 1/R₁+1/R₂+...; R values are in ohms (Ω)."
-    },
-    {
-      "front": "Only two resistors are in parallel. What shortcut can find R_eq?",
-      "back": "R_eq = (R₁R₂)/(R₁+R₂); both resistances R₁ and R₂ are in ohms."
-    },
-    {
-      "front": "A combination circuit has a small series pair inside a larger network. First step?",
-      "back": "Reduce the clearly series/parallel subgroup, redraw the simplified circuit, and repeat."
-    },
-    {
-      "front": "At a circuit junction, which law checks the currents?",
-      "back": "Current entering = current leaving (Kirchhoff current rule)."
-    },
-    {
-      "front": "Around a closed circuit loop, which law checks voltages?",
-      "back": "The signed voltage changes sum to zero (Kirchhoff voltage rule)."
-    },
-    {
-      "front": "A 12 V battery feeds three resistors in series. What is fixed across them?",
-      "back": "The current is identical through all three; their individual voltage drops add to 12 V."
-    },
-    {
-      "front": "A 12 V source feeds two parallel branches. What is fixed across both?",
-      "back": "Each branch has 12 V across it if both connect to the same two ideal source nodes."
-    },
-    {
-      "front": "Worksheet 1.1: 35.864 – 7.2 =",
-      "back": "28.7\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.2: 4.241 × 6.4 =",
-      "back": "27\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.3: 83.6364 / 83.6 =",
-      "back": "1.00\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.4: 87.38 / 2.4714 =",
-      "back": "35.36\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.5: 8.9435 + 79.86 =",
-      "back": "88.80\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.6: (7.36 / 6.2) × 7.3641 =",
-      "back": "8.7\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.7: 54.346 – 8.976 =",
-      "back": "45.370\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.8: 4.46 × 33.92 =",
-      "back": "151\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.9: 99.41 – 33.173 =",
-      "back": "66.24\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.10: 36.85 / 36.6 =",
-      "back": "1.01\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.11: 7.5173 – 2.85 =",
-      "back": "4.67\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.12: 18.7159 × 7.9116 =",
-      "back": "148.07\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.13: (5.3 × 51.3) / 8.45 =",
-      "back": "32\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.14: (14.299 × 79.9195) / 39.41 =",
-      "back": "29.00\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.15: 96.9914 – 9.15 =",
-      "back": "87.84\nRule: decimal places (+/−)."
-    },
-    {
-      "front": "Worksheet 1.16: 25.8 × 9.696 =",
-      "back": "2.50 × 10²\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.17: (4.976 / 3.4155) × 52.6 =",
-      "back": "76.6\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.18: (8.1772 × 34.8565) / 88.483 =",
-      "back": "3.2213\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.19: 5.2883 / 1.8 =",
-      "back": "2.9\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 1.20: (5.359 × 45.162) / 12.85 =",
-      "back": "18.83\nRule: sig figs (×/÷)."
-    },
-    {
-      "front": "Worksheet 2.1: Convert 768 miles/hour to meters/second.",
-      "back": "343 m/s\nmi/h × 1609.344 m/mi ÷ 3600 s/h."
-    },
-    {
-      "front": "Worksheet 2.2: 340 miles on 13.2 gallons. Find miles per gallon.",
-      "back": "≈26 mpg; 25.8 mpg if 340 miles is treated as 3 significant figures.\nmpg = total miles ÷ gallons."
-    },
-    {
-      "front": "Worksheet 2.3: Moon is 384,403 km away; quarter diameter 2.3 cm. How many quarters?",
-      "back": "≈ 1.7 × 10¹⁰ quarters\nConvert km→cm, then divide by 2.3 cm per quarter."
-    },
-    {
-      "front": "Worksheet 2.4: Convert 3,106 carats to mg; 1 carat = 0.2 g.",
-      "back": "621,200 mg using exact metric carat conversion; the given 0.2 can imply coarser reported precision.\ncarats × (0.2 g/carat) × (1000 mg/g)."
-    },
-    {
-      "front": "Worksheet 2.5: 60 heartbeats/min over 79 years. Estimate total beats in scientific notation.",
-      "back": "≈ 2.5 × 10⁹ beats\nbeats/min × 60 min/h × 24 h/day × 365 days/yr × 79 yr."
-    },
-    {
-      "front": "Worksheet 2.6: Convert 175 km/h to miles/hour.",
-      "back": "≈ 109 mph\nkm/h ÷ 1.609344 km/mile."
-    },
-    {
-      "front": "Worksheet 2.7: A cliff is 150 m away. Echo return time? Assume sound speed 343 m/s.",
-      "back": "≈0.87 s if air sound speed is assumed to be 343 m/s (not specified in original question).\nt = 2d/vsound; echo makes a 300 m round trip."
-    },
-    {
-      "front": "Worksheet 2.8: Chairlift: 4,806 ft in 9 min. Find speed in mph and ft/s.",
-      "back": "6.07 mph; 8.90 ft/s\nspeed = distance ÷ time; use 60 s/min and 5280 ft/mile."
-    },
-    {
-      "front": "Worksheet 2.9: Convert 2.98 m² to cm².",
-      "back": "2.98 × 10⁴ cm²\nUse (100 cm/m)², not 100."
-    },
-    {
-      "front": "Worksheet 2.10: Convert 3,600 in² to ft² (1 ft = 12 in).",
-      "back": "25 ft²\nDivide by (12 in/ft)² = 144."
-    },
-    {
-      "front": "Worksheet 2.11: Convert 4.5 km² to m².",
-      "back": "4.5 × 10⁶ m²\nMultiply by (1000 m/km)²."
-    },
-    {
-      "front": "Worksheet 2.12: Convert 350 in³ to cm³ (1 in = 2.54 cm).",
-      "back": "≈ 5.74 × 10³ cm³\nMultiply by (2.54 cm/in)³."
-    },
-    {
-      "front": "Worksheet 2.13: Tank is 60 × 30 × 40 cm. Find volume in cm³, m³, and liters.",
-      "back": "72,000 cm³ = 0.072 m³ = 72 L\nV = length × width × height."
-    },
-    {
-      "front": "Worksheet 2.14: Convert 450 m³ of pool water to liters.",
-      "back": "450,000 L\n1 m³ = 1000 L."
-    },
-    {
-      "front": "Worksheet 2.15: Convert density 7.87 g/cm³ to kg/m³.",
-      "back": "7.87 × 10³ kg/m³\nConvert g→kg and cm³→m³ separately."
-    },
-    {
-      "front": "Worksheet 2.16: Convert g = 9.8 m/s² to ft/s² (1 m = 3.28 ft).",
-      "back": "≈ 32 ft/s²\n9.8 m/s² × 3.28 ft/m."
-    },
-    {
-      "front": "Worksheet 2.17: Convert acceleration 3.5 m/s² to km/h².",
-      "back": "≈ 4.5 × 10⁴ km/h²\nMultiply by (1 km/1000 m) × (3600 s/h)²."
-    },
-    {
-      "front": "Worksheet 3.1: Walk 3.0 km east and 4.0 km north. Displacement magnitude?",
-      "back": "5.0 km\nR=√(x²+y²)."
-    },
-    {
-      "front": "Worksheet 3.2: Boat velocity 4.0 m/s across, current 3.0 m/s downstream. Resultant speed?",
-      "back": "5.0 m/s\nR=√(vx²+vy²)."
-    },
-    {
-      "front": "Worksheet 3.3: Run 12 m west then 9.0 m south. Straight-line displacement?",
-      "back": "15 m\nR=√(x²+y²)."
-    },
-    {
-      "front": "Worksheet 3.4: Vector x = +6.0 m, y = −8.0 m. Find its magnitude.",
-      "back": "10 m\nR=√(x²+y²)."
-    },
-    {
-      "front": "Worksheet 3.5: A 12 m ladder is 65° above ground. Find height and distance from wall.",
-      "back": "Height ≈ 10.9 m; base ≈ 5.07 m\nheight=Lsinθ; base=Lcosθ."
-    },
-    {
-      "front": "Worksheet 3.6: A 60 m kite string is 40° above ground. Find kite height.",
-      "back": "≈ 38.6 m\nheight=Lsinθ."
-    },
-    {
-      "front": "Worksheet 3.7: Kick at 18 m/s, 35° above horizontal. Find vx and vy.",
-      "back": "vₓ ≈ 14.7 m/s; vᵧ ≈ 10.3 m/s\nvx=vcosθ; vy=vsinθ."
-    },
-    {
-      "front": "Worksheet 3.8: Plane flies 250 m/s, 30° north of east. Find east and north velocity.",
-      "back": "East ≈ 217 m/s; north = 125 m/s\nvx=vcosθ; vy=vsinθ."
-    },
-    {
-      "front": "Worksheet 3.9: Ramp length 5.0 m, rise 0.40 m. Find incline angle.",
-      "back": "≈ 4.6°\nθ=sin⁻¹(rise/hypotenuse)."
-    },
-    {
-      "front": "Worksheet 3.10: Walk 3.0 km east then 4.0 km north. Magnitude and angle north of east?",
-      "back": "5.0 km at 53.1° north of east\nR=√(x²+y²); θ=tan⁻¹(y/x)."
-    },
-    {
-      "front": "Worksheet 3.11: Dog pulled 15 N east and 20 N north. Resultant force and direction?",
-      "back": "25 N at 53.1° north of east\nR=√(Fx²+Fy²); θ=tan⁻¹(Fy/Fx)."
-    },
-    {
-      "front": "Worksheet 3.12: Drive 25 km at 30° north of east, then 40 km north. Resultant displacement?",
-      "back": "≈ 56.8 km at 67.6° north of east\nResolve both vectors into x and y; add; calculate R and θ."
-    },
-    {
-      "front": "Worksheet 3.13: Add vector A = 10 m at 0° and B = 15 m at 120°. Find magnitude/direction.",
-      "back": "≈ 13.2 m at 79.1° counterclockwise from east\nAx=10; Bx=15cos120°; By=15sin120°; then R and θ."
-    },
-    {
-      "front": "Worksheet 4.1: Ball launched horizontally at 5.6 m/s from 85 m. Flight time, range, impact velocity?",
-      "back": "(a) 4.16 s; (b) 23.3 m; (c) 41.2 m/s at 82.2° below horizontal.\nt=√(2h/g); range=vxt; vy=−gt; |v|=√(vx²+vy²)."
-    },
-    {
-      "front": "Worksheet 4.2: Launch 200 m/s at 47°; same landing height. Time, height, range, velocity at 5 s?",
-      "back": "(a) 29.9 s; (b) 1.09×10³ m; (c) 4.07×10³ m; (d) 168 m/s at 35.5° above horizontal.\nv0x=v0cosθ; v0y=v0sinθ; tflight=2v0y/g (same height)."
-    },
-    {
-      "front": "Worksheet 4.3: Launch 65 m/s at 37° from 125 m cliff. Time, max height, range, impact velocity?",
-      "back": "(a) 10.43 s; (b) 203 m above ground; (c) 541 m; (d) 81.7 m/s, 50.6° below horizontal.\nΔy=v0yt−½gt²; use −125 m landing displacement."
-    },
-    {
-      "front": "Worksheet 4.4: Ball launched horizontally at 4.8 m/s from 50 m. Time, range, impact velocity?",
-      "back": "(a) 3.19 s; (b) 15.3 m; (c) 31.7 m/s at 81.3° below horizontal\nt=√(2h/g); range=vxt; vy=−gt."
-    },
-    {
-      "front": "Worksheet 4.5: Starts from rest; constant a = 8.4 m/s² for 11 s. Final velocity?",
-      "back": "92.4 m/s (≈ 92 m/s to two sig figs)\nvf=vi+at, with vi=0."
-    },
-    {
-      "front": "Worksheet 5.1: A 10 kg cat rests on a flat frictionless stool. Normal force and net force?",
-      "back": "N = 98 N up; net force = 0 N\nN=mg at rest on a horizontal stool; ΣF=0."
-    },
-    {
-      "front": "Worksheet 5.2: A 12 kg apple rests on a flat frictionless bench. Normal and net force?",
-      "back": "N = 117.6 N; net force = 0 N\nN=mg at rest on a horizontal bench; ΣF=0."
-    },
-    {
-      "front": "Worksheet 5.3: 5 kg box slides down 50° ramp; μk=0.30. Net force and acceleration?",
-      "back": "Fnet ≈ 28.09 N downhill; a ≈ 5.617 m/s² downhill\nFnet=mg(sinθ−μk cosθ); a=Fnet/m."
-    },
-    {
-      "front": "Worksheet 5.4: 15 kg box slides down 40° ramp; μk=0.764. Net force and acceleration?",
-      "back": "Fnet ≈ 8.46 N downhill; a ≈ 0.564 m/s² downhill\nFnet=mg(sinθ−μk cosθ); a=Fnet/m."
-    },
-    {
-      "front": "Worksheet 5.5: 51 kg box slides down 80° ramp; μk=0.21. Net force and acceleration?",
-      "back": "Fnet ≈ 473.98 N downhill; a ≈ 9.294 m/s² downhill\nFnet=mg(sinθ−μk cosθ); a=Fnet/m."
-    },
-    {
-      "front": "Worksheet 5.6: 20 kg sled, frictionless, pulled 80 N at 30° upward. Normal force and acceleration?",
-      "back": "N = 156 N; a ≈ 3.46 m/s² forward\nN=mg−Tsinθ; a=Tcosθ/m."
-    },
-    {
-      "front": "Worksheet 5.7: 15 kg box pulled 60 N at 25° upward, μk=0.20. Normal, friction, acceleration?",
-      "back": "N ≈ 122 N; friction ≈ 24.3 N; a ≈ 2.00 m/s²\nN=mg−Fsinθ; fk=μkN; a=(Fcosθ−fk)/m."
-    },
-    {
-      "front": "Worksheet 5.8: 18 kg mower pushed 120 N at 40° downward, μk=0.35. Normal and acceleration?",
-      "back": "N ≈ 254 N; a ≈ 0.177 m/s² forward\nN=mg+Fsinθ; fk=μkN; a=(Fcosθ−fk)/m."
-    },
-    {
-      "front": "Worksheet 5.9: 25 kg suitcase pulled at 35° upward, μk=0.30, constant velocity. Tension?",
-      "back": "T ≈ 74.2 N\nConstant velocity ⇒ horizontal net force 0; Tcosθ=μk(mg−Tsinθ)."
-    },
-    {
-      "front": "Worksheet 5.10: Ideal Atwood: 3.0 kg and 5.0 kg hanging. Acceleration and tension?",
-      "back": "a = 2.45 m/s² (5 kg down); T = 36.75 N\na=(mheavy−mlight)g/(mheavy+mlight); T from either mass."
-    },
-    {
-      "front": "Worksheet 5.11: Ideal Atwood: 10 kg and 12 kg, start at rest. a, tension, fall in 2.0 s?",
-      "back": "a ≈ 0.891 m/s²; T ≈ 107 N; fall ≈ 1.78 m\na=(mheavy−mlight)g/mtotal; s=½at² from rest."
-    },
-    {
-      "front": "Worksheet 5.12: Ideal Atwood: 4.0 kg moves up at 2.0 m/s². Find other mass.",
-      "back": "M ≈ 6.05 kg\nUse ideal Atwood acceleration and solve for unknown mass."
-    },
-    {
-      "front": "Worksheet 5.13: 4 kg block on frictionless table + hanging 2 kg mass. a and rope tension?",
-      "back": "a ≈ 3.27 m/s²; T ≈ 13.1 N\na=mhang g/(mtable+mhang), T=mtable a."
-    },
-    {
-      "front": "Worksheet 5.14: Same as 5.13, but table friction μk=0.25. a and rope tension?",
-      "back": "a ≈ 1.63 m/s²; T ≈ 16.3 N\na=(mhang g−μk mtable g)/(mtable+mhang)."
-    },
-    {
-      "front": "Worksheet 5.15: 6 kg block on 30° frictionless ramp, hanging 5 kg. Motion, a, tension?",
-      "back": "5 kg falls, 6 kg moves up slope; a≈1.78 m/s²; T≈40.1 N.\nCompare mhang g with mramp gsinθ; ΣF=ma."
-    },
-    {
-      "front": "Worksheet 5.16: 70 kg person in elevator; at rest, accelerating ±2.0 m/s². Scale readings?",
-      "back": "(a) 686 N; (b) 826 N; (c) 546 N\nN=m(g+a) for up acceleration; N=m(g−a) for down magnitude."
-    },
-    {
-      "front": "Worksheet 6.1: 9.0 V across 450 Ω. Current?",
-      "back": "0.020 A = 20 mA\nI=V/R."
-    },
-    {
-      "front": "Worksheet 6.2: 0.25 A through 120 Ω. Voltage?",
-      "back": "30 V\nV=IR."
-    },
-    {
-      "front": "Worksheet 6.3: 120 V draws 2.5 A. Resistance?",
-      "back": "48 Ω\nR=V/I."
-    },
-    {
-      "front": "Worksheet 6.4: 60 W bulb on 120 V. Current and resistance?",
-      "back": "I = 0.50 A; R = 240 Ω\nI=P/V; R=V²/P."
-    },
-    {
-      "front": "Worksheet 6.5: 1500 W dryer at 120 V. Current?",
-      "back": "12.5 A\nI=P/V."
-    },
-    {
-      "front": "Worksheet 6.6: 10Ω, 20Ω, 30Ω in series at 12V. Total R, I, each voltage drop?",
-      "back": "Rtotal=60 Ω; I=0.20 A; drops=2 V, 4 V, 6 V\nReq=sum R; I=V/Req; voltage drops=IR."
-    },
-    {
-      "front": "Worksheet 6.7: Two series bulbs. What happens to the other if one burns out?",
-      "back": "The other bulb goes out too.\nSeries has one path; a burnt bulb opens the loop."
-    },
-    {
-      "front": "Worksheet 6.8: 6Ω, 12Ω, 4Ω in parallel at 24V. Total R, branch currents, total I?",
-      "back": "Rtotal=2 Ω; branch currents=4 A, 2 A, 6 A; total=12 A\n1/Req=sum(1/Ri); each branch I=V/Ri."
-    },
-    {
-      "front": "Worksheet 6.9: Why are household outlets connected in parallel?",
-      "back": "Parallel provides independent operation at the intended supply voltage.\nParallel branches each receive source voltage and operate independently."
-    },
-    {
-      "front": "Worksheet 6.10: 4Ω series with (6Ω || 3Ω) at 18V. Total R, I, two voltage drops?",
-      "back": "Rtotal=6 Ω; Itotal=3 A; V₄=12 V; Vparallel=6 V\nParallel 6||3 = 2Ω; add series 4Ω; use V=IR."
-    },
-    {
-      "front": "Worksheet 6.11: (10Ω || 10Ω) series 15Ω at 12V. Total R, total I, branch currents?",
-      "back": "Rtotal=20 Ω; Itotal=0.60 A; current in each 10Ω=0.30 A\nParallel 10||10 = 5Ω; +15Ω series; branch currents split equally."
-    },
-    {
-      "front": "Worksheet 6.12: Sketch a battery and switch with two lamps in parallel. How are they wired?",
-      "back": "Diagram: battery (+) — switch — A — [lamp 1 ∥ lamp 2] — B — battery (−)\nBoth bulbs connect between the same two junctions after the switch."
+      "front": "COMPONENT • In a circuit diagram, what controls opening the path?",
+      "back": "Switch"
     }
   ]
 }

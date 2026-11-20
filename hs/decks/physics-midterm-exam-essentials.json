@@ -1,0 +1,379 @@
+{
+  "title": "Physics Midterm — Exam Essentials (Clear Answer Types)",
+  "subject": "Physics",
+  "description": "93 highest-priority, on-the-go memory cards. Every question identifies the required answer type.",
+  "cards": [
+    {
+      "front": "RULE • For measured addition (+): round using what?",
+      "back": "Fewest decimal places"
+    },
+    {
+      "front": "RULE • For measured subtraction (−): round using what?",
+      "back": "Fewest decimal places"
+    },
+    {
+      "front": "RULE • For measured multiplication (×): round using what?",
+      "back": "Fewest significant figures"
+    },
+    {
+      "front": "RULE • For measured division (÷): round using what?",
+      "back": "Fewest significant figures"
+    },
+    {
+      "front": "DEFINITION • What are significant figures?",
+      "back": "Meaningful measured digits"
+    },
+    {
+      "front": "YES / NO • Do leading zeros count as significant?",
+      "back": "No"
+    },
+    {
+      "front": "YES / NO • Do zeros between nonzero digits count?",
+      "back": "Yes"
+    },
+    {
+      "front": "YES / NO • Do trailing zeros after a decimal count?",
+      "back": "Yes"
+    },
+    {
+      "front": "TERM • Name the NOTATION used to show significant trailing zeros clearly.",
+      "back": "Scientific notation"
+    },
+    {
+      "front": "RULE • Do exact counted quantities limit significant figures?",
+      "back": "No"
+    },
+    {
+      "front": "RULE • Should you round intermediate calculations early?",
+      "back": "No"
+    },
+    {
+      "front": "RULE • State the RULE for the sequence of mixed calculations.",
+      "back": "Order of operations"
+    },
+    {
+      "front": "TERM • Which zeros always count between nonzero digits?",
+      "back": "Captive zeros"
+    },
+    {
+      "front": "PURPOSE • What is dimensional analysis used for?",
+      "back": "Unit conversion"
+    },
+    {
+      "front": "DEFINITION • What is a conversion factor?",
+      "back": "Ratio equal to 1"
+    },
+    {
+      "front": "RESULT • What happens to unwanted units in dimensional analysis?",
+      "back": "Cancel out"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 kilometer equals how many meters?",
+      "back": "1,000 m"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 meter equals how many centimeters?",
+      "back": "100 cm"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 kilogram equals how many grams?",
+      "back": "1,000 g"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 gram equals how many milligrams?",
+      "back": "1,000 mg"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 hour equals how many seconds?",
+      "back": "3,600 s"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 foot equals how many inches?",
+      "back": "12 in"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 mile equals how many feet?",
+      "back": "5,280 ft"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 inch equals how many centimeters?",
+      "back": "2.54 cm"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 liter equals how many cubic centimeters?",
+      "back": "1,000 cm³"
+    },
+    {
+      "front": "EXACT CONVERSION • 1 cubic meter equals how many liters?",
+      "back": "1,000 L"
+    },
+    {
+      "front": "FORMULA • State the FORMULA for average speed.",
+      "back": "Distance ÷ time"
+    },
+    {
+      "front": "FORMULA • State the FORMULA for density.",
+      "back": "Mass ÷ volume"
+    },
+    {
+      "front": "EXPONENT • What exponent applies to an area conversion?",
+      "back": "Square (²)"
+    },
+    {
+      "front": "EXPONENT • What exponent applies to a volume conversion?",
+      "back": "Cube (³)"
+    },
+    {
+      "front": "DEFINITION • What is a scalar?",
+      "back": "Magnitude only"
+    },
+    {
+      "front": "DEFINITION • What is a vector?",
+      "back": "Magnitude and direction"
+    },
+    {
+      "front": "DEFINITION • What is displacement?",
+      "back": "Change in position"
+    },
+    {
+      "front": "THEOREM NAME • Resultant magnitude from perpendicular components: which theorem?",
+      "back": "Pythagorean theorem"
+    },
+    {
+      "front": "FORMULA • Magnitude from perpendicular x and y components.",
+      "back": "R = √(x²+y²)"
+    },
+    {
+      "front": "FORMULA • X-component when θ is measured from +x.",
+      "back": "x = Rcosθ"
+    },
+    {
+      "front": "FORMULA • Y-component when θ is measured from +x.",
+      "back": "y = Rsinθ"
+    },
+    {
+      "front": "FORMULA • Vector direction from x and y components.",
+      "back": "θ = atan2(y,x)"
+    },
+    {
+      "front": "TRIG RATIO • Give the TRIG RATIO for sine (SOH).",
+      "back": "Opposite / hypotenuse"
+    },
+    {
+      "front": "TRIG RATIO • Give the TRIG RATIO for cosine (CAH).",
+      "back": "Adjacent / hypotenuse"
+    },
+    {
+      "front": "TRIG RATIO • Give the TRIG RATIO for tangent (TOA).",
+      "back": "Opposite / adjacent"
+    },
+    {
+      "front": "CALCULATOR MODE • What calculator mode is used for degree angles?",
+      "back": "DEG mode"
+    },
+    {
+      "front": "DEFINITION • What is kinematics?",
+      "back": "Study of motion"
+    },
+    {
+      "front": "DEFINITION • What is velocity?",
+      "back": "Speed with direction"
+    },
+    {
+      "front": "DEFINITION • What is acceleration?",
+      "back": "Velocity change per time"
+    },
+    {
+      "front": "SYMBOL • What does vᵢ represent?",
+      "back": "Initial velocity"
+    },
+    {
+      "front": "SYMBOL • What does v𝒇 represent?",
+      "back": "Final velocity"
+    },
+    {
+      "front": "STANDARD VALUE • Magnitude of g near Earth?",
+      "back": "9.8 m/s²"
+    },
+    {
+      "front": "DIRECTION • Direction of gravity near Earth?",
+      "back": "Downward"
+    },
+    {
+      "front": "VALUE • At the top of projectile flight: vertical velocity?",
+      "back": "0 m/s"
+    },
+    {
+      "front": "VALUE • Without air drag: horizontal acceleration?",
+      "back": "0 m/s²"
+    },
+    {
+      "front": "FORMULA • Final velocity using vᵢ, a, and t (constant a).",
+      "back": "v𝒇 = vᵢ + at"
+    },
+    {
+      "front": "FORMULA • Displacement using vᵢ, a, and t (constant a).",
+      "back": "Δx = vᵢt + ½at²"
+    },
+    {
+      "front": "FORMULA • Give the FORMULA relating v𝒇, vᵢ, a, and Δx (no time).",
+      "back": "v𝒇² = vᵢ² + 2aΔx"
+    },
+    {
+      "front": "FORMULA • Fall time from rest, given height h.",
+      "back": "t = √(2h/g)"
+    },
+    {
+      "front": "FORMULA • Launch horizontal velocity from v₀ and θ.",
+      "back": "v₀cosθ"
+    },
+    {
+      "front": "FORMULA • Launch vertical velocity from v₀ and θ.",
+      "back": "v₀sinθ"
+    },
+    {
+      "front": "FORMULA • Vertical displacement of a projectile (up = +).",
+      "back": "Δy = v₀ᵧt − ½gt²"
+    },
+    {
+      "front": "FORMULA • Flight time if launch and landing heights match.",
+      "back": "2v₀ᵧ/g"
+    },
+    {
+      "front": "DEFINITION • What is a force?",
+      "back": "Push or pull"
+    },
+    {
+      "front": "DEFINITION • What is net force?",
+      "back": "Sum of forces"
+    },
+    {
+      "front": "EXACT UNIT RELATION • one newton equals?",
+      "back": "1 kg·m/s²"
+    },
+    {
+      "front": "FORMULA • Newton’s SECOND LAW?",
+      "back": "ΣF = ma"
+    },
+    {
+      "front": "FORMULA • Acceleration from net force and mass.",
+      "back": "a = Fnet/m"
+    },
+    {
+      "front": "DEFINITION • What is weight?",
+      "back": "Gravitational force"
+    },
+    {
+      "front": "FORMULA • Weight near Earth.",
+      "back": "W = mg"
+    },
+    {
+      "front": "SYMBOL • What does N mean as a force variable?",
+      "back": "Normal force"
+    },
+    {
+      "front": "DIRECTION • Direction of normal force?",
+      "back": "Perpendicular to surface"
+    },
+    {
+      "front": "SYMBOL • What does μₖ represent?",
+      "back": "Kinetic friction coefficient"
+    },
+    {
+      "front": "FORMULA • Kinetic friction while sliding.",
+      "back": "fₖ = μₖN"
+    },
+    {
+      "front": "VALUE • At rest: net force?",
+      "back": "Zero"
+    },
+    {
+      "front": "FORMULA • Gravity PARALLEL to a ramp.",
+      "back": "mg sinθ"
+    },
+    {
+      "front": "FORMULA • Gravity PERPENDICULAR to a ramp.",
+      "back": "mg cosθ"
+    },
+    {
+      "front": "FORMULA • Normal force on a simple ramp (no extra forces).",
+      "back": "N = mg cosθ"
+    },
+    {
+      "front": "FORMULA • Ideal Atwood-machine acceleration.",
+      "back": "a = (mₕ−mₗ)g/(mₕ+mₗ)"
+    },
+    {
+      "front": "FORMULA • Elevator net force (up positive).",
+      "back": "N − mg = ma"
+    },
+    {
+      "front": "DEFINITION • What is electric current?",
+      "back": "Charge flow rate"
+    },
+    {
+      "front": "DEFINITION • What is voltage?",
+      "back": "Electric potential difference"
+    },
+    {
+      "front": "DEFINITION • What is electrical resistance?",
+      "back": "Opposition to current"
+    },
+    {
+      "front": "UNIT • Unit of resistance?",
+      "back": "Ohm (Ω)"
+    },
+    {
+      "front": "EXACT UNIT RELATION • State the EXACT UNIT RELATION for 1 ohm (Ω).",
+      "back": "1 V/A"
+    },
+    {
+      "front": "DEFINITION • What is electrical power?",
+      "back": "Energy per time"
+    },
+    {
+      "front": "UNIT • Unit of electrical power?",
+      "back": "Watt (W)"
+    },
+    {
+      "front": "FORMULA • Ohm’s Law?",
+      "back": "V = IR"
+    },
+    {
+      "front": "FORMULA • Current from voltage and resistance.",
+      "back": "I = V/R"
+    },
+    {
+      "front": "FORMULA • Resistance from voltage and current.",
+      "back": "R = V/I"
+    },
+    {
+      "front": "FORMULA • Power from current and voltage.",
+      "back": "P = IV"
+    },
+    {
+      "front": "DEFINITION • What is a series circuit?",
+      "back": "Single path"
+    },
+    {
+      "front": "PROPERTY • What stays equal in series resistors?",
+      "back": "Current"
+    },
+    {
+      "front": "FORMULA • Equivalent resistance in series.",
+      "back": "Rₑq=R₁+R₂+…"
+    },
+    {
+      "front": "DEFINITION • What is a parallel circuit?",
+      "back": "Multiple branches"
+    },
+    {
+      "front": "PROPERTY • What stays equal across parallel branches?",
+      "back": "Voltage"
+    },
+    {
+      "front": "FORMULA • Equivalent resistance in parallel.",
+      "back": "1/Rₑq = Σ(1/Rᵢ)"
+    }
+  ]
+}
