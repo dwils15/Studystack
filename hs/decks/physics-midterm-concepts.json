@@ -5,719 +5,1256 @@
   "cards": [
     {
       "front": "RULE • For measured addition (+): round using what?",
-      "back": "Fewest decimal places"
+      "back": "Fewest decimal places",
+      "explanation": "In addition, the least precise decimal place among the measurements determines the answer's rounding place.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • For measured subtraction (−): round using what?",
-      "back": "Fewest decimal places"
+      "back": "Fewest decimal places",
+      "explanation": "In subtraction, round the final result to the fewest decimal places present in the measured inputs.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • For measured multiplication (×): round using what?",
-      "back": "Fewest significant figures"
+      "back": "Fewest significant figures",
+      "explanation": "For multiplication, the input with the fewest significant digits determines how many digits remain in the result.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • For measured division (÷): round using what?",
-      "back": "Fewest significant figures"
+      "back": "Fewest significant figures",
+      "explanation": "For division, the input with the fewest significant digits limits the number of significant digits in the result.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "DEFINITION • What are significant figures?",
-      "back": "Meaningful measured digits"
+      "back": "Meaningful measured digits",
+      "explanation": "Significant figures communicate measurement precision: the reliable digits and the final estimated digit.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "DEFINITION • What are decimal places?",
-      "back": "Digits after decimal"
+      "back": "Digits after decimal",
+      "explanation": "Decimal places are digits to the right of the decimal point; they control precision when adding or subtracting measurements.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "YES / NO • Do nonzero digits count as significant?",
-      "back": "Yes"
+      "back": "Yes",
+      "explanation": "All digits from 1 through 9 are significant because they carry measured information.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "YES / NO • Do leading zeros count as significant?",
-      "back": "No"
+      "back": "No",
+      "explanation": "Zeros before the first nonzero digit only locate the decimal point; they do not represent measured precision.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "YES / NO • Do zeros between nonzero digits count?",
-      "back": "Yes"
+      "back": "Yes",
+      "explanation": "Zeros between nonzero digits are significant because they are part of the measured value.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "YES / NO • Do trailing zeros after a decimal count?",
-      "back": "Yes"
+      "back": "Yes",
+      "explanation": "Trailing zeros after a decimal can indicate measured precision, so they count as significant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "TERM • Name the NOTATION used to show significant trailing zeros clearly.",
-      "back": "Scientific notation"
+      "back": "Scientific notation",
+      "explanation": "Scientific notation makes precision explicit: 4.0 × 10³ has two significant figures, whereas 4 × 10³ has one.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "RULE • Do exact counted quantities limit significant figures?",
-      "back": "No"
+      "back": "No",
+      "explanation": "An exact count or defined conversion has no measurement uncertainty, so it does not limit significant figures.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • Should you round intermediate calculations early?",
-      "back": "No"
+      "back": "No",
+      "explanation": "Keep extra calculator digits in intermediate steps; rounding too soon may change the final answer.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • State the RULE for the sequence of mixed calculations.",
-      "back": "Order of operations"
+      "back": "Order of operations",
+      "explanation": "Follow the normal order of operations, but apply the relevant precision rule to each operation and round only at the end.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • Name the PRECISION RULE for + and −.",
-      "back": "Decimal places"
+      "back": "Decimal places",
+      "explanation": "Addition and subtraction are limited by the least precise decimal place, not by the smallest significant-figure count.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "RULE • Name the PRECISION RULE for × and ÷.",
-      "back": "Significant figures"
+      "back": "Significant figures",
+      "explanation": "Multiplication and division are limited by the fewest significant figures, not by the decimal-place count.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-precision"
     },
     {
       "front": "TERM • Which zero type never counts as significant?",
-      "back": "Leading zeros"
+      "back": "Leading zeros",
+      "explanation": "Leading zeros before the first nonzero digit do not contribute to the precision of a measurement.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "TERM • Which zeros always count between nonzero digits?",
-      "back": "Captive zeros"
+      "back": "Captive zeros",
+      "explanation": "Captive zeros, lying between nonzero digits, always count as significant figures.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-sig-digits"
     },
     {
       "front": "PURPOSE • What is dimensional analysis used for?",
-      "back": "Unit conversion"
+      "back": "Unit conversion",
+      "explanation": "Dimensional analysis changes units using equivalent fractions without changing the physical quantity.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-unit-cancellation"
     },
     {
       "front": "DEFINITION • What is a conversion factor?",
-      "back": "Ratio equal to 1"
+      "back": "Ratio equal to 1",
+      "explanation": "A conversion factor, such as 100 cm / 1 m, equals one because numerator and denominator represent the same length.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-unit-cancellation"
     },
     {
       "front": "RESULT • What happens to unwanted units in dimensional analysis?",
-      "back": "Cancel out"
+      "back": "Cancel out",
+      "explanation": "Place the unwanted unit opposite itself in conversion fractions so it cancels algebraically.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-unit-cancellation"
     },
     {
       "front": "EXACT CONVERSION • 1 kilometer equals how many meters?",
-      "back": "1,000 m"
+      "back": "1,000 m",
+      "explanation": "The prefix kilo- means 1,000; therefore 1 km is exactly 1,000 meters.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 meter equals how many centimeters?",
-      "back": "100 cm"
+      "back": "100 cm",
+      "explanation": "The prefix centi- means one hundredth; 100 centimeters make exactly one meter.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 kilogram equals how many grams?",
-      "back": "1,000 g"
+      "back": "1,000 g",
+      "explanation": "A kilogram contains exactly 1,000 grams by the metric prefix definition.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 gram equals how many milligrams?",
-      "back": "1,000 mg"
+      "back": "1,000 mg",
+      "explanation": "A gram contains exactly 1,000 milligrams; milli- means one thousandth.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 hour equals how many minutes?",
-      "back": "60 min"
+      "back": "60 min",
+      "explanation": "One hour consists of 60 minutes; this is an exact time relationship.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 hour equals how many seconds?",
-      "back": "3,600 s"
+      "back": "3,600 s",
+      "explanation": "One hour contains 60 × 60 = 3,600 seconds; this is an exact conversion.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 minute equals how many seconds?",
-      "back": "60 s"
+      "back": "60 s",
+      "explanation": "One minute is exactly 60 seconds, so this conversion does not limit significant figures.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 foot equals how many inches?",
-      "back": "12 in"
+      "back": "12 in",
+      "explanation": "One foot is defined as exactly 12 inches.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 mile equals how many feet?",
-      "back": "5,280 ft"
+      "back": "5,280 ft",
+      "explanation": "One mile is defined as exactly 5,280 feet.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 inch equals how many centimeters?",
-      "back": "2.54 cm"
+      "back": "2.54 cm",
+      "explanation": "The international inch is defined as exactly 2.54 centimeters.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 liter equals how many cubic centimeters?",
-      "back": "1,000 cm³"
+      "back": "1,000 cm³",
+      "explanation": "A liter is exactly 1,000 cubic centimeters; it is a volume, not an area.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 cubic meter equals how many liters?",
-      "back": "1,000 L"
+      "back": "1,000 L",
+      "explanation": "One cubic meter contains 1,000 liters because one liter is 0.001 cubic meter.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "EXACT CONVERSION • 1 carat equals how many grams?",
-      "back": "0.2 g"
+      "back": "0.2 g",
+      "explanation": "The guide uses 1 carat = 0.2 grams as a given conversion for the diamond problem.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-conversions"
     },
     {
       "front": "FORMULA • State the FORMULA for average speed.",
-      "back": "Distance ÷ time"
+      "back": "Distance ÷ time",
+      "explanation": "Average speed divides distance traveled by elapsed time; use matching units.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "FORMULA • State the FORMULA for density.",
-      "back": "Mass ÷ volume"
+      "back": "Mass ÷ volume",
+      "explanation": "Density divides mass by volume, typically kilograms per cubic meter or grams per cubic centimeter.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "SYMBOL • What does the symbol ρ (rho) mean?",
-      "back": "Density"
+      "back": "Density",
+      "explanation": "The Greek letter rho (ρ) is commonly used for mass density.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "UNIT • What is the SI unit of speed?",
-      "back": "m/s"
+      "back": "m/s",
+      "explanation": "Meters per second measure how much distance is traveled each second.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "UNIT • What is the SI unit of acceleration?",
-      "back": "m/s²"
+      "back": "m/s²",
+      "explanation": "Meters per second squared measure how much velocity changes each second.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "UNIT • What is a common density unit?",
-      "back": "kg/m³"
+      "back": "kg/m³",
+      "explanation": "Kilograms per cubic meter expresses mass contained in a unit volume.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "EXPONENT • What exponent applies to an area conversion?",
-      "back": "Square (²)"
+      "back": "Square (²)",
+      "explanation": "Area is two-dimensional, so square the whole length conversion factor.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-area-volume"
     },
     {
       "front": "EXPONENT • What exponent applies to a volume conversion?",
-      "back": "Cube (³)"
+      "back": "Cube (³)",
+      "explanation": "Volume is three-dimensional, so cube the whole length conversion factor.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-area-volume"
     },
     {
       "front": "NUMBER • An echo travels how many times the one-way distance?",
-      "back": "Twice"
+      "back": "Twice",
+      "explanation": "An echo travels to the reflecting surface and back; total travel distance is twice the one-way distance.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-echo-sound"
     },
     {
       "front": "APPROX. VALUE • Speed of sound in air at 20°C?",
-      "back": "343 m/s"
+      "back": "343 m/s",
+      "explanation": "About 343 m/s describes sound moving through air near 20 °C, not a universal fixed constant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-echo-sound"
     },
     {
       "front": "YES / NO • Is sound speed constant at every temperature?",
-      "back": "No"
+      "back": "No",
+      "explanation": "Air temperature affects sound speed; use a value supplied by the problem or state an approximation.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-echo-sound"
     },
     {
       "front": "UNIT • What units measure area?",
-      "back": "Square units"
+      "back": "Square units",
+      "explanation": "Area is length multiplied by length, producing units such as m² or cm².",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-area-volume"
     },
     {
       "front": "UNIT • What units measure volume?",
-      "back": "Cubic units"
+      "back": "Cubic units",
+      "explanation": "Volume uses three length dimensions, producing units such as m³ or cm³.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-area-volume"
     },
     {
       "front": "ABBREVIATION • Speed in miles per hour is abbreviated how?",
-      "back": "mph"
+      "back": "mph",
+      "explanation": "Miles per hour abbreviates as mph; speed is distance divided by time.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-dimensional-symbols"
     },
     {
       "front": "DEFINITION • What is a scalar?",
-      "back": "Magnitude only"
+      "back": "Magnitude only",
+      "explanation": "A scalar has size only; it has no specified direction, unlike velocity or displacement.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "DEFINITION • What is a vector?",
-      "back": "Magnitude and direction"
+      "back": "Magnitude and direction",
+      "explanation": "A vector has both magnitude and direction, often drawn as an arrow.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "DEFINITION • What is displacement?",
-      "back": "Change in position"
+      "back": "Change in position",
+      "explanation": "Displacement points from starting position to ending position; it differs from total path length.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "DEFINITION • What is vector magnitude?",
-      "back": "Vector length"
+      "back": "Vector length",
+      "explanation": "A vector's magnitude is its nonnegative size, regardless of direction.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "AXIS • Which axis is horizontal?",
-      "back": "x-axis"
+      "back": "x-axis",
+      "explanation": "The horizontal component of a vector is conventionally plotted on the x-axis.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "AXIS • Which axis is vertical?",
-      "back": "y-axis"
+      "back": "y-axis",
+      "explanation": "The vertical component of a vector is conventionally plotted on the y-axis.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "SIGN • What sign represents east on the x-axis?",
-      "back": "Positive (+)"
+      "back": "Positive (+)",
+      "explanation": "With east chosen positive, an eastward component has a positive x-value.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "SIGN • What sign represents west on the x-axis?",
-      "back": "Negative (−)"
+      "back": "Negative (−)",
+      "explanation": "With east positive, a westward component has a negative x-value.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "SIGN • What sign represents north on the y-axis?",
-      "back": "Positive (+)"
+      "back": "Positive (+)",
+      "explanation": "With north chosen positive, a northward component has a positive y-value.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "SIGN • What sign represents south on the y-axis?",
-      "back": "Negative (−)"
+      "back": "Negative (−)",
+      "explanation": "With north positive, a southward component has a negative y-value.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "DEFINITION • What is a resultant vector?",
-      "back": "Vector sum"
+      "back": "Vector sum",
+      "explanation": "The resultant combines the individual vectors into one net vector.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-symbols"
     },
     {
       "front": "THEOREM NAME • Resultant magnitude from perpendicular components: which theorem?",
-      "back": "Pythagorean theorem"
+      "back": "Pythagorean theorem",
+      "explanation": "Perpendicular components form a right triangle; the Pythagorean theorem gives the resultant magnitude.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-triangles"
     },
     {
       "front": "FORMULA • Magnitude from perpendicular x and y components.",
-      "back": "R = √(x²+y²)"
+      "back": "R = √(x²+y²)",
+      "explanation": "This magnitude formula works when x and y are perpendicular components with the same units.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-triangles"
     },
     {
       "front": "FORMULA • X-component when θ is measured from +x.",
-      "back": "x = Rcosθ"
+      "back": "x = Rcosθ",
+      "explanation": "When θ is measured from the positive x-axis, the horizontal component is the magnitude times cosine.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-triangles"
     },
     {
       "front": "FORMULA • Y-component when θ is measured from +x.",
-      "back": "y = Rsinθ"
+      "back": "y = Rsinθ",
+      "explanation": "When θ is measured from the positive x-axis, the vertical component is the magnitude times sine.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-triangles"
     },
     {
       "front": "FORMULA • Vector direction from x and y components.",
-      "back": "θ = atan2(y,x)"
+      "back": "θ = atan2(y,x)",
+      "explanation": "The two-argument atan2 function uses both signed components, so it can determine the correct quadrant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-vector-triangles"
     },
     {
       "front": "TRIG RATIO • Give the TRIG RATIO for sine (SOH).",
-      "back": "Opposite / hypotenuse"
+      "back": "Opposite / hypotenuse",
+      "explanation": "SOH means sine equals opposite divided by hypotenuse, measured relative to the selected angle.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "TRIG RATIO • Give the TRIG RATIO for cosine (CAH).",
-      "back": "Adjacent / hypotenuse"
+      "back": "Adjacent / hypotenuse",
+      "explanation": "CAH means cosine equals adjacent divided by hypotenuse, measured relative to the selected angle.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "TRIG RATIO • Give the TRIG RATIO for tangent (TOA).",
-      "back": "Opposite / adjacent"
+      "back": "Opposite / adjacent",
+      "explanation": "TOA means tangent equals opposite divided by adjacent, measured relative to the selected angle.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "FUNCTION NAME • Which trig function uses opposite and adjacent?",
-      "back": "Tangent"
+      "back": "Tangent",
+      "explanation": "Use tangent when the opposite and adjacent sides are the relevant sides.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "FUNCTION NAME • Which trig function uses opposite and hypotenuse?",
-      "back": "Sine"
+      "back": "Sine",
+      "explanation": "Use sine when the opposite side and hypotenuse are the relevant sides.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "FUNCTION NAME • Which trig function uses adjacent and hypotenuse?",
-      "back": "Cosine"
+      "back": "Cosine",
+      "explanation": "Use cosine when the adjacent side and hypotenuse are the relevant sides.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "FUNCTION NAME • Which function finds an angle from a trig ratio?",
-      "back": "Inverse trig"
+      "back": "Inverse trig",
+      "explanation": "Use inverse sine, cosine, or tangent to recover an angle from a side ratio.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "CALCULATOR MODE • What calculator mode is used for degree angles?",
-      "back": "DEG mode"
+      "back": "DEG mode",
+      "explanation": "Set the calculator to degrees when the given angles and required answers are in degrees.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "DEFINITION • Define the hypotenuse of a RIGHT TRIANGLE.",
-      "back": "Longest side"
+      "back": "Longest side",
+      "explanation": "In a right triangle, the hypotenuse lies opposite the 90° angle and is the longest side.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "ANGLE VALUE • What angle defines a right triangle?",
-      "back": "90°"
+      "back": "90°",
+      "explanation": "A right triangle has one 90° angle, allowing the Pythagorean theorem and SOHCAHTOA.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-trig-ratios"
     },
     {
       "front": "DEFINITION • What is kinematics?",
-      "back": "Study of motion"
+      "back": "Study of motion",
+      "explanation": "Kinematics describes motion—position, velocity, and acceleration—without focusing on the forces causing it.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "DEFINITION • What is distance?",
-      "back": "Total path length"
+      "back": "Total path length",
+      "explanation": "Distance measures the full length of a traveled path, without direction.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "DEFINITION • What is velocity?",
-      "back": "Speed with direction"
+      "back": "Speed with direction",
+      "explanation": "Velocity combines speed with a direction, so it is a vector.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "DEFINITION • What is acceleration?",
-      "back": "Velocity change per time"
+      "back": "Velocity change per time",
+      "explanation": "Acceleration describes the rate at which velocity changes with time; its SI unit is m/s².",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does t represent?",
-      "back": "Elapsed time"
+      "back": "Elapsed time",
+      "explanation": "The variable t is elapsed time, usually measured in seconds.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does vᵢ represent?",
-      "back": "Initial velocity"
+      "back": "Initial velocity",
+      "explanation": "Initial velocity is the velocity at the beginning of the interval under study.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does v𝒇 represent?",
-      "back": "Final velocity"
+      "back": "Final velocity",
+      "explanation": "Final velocity is the velocity at the end of that interval.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does Δx represent?",
-      "back": "Horizontal displacement"
+      "back": "Horizontal displacement",
+      "explanation": "Δx is change in horizontal position, or final x minus initial x.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does Δy represent?",
-      "back": "Vertical displacement"
+      "back": "Vertical displacement",
+      "explanation": "Δy is change in vertical position, or final y minus initial y.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "SYMBOL • What does g represent?",
-      "back": "Gravitational acceleration"
+      "back": "Gravitational acceleration",
+      "explanation": "The symbol g describes the acceleration caused by gravity near Earth's surface.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "STANDARD VALUE • Magnitude of g near Earth?",
-      "back": "9.8 m/s²"
+      "back": "9.8 m/s²",
+      "explanation": "Near Earth's surface, g is commonly approximated as 9.8 m/s² in the downward direction.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "DIRECTION • Direction of gravity near Earth?",
-      "back": "Downward"
+      "back": "Downward",
+      "explanation": "Gravity points toward Earth; if upward is positive, vertical acceleration is −g.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-symbols"
     },
     {
       "front": "YES / NO • Is g = 9.8 m/s² exact everywhere?",
-      "back": "No"
+      "back": "No",
+      "explanation": "Gravity varies slightly with location and altitude; 9.8 m/s² is a standard approximation.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-standard-values"
     },
     {
       "front": "VALUE • Starting from rest: initial velocity?",
-      "back": "0 m/s"
+      "back": "0 m/s",
+      "explanation": "Starting from rest means initial speed is zero, before motion begins.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "VALUE • Dropped object: initial vertical velocity?",
-      "back": "0 m/s"
+      "back": "0 m/s",
+      "explanation": "For a dropped object, initial vertical velocity is zero if it is released without a push.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "VALUE • Horizontally launched object: initial vertical velocity?",
-      "back": "0 m/s"
+      "back": "0 m/s",
+      "explanation": "A horizontal launch has no initial vertical velocity, although gravity immediately accelerates it downward.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "VALUE • At the top of projectile flight: vertical velocity?",
-      "back": "0 m/s"
+      "back": "0 m/s",
+      "explanation": "At the highest point, vertical velocity is momentarily zero; horizontal velocity may remain nonzero.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "VALUE • Without air drag: horizontal acceleration?",
-      "back": "0 m/s²"
+      "back": "0 m/s²",
+      "explanation": "With air resistance neglected, no horizontal force changes horizontal velocity, so ax = 0.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "BEHAVIOR • Without air drag: horizontal velocity?",
-      "back": "Constant"
+      "back": "Constant",
+      "explanation": "Without air resistance, horizontal velocity remains constant throughout projectile flight.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "AXIS • For projectile motion, which axis has gravitational acceleration?",
-      "back": "Vertical (y)"
+      "back": "Vertical (y)",
+      "explanation": "Gravity acts vertically, so the projectile's gravitational acceleration is along the y-axis.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "SHARED QUANTITY • Which quantity is shared by horizontal and vertical motion?",
-      "back": "Time"
+      "back": "Time",
+      "explanation": "Horizontal and vertical motion have the same elapsed flight time even though their velocities differ.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-motion"
     },
     {
       "front": "FORMULA • Final velocity using vᵢ, a, and t (constant a).",
-      "back": "v𝒇 = vᵢ + at"
+      "back": "v𝒇 = vᵢ + at",
+      "explanation": "This constant-acceleration equation finds final velocity from initial velocity, acceleration, and elapsed time.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Displacement using vᵢ, a, and t (constant a).",
-      "back": "Δx = vᵢt + ½at²"
+      "back": "Δx = vᵢt + ½at²",
+      "explanation": "This equation finds displacement from initial velocity, acceleration, and time when acceleration stays constant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Give the FORMULA relating v𝒇, vᵢ, a, and Δx (no time).",
-      "back": "v𝒇² = vᵢ² + 2aΔx"
+      "back": "v𝒇² = vᵢ² + 2aΔx",
+      "explanation": "Use the squared-velocity relation when time is absent and acceleration is constant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Fall distance from rest (constant g).",
-      "back": "h = ½gt²"
+      "back": "h = ½gt²",
+      "explanation": "An object dropped from rest falls distance h = ½gt² if air drag is negligible and g is constant.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Fall time from rest, given height h.",
-      "back": "t = √(2h/g)"
+      "back": "t = √(2h/g)",
+      "explanation": "Rearrange h = ½gt² to find drop time; choose the nonnegative square root.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Launch horizontal velocity from v₀ and θ.",
-      "back": "v₀cosθ"
+      "back": "v₀cosθ",
+      "explanation": "For a launch angle from horizontal, multiply launch speed by cosine to get horizontal velocity.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Launch vertical velocity from v₀ and θ.",
-      "back": "v₀sinθ"
+      "back": "v₀sinθ",
+      "explanation": "For a launch angle from horizontal, multiply launch speed by sine to get vertical velocity.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Vertical velocity during a projectile (up = +).",
-      "back": "vᵧ = v₀ᵧ − gt"
+      "back": "vᵧ = v₀ᵧ − gt",
+      "explanation": "With upward positive, subtract gt from initial vertical velocity to find vertical velocity later.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Horizontal displacement with no air drag.",
-      "back": "Δx = v₀ₓt"
+      "back": "Δx = v₀ₓt",
+      "explanation": "With no horizontal acceleration, horizontal displacement equals horizontal velocity times time.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Vertical displacement of a projectile (up = +).",
-      "back": "Δy = v₀ᵧt − ½gt²"
+      "back": "Δy = v₀ᵧt − ½gt²",
+      "explanation": "With upward positive and negligible drag, vertical displacement equals v₀yt − ½gt².",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Flight time if launch and landing heights match.",
-      "back": "2v₀ᵧ/g"
+      "back": "2v₀ᵧ/g",
+      "explanation": "Flight time equals 2v₀y/g only if the projectile lands at the height from which it launched.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "FORMULA • Speed from horizontal and vertical velocities.",
-      "back": "√(vₓ²+vᵧ²)"
+      "back": "√(vₓ²+vᵧ²)",
+      "explanation": "Use the Pythagorean theorem on perpendicular velocity components to find total speed.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-kinematic-formulas"
     },
     {
       "front": "YES / NO • Can equal-height flight-time formula apply to cliff landings?",
-      "back": "No"
+      "back": "No",
+      "explanation": "A cliff landing has a different final height, so the equal-height shortcut for flight time is invalid.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-projectile-cliff"
     },
     {
       "front": "DEFINITION • What is a force?",
-      "back": "Push or pull"
+      "back": "Push or pull",
+      "explanation": "Force is a push or pull that may change an object's velocity or shape.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DEFINITION • What is net force?",
-      "back": "Sum of forces"
+      "back": "Sum of forces",
+      "explanation": "Net force is the vector sum of all forces acting on one object.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "UNIT • SI unit of force?",
-      "back": "Newton (N)"
+      "back": "Newton (N)",
+      "explanation": "The SI force unit is the newton, symbol N.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "EXACT UNIT RELATION • one newton equals?",
-      "back": "1 kg·m/s²"
+      "back": "1 kg·m/s²",
+      "explanation": "A newton is defined as 1 kg·m/s², linking force to mass and acceleration.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "FORMULA • Newton’s SECOND LAW?",
-      "back": "ΣF = ma"
+      "back": "ΣF = ma",
+      "explanation": "Newton's second law says net force equals mass times acceleration.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "FORMULA • Net force from mass and acceleration.",
-      "back": "Fnet = ma"
+      "back": "Fnet = ma",
+      "explanation": "Multiply mass by acceleration to calculate the net force on an object.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "FORMULA • Acceleration from net force and mass.",
-      "back": "a = Fnet/m"
+      "back": "a = Fnet/m",
+      "explanation": "Divide net force by mass to calculate acceleration, with consistent SI units.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "UNIT • What is mass measured in?",
-      "back": "Kilograms (kg)"
+      "back": "Kilograms (kg)",
+      "explanation": "Mass measures resistance to acceleration and is expressed in kilograms.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DEFINITION • What is weight?",
-      "back": "Gravitational force"
+      "back": "Gravitational force",
+      "explanation": "Weight is the gravitational force acting on an object's mass, not the mass itself.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "FORMULA • Weight near Earth.",
-      "back": "W = mg"
+      "back": "W = mg",
+      "explanation": "Near Earth, weight equals mass times gravitational acceleration; the result is in newtons.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "SYMBOL • What does N mean as a force variable?",
-      "back": "Normal force"
+      "back": "Normal force",
+      "explanation": "In a force diagram, N often denotes normal force; after a number, N denotes the newton unit.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DIRECTION • Direction of normal force?",
-      "back": "Perpendicular to surface"
+      "back": "Perpendicular to surface",
+      "explanation": "A surface's normal force pushes perpendicular to that surface.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DEFINITION • What is tension?",
-      "back": "Rope pulling force"
+      "back": "Rope pulling force",
+      "explanation": "Tension is the pulling force transmitted by a rope or string.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DEFINITION • What is friction?",
-      "back": "Opposing contact force"
+      "back": "Opposing contact force",
+      "explanation": "Friction resists relative sliding, or the tendency to slide, between contacting surfaces.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "SYMBOL • What does μₖ represent?",
-      "back": "Kinetic friction coefficient"
+      "back": "Kinetic friction coefficient",
+      "explanation": "The kinetic friction coefficient μk is a property of the contacting surfaces while sliding.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "YES / NO • Does μₖ have units?",
-      "back": "No"
+      "back": "No",
+      "explanation": "A friction coefficient is a ratio of forces, so it has no units.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "FORMULA • Kinetic friction while sliding.",
-      "back": "fₖ = μₖN"
+      "back": "fₖ = μₖN",
+      "explanation": "Kinetic friction equals μk times normal force when the surfaces are sliding.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "DIRECTION • Direction of kinetic friction?",
-      "back": "Opposite sliding"
+      "back": "Opposite sliding",
+      "explanation": "Kinetic friction opposes the direction of relative sliding between surfaces.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-forces-symbols"
     },
     {
       "front": "VALUE • At rest: net force?",
-      "back": "Zero"
+      "back": "Zero",
+      "explanation": "At rest with no acceleration, all forces must balance to a zero net force.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-force-equilibrium"
     },
     {
       "front": "VALUE • At constant velocity: net force?",
-      "back": "Zero"
+      "back": "Zero",
+      "explanation": "Constant velocity means zero acceleration; Newton's second law then gives zero net force.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-force-equilibrium"
     },
     {
       "front": "DEFINITION • What is equilibrium?",
-      "back": "Zero net force"
+      "back": "Zero net force",
+      "explanation": "Mechanical equilibrium means the vector sum of forces is zero.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-force-equilibrium"
     },
     {
       "front": "FORMULA • Gravity PARALLEL to a ramp.",
-      "back": "mg sinθ"
+      "back": "mg sinθ",
+      "explanation": "On a ramp, the component of gravity down the slope is mg sinθ.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "FORMULA • Gravity PERPENDICULAR to a ramp.",
-      "back": "mg cosθ"
+      "back": "mg cosθ",
+      "explanation": "On a ramp, the component of gravity pressing into the surface is mg cosθ.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "FORMULA • Normal force on a simple ramp (no extra forces).",
-      "back": "N = mg cosθ"
+      "back": "N = mg cosθ",
+      "explanation": "On a simple incline with no other perpendicular forces, the normal force is mg cosθ.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "FORMULA • Horizontal applied-force component at θ.",
-      "back": "F cosθ"
+      "back": "F cosθ",
+      "explanation": "For an applied force at θ above horizontal, the horizontal component uses cosine.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "FORMULA • Vertical applied-force component at θ.",
-      "back": "F sinθ"
+      "back": "F sinθ",
+      "explanation": "For an applied force at θ above horizontal, the vertical component uses sine.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "EFFECT • Angled upward pull changes normal force how?",
-      "back": "Decreases it"
+      "back": "Decreases it",
+      "explanation": "An upward pull partly lifts the object, reducing the normal force and usually kinetic friction.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "EFFECT • Angled downward push changes normal force how?",
-      "back": "Increases it"
+      "back": "Increases it",
+      "explanation": "A downward angled push presses the object harder into the surface, increasing normal force.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ramp-forces"
     },
     {
       "front": "DEFINITION • What is an Atwood machine?",
-      "back": "Two pulley-linked masses"
+      "back": "Two pulley-linked masses",
+      "explanation": "An ideal Atwood machine has two hanging masses connected by a light rope over a frictionless pulley.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-atwood-forces"
     },
     {
       "front": "WHICH MASS • Ideal Atwood pulley: which mass descends?",
-      "back": "Heavier mass"
+      "back": "Heavier mass",
+      "explanation": "In an ideal Atwood machine, the heavier mass accelerates downward and the lighter one upward.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-atwood-forces"
     },
     {
       "front": "FORMULA • Ideal Atwood-machine acceleration.",
-      "back": "a = (mₕ−mₗ)g/(mₕ+mₗ)"
+      "back": "a = (mₕ−mₗ)g/(mₕ+mₗ)",
+      "explanation": "The ideal Atwood formula assumes two hanging masses, negligible pulley friction, and a massless rope.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-atwood-forces"
     },
     {
       "front": "PROPERTY • In an ideal rope, how does tension vary?",
-      "back": "Same throughout"
+      "back": "Same throughout",
+      "explanation": "Tension is constant along an ideal massless rope passing over a frictionless pulley.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-atwood-forces"
     },
     {
       "front": "PROPERTY • In an ideal rope, both masses have what acceleration size?",
-      "back": "Same magnitude"
+      "back": "Same magnitude",
+      "explanation": "A taut, inextensible rope makes the linked masses accelerate with equal magnitudes.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-atwood-forces"
     },
     {
       "front": "FORCE NAME • Elevator scale measures which force?",
-      "back": "Normal force"
+      "back": "Normal force",
+      "explanation": "A scale reads the normal force it exerts on the person, known as apparent weight.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-elevator-forces"
     },
     {
       "front": "EFFECT • Elevator accelerating upward: apparent weight?",
-      "back": "Increases"
+      "back": "Increases",
+      "explanation": "Upward acceleration requires a normal force greater than weight, so the scale reads higher.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-elevator-forces"
     },
     {
       "front": "EFFECT • Elevator accelerating downward: apparent weight?",
-      "back": "Decreases"
+      "back": "Decreases",
+      "explanation": "Downward acceleration requires a normal force less than weight, so the scale reads lower.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-elevator-forces"
     },
     {
       "front": "EFFECT • Elevator moving at constant speed: apparent weight?",
-      "back": "Equals mg"
+      "back": "Equals mg",
+      "explanation": "At constant velocity, acceleration is zero, so normal force equals mg in a vertical elevator.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-elevator-forces"
     },
     {
       "front": "FORMULA • Elevator net force (up positive).",
-      "back": "N − mg = ma"
+      "back": "N − mg = ma",
+      "explanation": "With upward positive, normal force minus weight equals mass times vertical acceleration.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-elevator-forces"
     },
     {
       "front": "DEFINITION • What does a free-body diagram show?",
-      "back": "Forces on one object"
+      "back": "Forces on one object",
+      "explanation": "A free-body diagram shows only forces acting on the selected object, drawn as arrows.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-force-diagrams"
     },
     {
       "front": "DEFINITION • What is electric current?",
-      "back": "Charge flow rate"
+      "back": "Charge flow rate",
+      "explanation": "Electric current measures how much electric charge passes a point each second.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "SYMBOL • Symbol for current?",
-      "back": "I"
+      "back": "I",
+      "explanation": "Capital I is the standard symbol for electric current.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "UNIT • Unit of current?",
-      "back": "Ampere (A)"
+      "back": "Ampere (A)",
+      "explanation": "An ampere is the SI unit of electric current, equal to one coulomb per second.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "DEFINITION • What is voltage?",
-      "back": "Electric potential difference"
+      "back": "Electric potential difference",
+      "explanation": "Voltage measures the electric potential difference between two points.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "SYMBOL • Symbol for voltage?",
-      "back": "V"
+      "back": "V",
+      "explanation": "Capital V commonly represents voltage in elementary circuit formulas.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "UNIT • Unit of voltage?",
-      "back": "Volt (V)"
+      "back": "Volt (V)",
+      "explanation": "A volt is the SI unit of electric potential difference.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "DEFINITION • What is electrical resistance?",
-      "back": "Opposition to current"
+      "back": "Opposition to current",
+      "explanation": "Resistance describes how strongly a component opposes electric current.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "SYMBOL • Symbol for resistance?",
-      "back": "R"
+      "back": "R",
+      "explanation": "Capital R represents resistance in Ohm's law.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "UNIT • Unit of resistance?",
-      "back": "Ohm (Ω)"
+      "back": "Ohm (Ω)",
+      "explanation": "An ohm, symbol Ω, is the SI unit of electrical resistance.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "EXACT UNIT RELATION • State the EXACT UNIT RELATION for 1 ohm (Ω).",
-      "back": "1 V/A"
+      "back": "1 V/A",
+      "explanation": "One ohm equals one volt per ampere, following R = V/I.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "DEFINITION • What is electrical power?",
-      "back": "Energy per time"
+      "back": "Energy per time",
+      "explanation": "Electric power is the rate at which electrical energy is transferred or used.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "SYMBOL • Symbol for electrical power?",
-      "back": "P"
+      "back": "P",
+      "explanation": "Capital P represents electrical power in circuit equations.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "UNIT • Unit of electrical power?",
-      "back": "Watt (W)"
+      "back": "Watt (W)",
+      "explanation": "A watt is the SI unit of power, equal to one joule per second.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-circuit-symbols"
     },
     {
       "front": "FORMULA • Ohm’s Law?",
-      "back": "V = IR"
+      "back": "V = IR",
+      "explanation": "Ohm's law relates voltage, current, and resistance as V = IR.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "FORMULA • Current from voltage and resistance.",
-      "back": "I = V/R"
+      "back": "I = V/R",
+      "explanation": "Divide voltage by resistance to find current in an ohmic resistor.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "FORMULA • Resistance from voltage and current.",
-      "back": "R = V/I"
+      "back": "R = V/I",
+      "explanation": "Divide voltage by current to find resistance for an ohmic resistor.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "FORMULA • Voltage from current and resistance.",
-      "back": "V = IR"
+      "back": "V = IR",
+      "explanation": "Multiply current by resistance to find voltage using Ohm's law.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "FORMULA • Power from current and voltage.",
-      "back": "P = IV"
+      "back": "P = IV",
+      "explanation": "Multiply voltage by current to find electrical power.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "FORMULA • Current from power and voltage.",
-      "back": "I = P/V"
+      "back": "I = P/V",
+      "explanation": "Divide electrical power by voltage to find current, provided voltage is nonzero.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-ohms-law"
     },
     {
       "front": "DEFINITION • What is a series circuit?",
-      "back": "Single path"
+      "back": "Single path",
+      "explanation": "In series, components form one continuous current path.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-series-circuits"
     },
     {
       "front": "PROPERTY • What stays equal in series resistors?",
-      "back": "Current"
+      "back": "Current",
+      "explanation": "Because only one path exists, the same current flows through each series component.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-series-circuits"
     },
     {
       "front": "PROPERTY • What adds across series resistors?",
-      "back": "Voltage drops"
+      "back": "Voltage drops",
+      "explanation": "The individual voltage drops in a series loop add up to the source voltage.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-series-circuits"
     },
     {
       "front": "FORMULA • Equivalent resistance in series.",
-      "back": "Rₑq=R₁+R₂+…"
+      "back": "Rₑq=R₁+R₂+…",
+      "explanation": "In series, resistances add directly to find their equivalent resistance.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-series-circuits"
     },
     {
       "front": "EFFECT • If one series bulb burns out, what happens?",
-      "back": "All go out"
+      "back": "All go out",
+      "explanation": "A break anywhere in a simple series circuit interrupts the only current path.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-series-circuits"
     },
     {
       "front": "DEFINITION • What is a parallel circuit?",
-      "back": "Multiple branches"
+      "back": "Multiple branches",
+      "explanation": "Parallel components occupy separate branches across the same two nodes.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "PROPERTY • What stays equal across parallel branches?",
-      "back": "Voltage"
+      "back": "Voltage",
+      "explanation": "Each parallel branch is connected across the same two nodes, so branch voltages match.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "PROPERTY • What adds at a parallel junction?",
-      "back": "Branch currents"
+      "back": "Branch currents",
+      "explanation": "Current splits at a junction; total current equals the sum of branch currents.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "FORMULA • Equivalent resistance in parallel.",
-      "back": "1/Rₑq = Σ(1/Rᵢ)"
+      "back": "1/Rₑq = Σ(1/Rᵢ)",
+      "explanation": "For parallel resistance, add reciprocals and take the reciprocal to find the equivalent.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "REASON • Why are household outlets wired in parallel?",
-      "back": "Independent operation"
+      "back": "Independent operation",
+      "explanation": "Parallel household branches let individual appliances operate even if another branch opens.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "ORDER • In a mixed circuit, which network is simplified first?",
-      "back": "Inner groups"
+      "back": "Inner groups",
+      "explanation": "Reduce identifiable inner series or parallel groups one at a time in a combination circuit.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-combination-circuits"
     },
     {
       "front": "YES / NO • Does adding a parallel branch increase total resistance?",
-      "back": "No"
+      "back": "No",
+      "explanation": "Adding a parallel resistance branch increases total conductance, decreasing equivalent resistance.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-parallel-circuits"
     },
     {
       "front": "COMPONENT • In a circuit diagram, what controls opening the path?",
-      "back": "Switch"
+      "back": "Switch",
+      "explanation": "A switch opens or closes a circuit's conducting path, controlling whether current can flow.",
+      "studyGuideFile": "physics-midterm.html",
+      "studyGuideAnchor": "hs-combination-circuits"
     }
   ]
 }
