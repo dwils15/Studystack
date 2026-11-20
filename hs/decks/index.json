@@ -1,7 +1,12 @@
 {
   "decks": [
     {
-      "title": "Physics Midterm — Concepts, Formulas & Problem Recognition",
+      "title": "Physics Midterm — Exam Essentials",
+      "subject": "Physics",
+      "file": "physics-midterm-exam-essentials.json"
+    },
+    {
+      "title": "Physics Midterm — Complete Quick Recall",
       "subject": "Physics",
       "file": "physics-midterm-concepts.json"
     }
