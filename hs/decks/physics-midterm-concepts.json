@@ -1,7 +1,7 @@
 {
-  "title": "Physics Midterm — Concepts, Formulas & Problem Recognition",
+  "title": "Physics Midterm — Definitions, Memorization & Formula Selection",
   "subject": "Physics",
-  "description": "Source-linked high-school physics cards covering the six units in the midterm guide.",
+  "description": "Source: Physics Midterm beginner study course. Review definitions, standard values and conditions, +/− decimal places vs ×/÷ significant figures, and which equation to choose from problem clues.",
   "cards": [
     {
       "front": "What should you identify before choosing a physics formula?",
@@ -454,6 +454,362 @@
     {
       "front": "Why is parallel equivalent resistance below the smallest branch resistance?",
       "back": "Adding branches creates more current paths for the same voltage."
+    },
+    {
+      "front": "What is the key rounding rule for measured addition (+)?",
+      "back": "Match the FEWEST DECIMAL PLACES in the inputs. Do not use the fewest total significant figures."
+    },
+    {
+      "front": "What is the key rounding rule for measured subtraction (−)?",
+      "back": "Match the FEWEST DECIMAL PLACES in the inputs. Do not use the fewest total significant figures."
+    },
+    {
+      "front": "What is the key rounding rule for measured multiplication (×)?",
+      "back": "Match the FEWEST SIGNIFICANT FIGURES in the measured factors, not their decimal places."
+    },
+    {
+      "front": "What is the key rounding rule for measured division (÷)?",
+      "back": "Match the FEWEST SIGNIFICANT FIGURES in the measured values, not their decimal places."
+    },
+    {
+      "front": "How do you choose rounding for a calculation using + and ×?",
+      "back": "Apply the precision rule for each operation, preserve guard digits, and round the final result appropriately."
+    },
+    {
+      "front": "35.864 minus 7.2: which precision rule controls the result?",
+      "back": "Subtraction → decimal PLACES. 7.2 has 1 decimal place; 28.664 becomes 28.7."
+    },
+    {
+      "front": "4.241 times 6.4: which precision rule controls the result?",
+      "back": "Multiplication → significant FIGURES. 6.4 has 2 significant figures; 27.1424 becomes 27."
+    },
+    {
+      "front": "Which has three significant figures: 0.00450 or 0.0045?",
+      "back": "0.00450 has 3 significant figures (4, 5, trailing 0); 0.0045 has 2."
+    },
+    {
+      "front": "For measured 12.11 plus 0.3, how many decimal places?",
+      "back": "One decimal place. The exact sum is 12.41, reported as 12.4."
+    },
+    {
+      "front": "For measured 3.14 times 2.0, how many significant figures?",
+      "back": "Two significant figures. The product is 6.28, reported as 6.3."
+    },
+    {
+      "front": "What happens when the input numbers are exact counts?",
+      "back": "Exact counts do not restrict significant figures; measured values still determine the reported precision."
+    },
+    {
+      "front": "Why is rounding to a fixed number of digits always wrong?",
+      "back": "Different operations need different precision rules: +/− use decimal places; ×/÷ use significant figures."
+    },
+    {
+      "front": "What does the symbol g mean, and what value should you learn?",
+      "back": "g = downward gravitational acceleration ≈ 9.8 m/s² near Earth’s surface. It is an approximation."
+    },
+    {
+      "front": "When would you NOT use 9.8 m/s² for g?",
+      "back": "When the problem supplies a different g or the near-Earth surface approximation is not appropriate."
+    },
+    {
+      "front": "What is the exact definition of 1 newton (N)?",
+      "back": "1 N = 1 kg·m/s². Force has units of mass × acceleration."
+    },
+    {
+      "front": "What is the exact definition of 1 ohm (Ω)?",
+      "back": "1 Ω = 1 V/A: one volt of potential difference per ampere of current."
+    },
+    {
+      "front": "What is the exact length of 1 mile in feet?",
+      "back": "1 mile = 5,280 feet (exact)."
+    },
+    {
+      "front": "What is the exact length of 1 mile in meters?",
+      "back": "1 international mile = 1,609.344 meters (exact)."
+    },
+    {
+      "front": "What is the exact conversion from hours to minutes?",
+      "back": "1 hour = 60 minutes (exact)."
+    },
+    {
+      "front": "What is the exact conversion from minutes to seconds?",
+      "back": "1 minute = 60 seconds (exact)."
+    },
+    {
+      "front": "What is the exact conversion from kilograms to grams?",
+      "back": "1 kilogram = 1,000 grams (exact)."
+    },
+    {
+      "front": "What is the exact conversion from grams to milligrams?",
+      "back": "1 gram = 1,000 milligrams (exact)."
+    },
+    {
+      "front": "What is 1 cubic meter in liters?",
+      "back": "1 m³ = 1,000 L (exact)."
+    },
+    {
+      "front": "What is 1 meter squared in square centimeters?",
+      "back": "1 m² = 10,000 cm²; square the 100-to-1 linear conversion."
+    },
+    {
+      "front": "What is 1 meter cubed in cubic centimeters?",
+      "back": "1 m³ = 1,000,000 cm³; cube the 100-to-1 linear conversion."
+    },
+    {
+      "front": "In the guide, how many grams equal one carat?",
+      "back": "1 carat = 0.2 grams (exact metric carat definition)."
+    },
+    {
+      "front": "What value may estimate sound speed in air near 20°C?",
+      "back": "About 343 m/s at 20°C. It depends on air conditions; it is NOT a universal constant."
+    },
+    {
+      "front": "What distinguishes a derived unit from a variable?",
+      "back": "A unit specifies a measurement (N, m/s²); a variable names a quantity (F for force, a for acceleration)."
+    },
+    {
+      "front": "A worksheet says “convert mi/h to m/s.” What method should you choose?",
+      "back": "Dimensional analysis. Multiply by length and time conversion factors, orienting each so unwanted units cancel."
+    },
+    {
+      "front": "A worksheet says “convert m² to cm².” What must be squared?",
+      "back": "Square the full length conversion: (100 cm / 1 m)²."
+    },
+    {
+      "front": "A worksheet says “convert inches cubed to centimeters cubed.” What method?",
+      "back": "Cube the linear factor: (2.54 cm / 1 in)³."
+    },
+    {
+      "front": "A worksheet says “convert g/cm³ to kg/m³.” What method?",
+      "back": "Change mass numerator and cubic-length denominator separately; use 1 kg = 1,000 g and 1 m = 100 cm."
+    },
+    {
+      "front": "A worksheet asks for distance per time. Which relationship?",
+      "back": "Average speed = total distance ÷ elapsed time; d is distance and t is elapsed time."
+    },
+    {
+      "front": "An echo returns from a cliff. Which distance belongs in the time formula?",
+      "back": "The round-trip distance: 2 × the one-way distance. Time = total distance ÷ sound speed."
+    },
+    {
+      "front": "What must you do when changing m/s² to km/h²?",
+      "back": "Convert length from meters to kilometers AND square the seconds-to-hours conversion factor."
+    },
+    {
+      "front": "A worksheet asks for density. What equation applies?",
+      "back": "ρ = m/V; ρ is density, m is mass, V is volume. Use mass/volume units such as kg/m³."
+    },
+    {
+      "front": "A hiker walks east, then north. Need straight-line displacement. Which formula?",
+      "back": "R = √(x²+y²) if x and y are perpendicular components; R is displacement magnitude."
+    },
+    {
+      "front": "Two perpendicular components are known; direction is requested. Which formula?",
+      "back": "θ = tan⁻¹(y/x), check the quadrant (or use atan2). θ is the direction angle."
+    },
+    {
+      "front": "An angled vector’s size and angle from horizontal are given. Find horizontal part?",
+      "back": "x = R cos θ; R is magnitude, θ is angle from +x, x is the horizontal component."
+    },
+    {
+      "front": "An angled vector’s size and angle from horizontal are given. Find vertical part?",
+      "back": "y = R sin θ; R is magnitude, θ is angle from +x, y is the vertical component."
+    },
+    {
+      "front": "A right triangle gives rise and hypotenuse. Which inverse trig finds an angle?",
+      "back": "θ = sin⁻¹(opposite/hypotenuse), using degree mode if the angle is in degrees."
+    },
+    {
+      "front": "A right triangle gives run and hypotenuse. Which inverse trig finds an angle?",
+      "back": "θ = cos⁻¹(adjacent/hypotenuse), using degree mode."
+    },
+    {
+      "front": "Two vectors are not at right angles. How do you add them?",
+      "back": "Find each vector’s signed x/y components, add x values and y values, then calculate resultant magnitude and angle."
+    },
+    {
+      "front": "In a vector diagram, is west positive or negative x?",
+      "back": "Usually west is negative x and east positive x, if that coordinate convention is chosen."
+    },
+    {
+      "front": "Known initial speed, acceleration, and time; asked final speed. Which formula?",
+      "back": "v_f = v_i + at. v_f/v_i: velocities (m/s); a: constant acceleration (m/s²); t: time (s)."
+    },
+    {
+      "front": "Known initial velocity, time and acceleration; asked displacement. Which formula?",
+      "back": "Δx = v_i t + ½at². Δx: displacement (m); v_i: initial velocity (m/s); a: constant acceleration (m/s²)."
+    },
+    {
+      "front": "Initial/final speeds and displacement are involved, but time is absent. Which formula?",
+      "back": "v_f² = v_i² + 2aΔx. v: velocity (m/s), a: constant acceleration (m/s²), Δx: displacement (m)."
+    },
+    {
+      "front": "A ball is dropped from rest through height h. Which time formula?",
+      "back": "t = √(2h/g): h = falling distance (m), g ≈ 9.8 m/s² downward; only for constant g and negligible drag."
+    },
+    {
+      "front": "A projectile is launched horizontally. How do you find horizontal distance?",
+      "back": "Δx = v₀x t; v₀x is horizontal velocity (m/s), t is elapsed time (s); assume no drag."
+    },
+    {
+      "front": "An angled projectile is launched and time t is known. Which vertical position formula?",
+      "back": "Δy = v₀y t − ½gt². Δy: vertical displacement; v₀y: initial vertical speed; g: gravity, up is positive."
+    },
+    {
+      "front": "Need vertical speed of a projectile at a certain time. Which formula?",
+      "back": "v_y = v₀y − gt. v_y: vertical velocity (m/s); v₀y: initial vertical velocity; g: gravity."
+    },
+    {
+      "front": "Need horizontal and vertical launch speed from total speed and angle. Which formulas?",
+      "back": "v₀x = v₀ cosθ; v₀y = v₀ sinθ. v₀ is launch speed, θ angle from horizontal."
+    },
+    {
+      "front": "A projectile lands at the same height it launched. Find total flight time?",
+      "back": "t = 2v₀y/g. v₀y is initial vertical velocity (m/s), g downward acceleration; equal heights and no drag."
+    },
+    {
+      "front": "A projectile lands at a different height from launch. Can 2v₀y/g be used?",
+      "back": "No. Solve Δy = v₀y t − ½gt² using the actual height change."
+    },
+    {
+      "front": "Does zero vertical speed at the top of a flight mean zero acceleration?",
+      "back": "No. At the top, vertical velocity is momentarily zero but acceleration remains g downward."
+    },
+    {
+      "front": "A projectile has v_x and v_y at impact. How do you find total speed?",
+      "back": "|v| = √(v_x²+v_y²), because horizontal and vertical velocity components are perpendicular."
+    },
+    {
+      "front": "A problem provides net force and mass; asks acceleration. Which equation?",
+      "back": "a = ΣF/m from Newton’s 2nd law. ΣF: net force (N); m: mass (kg); a: acceleration (m/s²)."
+    },
+    {
+      "front": "A problem provides mass and acceleration; asks net force. Which equation?",
+      "back": "ΣF = ma. ΣF: net force (N); m: mass (kg); a: acceleration (m/s²)."
+    },
+    {
+      "front": "A problem gives mass and g; asks weight. Which formula?",
+      "back": "W = mg. W: weight (N), m: mass (kg), g: gravitational acceleration (m/s²)."
+    },
+    {
+      "front": "A box rests on a level floor with no vertical acceleration. What is N?",
+      "back": "N = mg if only weight and floor normal force act vertically. N is normal force (newtons)."
+    },
+    {
+      "front": "A box slides across a surface and μₖ and N are given. Find friction?",
+      "back": "fₖ = μₖN; fₖ is kinetic friction (N), μₖ unitless friction coefficient, N normal force (N)."
+    },
+    {
+      "front": "An object slides down a frictionless inclined plane. Find acceleration?",
+      "back": "a = g sinθ down the ramp, assuming no other parallel force. θ is slope angle; g is gravitational acceleration."
+    },
+    {
+      "front": "For a ramp with angle θ, which gravity component pulls down the ramp?",
+      "back": "F_parallel = mg sinθ; m mass (kg), g gravity (m/s²), θ ramp angle."
+    },
+    {
+      "front": "For a simple ramp, which gravity component pushes into the ramp?",
+      "back": "F_perp = mg cosθ; normal force N equals this only if no other perpendicular forces/acceleration."
+    },
+    {
+      "front": "A pull force F makes angle θ above horizontal. Which components?",
+      "back": "Fₓ = F cosθ (horizontal); Fᵧ = F sinθ (upward), for θ measured above horizontal."
+    },
+    {
+      "front": "A pull points upward at an angle on a level floor. How is N found?",
+      "back": "N = mg − F sinθ if vertical acceleration is zero and only weight, normal and upward pull act vertically."
+    },
+    {
+      "front": "A push points downward at an angle on a level floor. How is N found?",
+      "back": "N = mg + F sinθ if vertical acceleration is zero and only weight, normal and downward push act vertically."
+    },
+    {
+      "front": "Two hanging masses over an ideal pulley move together. Find acceleration?",
+      "back": "a = (m_heavy − m_light)g/(m_heavy + m_light); ideal rope and pulley, negligible friction."
+    },
+    {
+      "front": "A pulley problem asks how far a mass falls after t seconds. What sequence?",
+      "back": "First find a with ΣF = ma for the system, then use Δx = v_i t + ½at² if a is constant."
+    },
+    {
+      "front": "An elevator accelerates upward. Find scale reading N. Which equation?",
+      "back": "N = m(g+a), with upward-positive acceleration a. N is apparent weight in newtons."
+    },
+    {
+      "front": "An elevator accelerates downward. Find scale reading N. Which equation?",
+      "back": "N = m(g−a_down) if a_down is the positive magnitude of downward acceleration."
+    },
+    {
+      "front": "An elevator moves at constant speed. How does scale reading compare to mg?",
+      "back": "N = mg when acceleration is zero and the only vertical forces are normal and gravity."
+    },
+    {
+      "front": "A box is at rest. What must net force and acceleration be?",
+      "back": "ΣF = 0 N and a = 0 m/s². All force components balance."
+    },
+    {
+      "front": "An electrical problem gives V and R, asks current. Which equation?",
+      "back": "I = V/R (Ohm’s law); I: current (A), V: voltage (V), R: resistance (Ω), for an ohmic element."
+    },
+    {
+      "front": "An electrical problem gives I and R, asks voltage. Which equation?",
+      "back": "V = IR; V: voltage (V), I: current (A), R: resistance (Ω), for an ohmic element."
+    },
+    {
+      "front": "An electrical problem gives V and I, asks resistance. Which equation?",
+      "back": "R = V/I, I ≠ 0; V voltage (V), I current (A), R resistance (Ω), for an ohmic element."
+    },
+    {
+      "front": "A circuit provides voltage and current; asks electrical power. Which formula?",
+      "back": "P = IV; P: power (W), I: current (A), V: potential difference (V)."
+    },
+    {
+      "front": "A circuit gives current and resistance; asks power. Which formula?",
+      "back": "P = I²R; P: power (W), I: current (A), R: resistance (Ω), for an ohmic resistor."
+    },
+    {
+      "front": "A circuit gives voltage and resistance; asks power. Which formula?",
+      "back": "P = V²/R; P: power (W), V: voltage (V), R: resistance (Ω), for an ohmic resistor."
+    },
+    {
+      "front": "One continuous path through resistors: series or parallel?",
+      "back": "Series. Current I is the same through each resistor; resistances add."
+    },
+    {
+      "front": "Multiple resistor branches share the same two endpoints: series or parallel?",
+      "back": "Parallel. Voltage V is the same across every branch; branch currents add."
+    },
+    {
+      "front": "Find equivalent resistance of series resistors. Which formula?",
+      "back": "R_eq = R₁+R₂+...; sum all resistor values in ohms (Ω)."
+    },
+    {
+      "front": "Find equivalent resistance of parallel resistors. Which formula?",
+      "back": "1/R_eq = 1/R₁+1/R₂+...; R values are in ohms (Ω)."
+    },
+    {
+      "front": "Only two resistors are in parallel. What shortcut can find R_eq?",
+      "back": "R_eq = (R₁R₂)/(R₁+R₂); both resistances R₁ and R₂ are in ohms."
+    },
+    {
+      "front": "A combination circuit has a small series pair inside a larger network. First step?",
+      "back": "Reduce the clearly series/parallel subgroup, redraw the simplified circuit, and repeat."
+    },
+    {
+      "front": "At a circuit junction, which law checks the currents?",
+      "back": "Current entering = current leaving (Kirchhoff current rule)."
+    },
+    {
+      "front": "Around a closed circuit loop, which law checks voltages?",
+      "back": "The signed voltage changes sum to zero (Kirchhoff voltage rule)."
+    },
+    {
+      "front": "A 12 V battery feeds three resistors in series. What is fixed across them?",
+      "back": "The current is identical through all three; their individual voltage drops add to 12 V."
+    },
+    {
+      "front": "A 12 V source feeds two parallel branches. What is fixed across both?",
+      "back": "Each branch has 12 V across it if both connect to the same two ideal source nodes."
     }
   ]
 }
