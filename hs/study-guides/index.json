@@ -1,0 +1,21 @@
+{
+  "guides": [
+    {
+      "id": "physics-midterm",
+      "title": "Physics Midterm — Beginner Study Course",
+      "subject": "Physics",
+      "description": "Complete self-teaching guide, six units, 83 original practice questions, and worked solutions.",
+      "html": "physics-midterm.html",
+      "pdf": "physics-midterm.pdf",
+      "deck": "physics-midterm-concepts.json",
+      "topics": [
+        "Significant Figures",
+        "Dimensional Analysis",
+        "Vectors",
+        "Kinematics",
+        "Forces",
+        "Circuits"
+      ]
+    }
+  ]
+}

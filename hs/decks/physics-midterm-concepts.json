@@ -1,0 +1,459 @@
+{
+  "title": "Physics Midterm — Concepts, Formulas & Problem Recognition",
+  "subject": "Physics",
+  "description": "Source-linked high-school physics cards covering the six units in the midterm guide.",
+  "cards": [
+    {
+      "front": "What should you identify before choosing a physics formula?",
+      "back": "The unknown quantity, its symbol, and the required units."
+    },
+    {
+      "front": "What comes immediately after identifying the unknown?",
+      "back": "Classify the physics topic and specific problem type."
+    },
+    {
+      "front": "Why draw a diagram before calculating?",
+      "back": "To identify directions, known values, forces, angles, and assumptions."
+    },
+    {
+      "front": "What are \"givens\" in a physics problem?",
+      "back": "Specific numbers and conditions supplied by that problem."
+    },
+    {
+      "front": "What is a variable?",
+      "back": "A symbol for a quantity whose value can differ between problems."
+    },
+    {
+      "front": "What should accompany every variable when first used?",
+      "back": "Its physical meaning and units."
+    },
+    {
+      "front": "What is an equation assumption?",
+      "back": "A condition required for an equation to apply correctly."
+    },
+    {
+      "front": "When should you insert numbers into an equation?",
+      "back": "After choosing and rearranging the equation for the unknown."
+    },
+    {
+      "front": "Why preserve units during a calculation?",
+      "back": "Units help reveal mistakes and verify the form of the answer."
+    },
+    {
+      "front": "Why delay rounding until the final answer?",
+      "back": "Early rounding can introduce avoidable numerical error."
+    },
+    {
+      "front": "What is a physical plausibility check?",
+      "back": "Check the answer’s units, sign, direction, and reasonable size."
+    },
+    {
+      "front": "What makes a standard approximation different from an exact definition?",
+      "back": "Its value depends on conditions; exact definitions do not."
+    },
+    {
+      "front": "What is a common near-Earth approximation for g?",
+      "back": "9.8 m/s² downward, near Earth’s surface."
+    },
+    {
+      "front": "Is g = 9.8 m/s² an exact universal constant?",
+      "back": "No. It is a near-Earth approximation; use a stated problem value if given."
+    },
+    {
+      "front": "What exact SI unit relation defines a newton?",
+      "back": "1 N = 1 kg·m/s²."
+    },
+    {
+      "front": "For measured addition or subtraction, how should you round?",
+      "back": "To the fewest decimal places among the measured inputs."
+    },
+    {
+      "front": "For measured multiplication or division, how should you round?",
+      "back": "To the fewest significant figures among measured inputs."
+    },
+    {
+      "front": "Do leading zeros count as significant figures?",
+      "back": "No. They only position the decimal point."
+    },
+    {
+      "front": "Do zeros between nonzero digits count as significant?",
+      "back": "Yes. These are called captive zeros."
+    },
+    {
+      "front": "Do trailing zeros after a decimal point count as significant?",
+      "back": "Yes. They communicate measurement precision."
+    },
+    {
+      "front": "Why can a whole number ending in zeros be ambiguous?",
+      "back": "Without notation, it may not show which trailing zeros were measured."
+    },
+    {
+      "front": "How can scientific notation clarify significant figures?",
+      "back": "It explicitly displays the measured digits in the coefficient."
+    },
+    {
+      "front": "Do exact counts limit significant-figure precision?",
+      "back": "No. Exact counts and exact unit definitions do not limit precision."
+    },
+    {
+      "front": "Does a long calculator result prove the measurement is precise?",
+      "back": "No. The measured inputs determine reported precision."
+    },
+    {
+      "front": "What rule applies when a calculation mixes operations?",
+      "back": "Follow operation order, keep guard digits, then round at the end."
+    },
+    {
+      "front": "What is the purpose of dimensional analysis?",
+      "back": "Change units systematically by multiplying by equivalent ratios."
+    },
+    {
+      "front": "What is a conversion factor?",
+      "back": "A ratio of equivalent quantities that equals 1."
+    },
+    {
+      "front": "Where should the unwanted unit appear in a conversion fraction?",
+      "back": "Opposite its position in the original quantity, so it cancels."
+    },
+    {
+      "front": "What exact relation connects kilometers and meters?",
+      "back": "1 km = 1,000 m."
+    },
+    {
+      "front": "What exact relation connects meters and centimeters?",
+      "back": "1 m = 100 cm."
+    },
+    {
+      "front": "What exact relation connects hours and seconds?",
+      "back": "1 h = 3,600 s."
+    },
+    {
+      "front": "What exact relation connects inches and centimeters?",
+      "back": "1 in = 2.54 cm."
+    },
+    {
+      "front": "What exact relation connects liters and cubic centimeters?",
+      "back": "1 L = 1,000 cm³."
+    },
+    {
+      "front": "What exact relation connects feet and inches?",
+      "back": "1 ft = 12 in."
+    },
+    {
+      "front": "How do you convert an area unit?",
+      "back": "Square the entire length conversion factor."
+    },
+    {
+      "front": "How do you convert a volume unit?",
+      "back": "Cube the entire length conversion factor."
+    },
+    {
+      "front": "Why is 1 m² equal to 10,000 cm²?",
+      "back": "Because (100 cm / 1 m)² = 10,000 cm²/m²."
+    },
+    {
+      "front": "What is the formula for average speed?",
+      "back": "Speed = total distance traveled ÷ elapsed time."
+    },
+    {
+      "front": "What is the definition of density?",
+      "back": "Mass divided by volume, often expressed in kg/m³ or g/cm³."
+    },
+    {
+      "front": "When converting acceleration to another time unit, what must change?",
+      "back": "The squared time conversion as well as the distance unit."
+    },
+    {
+      "front": "For an echo problem, why double the distance to a cliff?",
+      "back": "Sound travels to the cliff and returns before it is heard."
+    },
+    {
+      "front": "Is sound speed in air a fixed universal number?",
+      "back": "No. It varies with conditions, notably temperature."
+    },
+    {
+      "front": "About how fast is sound in air at 20°C?",
+      "back": "About 343 m/s; this is a temperature-dependent approximation."
+    },
+    {
+      "front": "What distinguishes a vector from a scalar?",
+      "back": "A vector has magnitude and direction; a scalar has magnitude only."
+    },
+    {
+      "front": "What is displacement?",
+      "back": "The directed change from starting position to final position."
+    },
+    {
+      "front": "Is total distance traveled always equal to displacement magnitude?",
+      "back": "No. A changing path may be longer than the straight-line displacement."
+    },
+    {
+      "front": "How can perpendicular vector components be combined?",
+      "back": "Magnitude R = √(x² + y²), for perpendicular x and y."
+    },
+    {
+      "front": "What does θ represent in a vector calculation?",
+      "back": "An angle measured from a specified reference axis, usually in degrees."
+    },
+    {
+      "front": "When an angle is measured from the +x axis, what is x?",
+      "back": "x = R cos θ, with direction determining the sign."
+    },
+    {
+      "front": "When an angle is measured from the +x axis, what is y?",
+      "back": "y = R sin θ, with direction determining the sign."
+    },
+    {
+      "front": "What does SOH mean?",
+      "back": "sin θ = opposite ÷ hypotenuse."
+    },
+    {
+      "front": "What does CAH mean?",
+      "back": "cos θ = adjacent ÷ hypotenuse."
+    },
+    {
+      "front": "What does TOA mean?",
+      "back": "tan θ = opposite ÷ adjacent."
+    },
+    {
+      "front": "What is the hypotenuse of a right triangle?",
+      "back": "The side opposite the 90° angle; the triangle’s longest side."
+    },
+    {
+      "front": "What does inverse tangent calculate?",
+      "back": "An angle from a known opposite-to-adjacent side ratio."
+    },
+    {
+      "front": "What calculator setting is used for angles in this course?",
+      "back": "Degrees (DEG), not radians."
+    },
+    {
+      "front": "Why check the quadrant when finding a vector direction?",
+      "back": "The signs of x and y determine the correct direction."
+    },
+    {
+      "front": "How should you add two angled vectors?",
+      "back": "Resolve each into x and y components, add like components, then find result."
+    },
+    {
+      "front": "When should the Pythagorean theorem NOT be used directly?",
+      "back": "When components are not perpendicular."
+    },
+    {
+      "front": "What does kinematics describe?",
+      "back": "Motion, such as displacement, velocity, acceleration, and time."
+    },
+    {
+      "front": "What unit is used for velocity?",
+      "back": "Meters per second (m/s) in SI."
+    },
+    {
+      "front": "What unit is used for acceleration?",
+      "back": "Meters per second squared (m/s²) in SI."
+    },
+    {
+      "front": "What does acceleration mean?",
+      "back": "Rate of change of velocity with respect to time."
+    },
+    {
+      "front": "Under constant acceleration, how is final velocity calculated?",
+      "back": "v_f = v_i + a t."
+    },
+    {
+      "front": "Under constant acceleration, how is displacement calculated from time?",
+      "back": "Δx = v_i t + ½ a t²."
+    },
+    {
+      "front": "Which constant-acceleration equation omits time?",
+      "back": "v_f² = v_i² + 2 a Δx."
+    },
+    {
+      "front": "When do constant-acceleration equations apply?",
+      "back": "When acceleration is constant over the interval."
+    },
+    {
+      "front": "In ideal projectile motion, what happens to horizontal velocity?",
+      "back": "It stays constant when air resistance is neglected."
+    },
+    {
+      "front": "In ideal projectile motion, what changes vertical velocity?",
+      "back": "Gravity, approximated as 9.8 m/s² downward near Earth."
+    },
+    {
+      "front": "How is horizontal launch velocity split into components?",
+      "back": "v₀x = v₀ cos θ and v₀y = v₀ sin θ, for angle from horizontal."
+    },
+    {
+      "front": "With upward positive, what is vertical displacement of a projectile?",
+      "back": "Δy = v₀y t − ½ g t²; ignore drag."
+    },
+    {
+      "front": "With upward positive, what is vertical projectile velocity?",
+      "back": "v_y = v₀y − g t; ignore drag."
+    },
+    {
+      "front": "At the highest point of a projectile, what is its vertical velocity?",
+      "back": "Momentarily zero, although gravity still accelerates it downward."
+    },
+    {
+      "front": "When does t_flight = 2 v₀y/g apply?",
+      "back": "Only if launch and landing heights are equal, without air drag."
+    },
+    {
+      "front": "What is the free-fall time from rest through height h?",
+      "back": "t = √(2h/g), assuming constant downward g and no drag."
+    },
+    {
+      "front": "How can the speed from perpendicular velocity parts be found?",
+      "back": "|v| = √(v_x² + v_y²)."
+    },
+    {
+      "front": "What is the difference between speed and velocity?",
+      "back": "Speed is scalar; velocity includes direction."
+    },
+    {
+      "front": "What does Newton’s second law state?",
+      "back": "Net force ΣF = m a, using consistent units."
+    },
+    {
+      "front": "What is net force?",
+      "back": "The vector sum of all real forces on an object."
+    },
+    {
+      "front": "When is net force zero?",
+      "back": "When acceleration is zero: at rest or moving at constant velocity."
+    },
+    {
+      "front": "What is weight near Earth?",
+      "back": "Weight = m g, a downward force in newtons."
+    },
+    {
+      "front": "Is mass the same physical quantity as weight?",
+      "back": "No. Mass is measured in kg; weight is gravitational force in N."
+    },
+    {
+      "front": "What is normal force?",
+      "back": "A surface’s perpendicular contact force on an object."
+    },
+    {
+      "front": "Can normal force differ from mg?",
+      "back": "Yes, on slopes or when additional vertical forces or acceleration exist."
+    },
+    {
+      "front": "What is kinetic friction for a sliding object?",
+      "back": "f_k = μ_k N, where μ_k is unitless and N is the normal force."
+    },
+    {
+      "front": "In which direction does kinetic friction act?",
+      "back": "Opposite the relative sliding motion along the surface."
+    },
+    {
+      "front": "For a simple ramp, what is gravity’s component down the slope?",
+      "back": "m g sin θ, parallel to the ramp."
+    },
+    {
+      "front": "For a simple ramp, what is gravity’s component into the slope?",
+      "back": "m g cos θ, perpendicular to the ramp."
+    },
+    {
+      "front": "When does a ramp have N = mg cos θ?",
+      "back": "When no other perpendicular forces act and normal acceleration is zero."
+    },
+    {
+      "front": "If an applied force points θ above horizontal, what is F_x?",
+      "back": "F_x = F cos θ."
+    },
+    {
+      "front": "If an applied force points θ above horizontal, what is F_y?",
+      "back": "F_y = F sin θ."
+    },
+    {
+      "front": "How do you begin a free-body diagram?",
+      "back": "Isolate one object and draw only actual external forces on it."
+    },
+    {
+      "front": "What does rope tension represent?",
+      "back": "The rope’s pulling force, measured in newtons."
+    },
+    {
+      "front": "What are ideal Atwood-machine assumptions?",
+      "back": "Massless rope and pulley, negligible friction, consistent acceleration."
+    },
+    {
+      "front": "How is ideal Atwood acceleration found?",
+      "back": "a = (m_heavy − m_light)g/(m_heavy + m_light)."
+    },
+    {
+      "front": "In an elevator moving upward with acceleration, how is N related to mg?",
+      "back": "N − mg = ma with upward chosen positive."
+    },
+    {
+      "front": "What does a bathroom scale measure in an elevator?",
+      "back": "Normal force (apparent weight), not mass directly."
+    },
+    {
+      "front": "What does voltage measure?",
+      "back": "Electric potential difference, measured in volts (V)."
+    },
+    {
+      "front": "What does current measure?",
+      "back": "Rate of electric charge flow, measured in amperes (A)."
+    },
+    {
+      "front": "What does resistance measure?",
+      "back": "Opposition to current, measured in ohms (Ω)."
+    },
+    {
+      "front": "What does electrical power measure?",
+      "back": "Rate of energy transfer, measured in watts (W)."
+    },
+    {
+      "front": "What does Ohm’s law state?",
+      "back": "V = IR for an ohmic component under applicable conditions."
+    },
+    {
+      "front": "How can current be calculated from voltage and resistance?",
+      "back": "I = V/R."
+    },
+    {
+      "front": "How can resistance be calculated from voltage and current?",
+      "back": "R = V/I, for nonzero current."
+    },
+    {
+      "front": "How is electrical power calculated from voltage and current?",
+      "back": "P = IV."
+    },
+    {
+      "front": "How does current behave in a series circuit?",
+      "back": "The same current flows through each component."
+    },
+    {
+      "front": "How does voltage behave in parallel branches?",
+      "back": "Each branch across the same two nodes has the same voltage."
+    },
+    {
+      "front": "What is total resistance in series?",
+      "back": "R_eq = R₁ + R₂ + … ."
+    },
+    {
+      "front": "How is equivalent parallel resistance calculated?",
+      "back": "1/R_eq = 1/R₁ + 1/R₂ + … ."
+    },
+    {
+      "front": "How should a series-parallel combination be simplified?",
+      "back": "Combine obvious series or parallel groups step by step."
+    },
+    {
+      "front": "What is the voltage-sum check in a simple closed circuit loop?",
+      "back": "The sum of voltage drops equals the applied source voltage."
+    },
+    {
+      "front": "What is the current-sum check at a junction?",
+      "back": "Total current entering equals total current leaving."
+    },
+    {
+      "front": "Why is parallel equivalent resistance below the smallest branch resistance?",
+      "back": "Adding branches creates more current paths for the same voltage."
+    }
+  ]
+}

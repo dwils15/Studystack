@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StudyStackHS — High School Learning Center</title>
+<style>
+  :root{font:16px system-ui,-apple-system,Segoe UI,sans-serif;color:#eaf0ff;background:#101b36}
+  body{margin:0;min-height:100vh;display:grid;place-items:center}
+  main{padding:24px;width:min(600px,94vw);box-sizing:border-box}
+  h1{font-size:clamp(27px,5vw,40px)}
+  p{line-height:1.5;color:#b9cee8}
+  .error{padding:18px;border-radius:12px;background:#312033;border:1px solid #a85b73}
+</style>
+</head>
+<body>
+<main id="launch"><h1>🎓 StudyStackHS</h1><p>Opening the High School Learning Center…</p></main>
+<script>
+(async function startStudyStackHS(){
+  try{
+    // Reuses the existing StudyStack application directly from this same repository.
+    // The app remains on /hs/, so its relative deck URLs only read hs/decks/.
+    const [appRes,extRes] = await Promise.all([
+      fetch('../index.html',{cache:'no-store'}),
+      fetch('studystack-hs-extension.js',{cache:'no-store'})
+    ]);
+    if(!appRes.ok)throw Error('The main StudyStack index.html was not found one folder above /hs/.');
+    if(!extRes.ok)throw Error('The StudyStackHS extension file is missing.');
+    let html=await appRes.text(),extension=await extRes.text();
+    function swapOnce(before,after,label){
+      if(!html.includes(before))throw Error('The main StudyStack app was changed and needs an HS compatibility update: '+label);
+      html=html.replace(before,after);
+    }
+    // Isolate all study progress from the elementary version.
+    swapOnce("const KEY='studystack-v1'", "const KEY='studystackhs-v1'", 'storage key');
+    html=html.replaceAll("'studystack-shared-imported'", "'studystackhs-shared-imported'");
+    // Change the presentation, not the underlying application engine.
+    html=html.replaceAll('StudyStack','StudyStackHS');
+    swapOnce('📚 Study<span>Stack</span>', '🎓 Study<span>StackHS</span>', 'title/logo');
+    swapOnce("const SUBJECTS=['English Reading','Religion','Math','Social Studies','Spelling'];",
+      "const SUBJECTS=['Physics','Chemistry','Biology','Math','English','History','Religion','Other'];",
+      'high school subjects');
+    const subjectStart=html.indexOf('function subjectForEntry(entry){');
+    const subjectEnd=html.indexOf('function subjectForDeck(d){',subjectStart);
+    if(subjectStart<0||subjectEnd<0||subjectEnd-subjectStart>1500)throw Error('Subject library structure changed in the main app.');
+    const subjectCode=`function subjectForEntry(entry){
+      const allowed=SUBJECTS;
+      const explicit=String(entry?.subject||'').trim();
+      if(allowed.includes(explicit))return explicit;
+      const text=[entry?.title,entry?.file,entry?.category].map(x=>String(x||'').toLowerCase()).join(' ');
+      if(/physics|kinematic|mechanic|electric circuit|vector/.test(text))return 'Physics';
+      if(/chemistry|chemic|mole|periodic/.test(text))return 'Chemistry';
+      if(/biology|anatomy|genetic|ecology/.test(text))return 'Biology';
+      if(/math|algebra|calculus|geometry|trigonometry|statistics/.test(text))return 'Math';
+      if(/history|government|social studies|civic|geography/.test(text))return 'History';
+      if(/religion|bible|scripture|theology/.test(text))return 'Religion';
+      if(/english|grammar|literature|reading|writing/.test(text))return 'English';
+      return 'Other';
+    }
+    `;
+    html=html.slice(0,subjectStart)+subjectCode+html.slice(subjectEnd);
+    // Add the high-school document library without replacing existing StudyStack features.
+    swapOnce('function home(){',extension+'\nfunction home(){','study guide extension');
+    swapOnce('<button class="home-option" data-act="myDecks">',
+      '<button class="home-option" data-act="hs-guides"><span class="home-icon">📖</span><span><strong>Study Guides</strong><small>Read the full original documents</small></span></button><button class="home-option" data-act="myDecks">',
+      'study guides homepage entry');
+    swapOnce('function act(a){if(a===\'home\')return home();',
+      "function act(a){if(a==='hs-guides')return hsShowGuides();if(a.startsWith('hs-guide:'))return hsOpenGuide(a.slice(9));if(a.startsWith('hs-cards:'))return hsOpenCards(a.slice(9));if(a.startsWith('hs-create:'))return hsCreateCards(a.slice(10));if(a.startsWith('hs-copy:'))return hsCopyCardsPrompt(a.slice(8));if(a.startsWith('hs-blank:'))return hsBlankDeck(a.slice(9));if(a==='home')return home();",
+      'study guide buttons');
+    swapOnce('<button class="btn ghost" id="homeBtn">Home</button>',
+      '<button class="btn ghost" id="homeBtn">Home</button><button class="btn ghost" id="hsGuidesBtn">📖 Study Guides</button>',
+      'study guides navigation');
+    swapOnce("document.getElementById('homeBtn').onclick=home;",
+      "document.getElementById('homeBtn').onclick=home;document.getElementById('hsGuidesBtn').onclick=hsShowGuides;",
+      'study guides header action');
+    swapOnce('</style>',`\n/* StudyStackHS presentation and high school document reader */
+      .hs-reader{overflow:hidden}
+      a.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+      header>.row{max-width:100%}
+      @media(max-width:600px){header>.row{grid-template-columns:repeat(2,minmax(0,1fr))}header>.row .btn{font-size:12px}}
+      </style>`,'high school styling');
+    // Preserve the full existing app, while rendering its adjusted form at the /hs/ URL.
+    document.open();document.write(html);document.close();
+  }catch(error){
+    const box=document.getElementById('launch');
+    if(box)box.innerHTML='<h1>StudyStackHS could not open</h1><div class="error"></div><p>Confirm the original StudyStack index.html is in the repository root and all /hs/ files were uploaded.</p>';
+    const err=document.querySelector('.error');if(err)err.textContent=String(error.message||error);
+  }
+})();
+</script>
+</body>
+</html>
