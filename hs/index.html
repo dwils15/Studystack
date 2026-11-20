@@ -37,6 +37,14 @@
     // Change the presentation, not the underlying application engine.
     html=html.replaceAll('StudyStack','StudyStackHS');
     swapOnce('📚 Study<span>Stack</span>', '🎓 Study<span>StackHS</span>', 'title/logo');
+    // The high-school header is simply StudyStackHS (no elementary feature tagline).
+    html=html.replace(/<title>[^<]*<\/title>/i,'<title>StudyStackHS</title>');
+    html=html.replace(/<span class=[\"']version[\"']>[^<]*<\/span>/i,'');
+    // Keep the imported elementary help text from describing HS as a spelling-bee app.
+    html=html.replace('In Spelling Bee, tap Hear word, type or say your spelling, then flip or check. In Math, enter each digit and use Carry or Borrow when needed.',
+      'Review the assigned material, then practice quick-recall cards or take a quiz.');
+    html=html.replace('Math problems have interactive tens/ones entry in both Study Cards and Quiz.',
+      'Use the study guides, flashcards, and quizzes to prepare for your classes.');
     swapOnce("const SUBJECTS=['English Reading','Religion','Math','Social Studies','Spelling'];",
       "const SUBJECTS=['Physics','Chemistry','Biology','Math','English','History','Religion','Other'];",
       'high school subjects');
@@ -47,18 +55,116 @@
       const allowed=SUBJECTS;
       const explicit=String(entry?.subject||'').trim();
       if(allowed.includes(explicit))return explicit;
-      const text=[entry?.title,entry?.file,entry?.category].map(x=>String(x||'').toLowerCase()).join(' ');
+      const text=[entry?.subject,entry?.title,entry?.file,entry?.category].map(x=>String(x||'').toLowerCase()).join(' ');
       if(/physics|kinematic|mechanic|electric circuit|vector/.test(text))return 'Physics';
       if(/chemistry|chemic|mole|periodic/.test(text))return 'Chemistry';
       if(/biology|anatomy|genetic|ecology/.test(text))return 'Biology';
       if(/math|algebra|calculus|geometry|trigonometry|statistics/.test(text))return 'Math';
-      if(/history|government|social studies|civic|geography/.test(text))return 'History';
+      if(/history|government|social studies|social.stud|civic|geography/.test(text))return 'History';
       if(/religion|bible|scripture|theology/.test(text))return 'Religion';
-      if(/english|grammar|literature|reading|writing/.test(text))return 'English';
+      if(/english|grammar|literature|reading|writing|spelling/.test(text))return 'English';
       return 'Other';
     }
     `;
     html=html.slice(0,subjectStart)+subjectCode+html.slice(subjectEnd);
+    // Two-digit arithmetic visualization is elementary-only. A Physics question
+    // may mention 35.864 minus 7.2, which must not turn the ENTIRE Physics deck
+    // into interactive tens/ones worksheets.
+    swapOnce("isMathDeck=d=>!!d&&d.cards.some(c=>mathParts(c.q))",
+      "isMathDeck=d=>!!d&&d.subject==='Math'&&d.cards.every(c=>/^\\s*\\d{2}\\s*[+\\-−]\\s*\\d{1,2}\\s*(?:=|\\?)?\\s*$/.test(c.q))",
+      'keep Physics formula cards out of elementary math mode');
+    // Automatically discover all published, valid high-school deck JSON files.
+    // GitHub Pages cannot enumerate a directory itself, so use GitHub's public
+    // repository folder API; the existing index.json remains an offline fallback.
+    const catalogStart=html.indexOf('async function fetchCatalog(){');
+    const catalogEnd=html.indexOf('async function showLibrary(){',catalogStart);
+    if(catalogStart<0||catalogEnd<0||catalogEnd-catalogStart>9000)
+      throw Error('The shared deck library structure changed and needs an HS compatibility update.');
+    const catalogCode=String.raw`async function fetchCatalog(){
+      const validFilename=f=>typeof f==='string' && /^[a-zA-Z0-9][a-zA-Z0-9_.-]*\.json$/i.test(f)
+        && f.toLowerCase()!=='index.json' && f.toLowerCase()!=='flashcards-additions.json';
+      const catalogEntries=[];
+      // This repository is publicly hosted by GitHub Pages. Under a standard
+      // github.io URL, derive the owner/repository from the URL automatically.
+      // The fallback also supports a custom domain for this particular project.
+      let owner='dwils15', repo='Studystack';
+      const host=location.hostname.toLowerCase();
+      if(host.endsWith('.github.io')){
+        owner=host.slice(0,-'.github.io'.length);
+        const segment=location.pathname.split('/').filter(Boolean)[0];
+        if(segment)repo=decodeURIComponent(segment);
+      }
+      let discovered=[];
+      let apiAvailable=false;
+      try{
+        const api='https://api.github.com/repos/'+encodeURIComponent(owner)+'/'+encodeURIComponent(repo)+'/contents/hs/decks?ref=main';
+        const response=await fetch(api,{headers:{'Accept':'application/vnd.github+json'},cache:'no-store'});
+        if(!response.ok)throw Error('GitHub API HTTP '+response.status);
+        const files=await response.json();
+        if(!Array.isArray(files))throw Error('GitHub did not return a folder listing.');
+        discovered=files.filter(f=>f.type==='file'&&validFilename(f.name)).map(f=>f.name);
+        apiAvailable=true;
+      }catch(e){console.warn('StudyStackHS: auto-discovery unavailable; using fallback catalog.',e);}
+      // Continue to support older catalog files as a fallback and for any
+      // optional title/subject metadata. No manual entry is needed normally.
+      for(const url of ['decks/index.json','decks/flashcards-additions.json']){
+        try{
+          const r=await fetch(url,{cache:'no-store'});
+          if(!r.ok)continue;
+          const data=await r.json();
+          if(Array.isArray(data.decks))
+            for(const item of data.decks)if(item&&validFilename(item.file))catalogEntries.push(item);
+        }catch(e){console.warn('StudyStackHS: unable to load optional catalog '+url,e);}
+      }
+      const manifestByFile=new Map(catalogEntries.map(e=>[e.file,e]));
+      const names=[...new Set([...discovered,...catalogEntries.map(e=>e.file)])].filter(validFilename).sort();
+      if(!names.length&&!apiAvailable&&!catalogEntries.length)
+        throw Error('Unable to discover decks. Confirm the repository is public and hs/decks/ exists.');
+      const found=[];
+      for(let pos=0;pos<names.length;pos+=8){
+        const batch=await Promise.all(names.slice(pos,pos+8).map(async file=>{
+          try{
+            const response=await fetch('decks/'+encodeURIComponent(file),{cache:'no-store'});
+            if(!response.ok)return null;
+            const raw=await response.json();
+            const cards=Array.isArray(raw)?raw:(raw.cards||raw.flashcards||raw.questions);
+            if(!Array.isArray(cards)||!cards.some(c=>c&&typeof c==='object'&&
+              String(c.front??c.q??c.question??'').trim()&&String(c.back??c.a??c.answer??'').trim()))return null;
+            const manifest=manifestByFile.get(file)||{};
+            return {file,title:String(raw.title||raw.name||manifest.title||file.replace(/\.json$/i,'').replace(/[-_]/g,' ')),
+              subject:String(raw.subject||raw.category||manifest.subject||''),
+              category:String(raw.category||manifest.category||''),
+              description:String(raw.description||manifest.description||'')};
+          }catch(e){console.warn('StudyStackHS: skipped unreadable deck '+file,e);return null;}
+        }));
+        for(const entry of batch)if(entry)found.push(entry);
+      }
+      sharedCatalog=found.sort((a,b)=>a.title.localeCompare(b.title));
+      return sharedCatalog;
+    }
+    `;
+    html=html.slice(0,catalogStart)+catalogCode+html.slice(catalogEnd);
+    html=html.replace('Select a subject to see its available study guides.',
+      'New deck files appear automatically after they are published. Choose a subject to view them.');
+    // Preserve explanations and guide bookmarks through import, refresh, and browser storage.
+    swapOnce("known:false})),created:Date.now()});",
+      "known:false,explanation:String(c.explanation||''),studyGuideFile:String(c.studyGuideFile||''),studyGuideAnchor:String(c.studyGuideAnchor||'')})),created:Date.now()});",
+      'flashcard metadata on deck creation');
+    swapOnce("a:String(c.a??c.back??c.answer??'').trim()})).filter(c=>c.q&&c.a);",
+      "a:String(c.a??c.back??c.answer??'').trim(),explanation:String(c.explanation||'').trim(),studyGuideFile:String(c.studyGuideFile||'').trim(),studyGuideAnchor:String(c.studyGuideAnchor||'').trim()})).filter(c=>c.q&&c.a);",
+      'flashcard metadata on JSON import');
+    swapOnce("q:c.q,a:c.a,known:prior?.known||false}});",
+      "q:c.q,a:c.a,known:prior?.known||false,explanation:c.explanation||'',studyGuideFile:c.studyGuideFile||'',studyGuideAnchor:c.studyGuideAnchor||''}});",
+      'refresh explanations while preserving known status');
+    // Show a compact explanation and an exact source bookmark below the flipped answer,
+    // without putting a clickable external link inside the flip surface.
+    swapOnce('<span class="muted small">Tap to flip ↻</span></div>${learningMode?',
+      '<span class="muted small">Tap to flip ↻</span></div>${flip?hsCardContext(c):''}${learningMode?',
+      'explanation and source link on card backs');
+    swapOnce("</p>`:''}<div class="row">${btn('Know it','qyes','good')}",
+      "</p>`:''}${quizAnswered?hsCardContext(c):''}<div class="row">${btn('Know it','qyes','good')}",
+      'explanation and source link after quiz answers');
+
     // Add the high-school document library without replacing existing StudyStack features.
     swapOnce('function home(){',extension+'\nfunction home(){','study guide extension');
     swapOnce('<button class="home-option" data-act="myDecks">',
@@ -75,6 +181,11 @@
       'study guides header action');
     swapOnce('</style>',`\n/* StudyStackHS presentation and high school document reader */
       .hs-reader{overflow:hidden}
+      .hs-card-context{background:#111f39;border:1px solid #3c597e;border-radius:14px;padding:14px 16px;margin:12px 0 16px;line-height:1.5}
+      .hs-card-context strong{display:block;color:#b9d6ff;margin-bottom:5px}
+      .hs-card-context p{margin:0 0 12px;color:#ecf2ff;font-size:15px}
+      .hs-source-link{display:inline-flex;align-items:center;gap:6px;color:#d8e7ff;font-weight:750;text-decoration:underline;padding:5px 0}
+      .hs-source-link:focus-visible{outline:2px solid #7cbdff;border-radius:5px}
       a.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
       header>.row{max-width:100%}
       @media(max-width:600px){header>.row{grid-template-columns:repeat(2,minmax(0,1fr))}header>.row .btn{font-size:12px}}
