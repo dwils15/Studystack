@@ -1,3 +1,19 @@
+
+/* Explanation panel for flashcard backs and quiz feedback. */
+function hsCardContext(c){
+  if(!c)return '';
+  const explanation=String(c.explanation||'').trim();
+  const file=String(c.studyGuideFile||'').trim();
+  const anchor=String(c.studyGuideAnchor||'').trim();
+  const href=/^[a-zA-Z0-9][a-zA-Z0-9_.-]*\.html$/i.test(file) && /^[a-zA-Z][a-zA-Z0-9-]*$/.test(anchor)
+    ? 'study-guides/'+encodeURIComponent(file)+'#'+encodeURIComponent(anchor) : '';
+  if(!explanation&&!href)return '';
+  return `<aside class="hs-card-context" aria-label="Answer explanation and study guide reference">
+    ${explanation?`<strong>Why this is the answer</strong><p>${esc(explanation)}</p>`:''}
+    ${href?`<a class="hs-source-link" href="${href}" target="_blank" rel="noopener noreferrer">📖 Read this in the study guide ↗</a>`:''}
+  </aside>`;
+}
+
 /* StudyStackHS extension. Injected inside the EXISTING StudyStack IIFE. */
 let hsGuides = [];
 const hsSafeFile = s => typeof s === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9_.-]*$/.test(s);
@@ -50,7 +66,7 @@ async function hsOpenCards(id){
 }
 function hsCreateCardPrompt(id){
   const g=hsGuides.find(x=>x.id===id);
-  return `I am uploading the complete study guide named "${g?.title||'High School Study Guide'}". Read the document carefully, including all topics, tables, equations, definitions, diagrams, and practice questions. Create accurate high-school flashcards that teach the material, not just memorize isolated numerical answers. Before using a variable, define its meaning, units, and applicable assumptions. Distinguish standard values from problem-specific givens. Flag any missing or ambiguous source information instead of guessing. Keep question and answer short and focused on one concept. Return ONLY valid JSON that can be imported into StudyStackHS using this schema: {"title":"My Study Guide Flashcards","subject":"${g?.subject||'Other'}","cards":[{"front":"Question?","back":"Correct answer with required conditions."}]}. Do not use Markdown code fences.`;
+  return `I am uploading the complete study guide named "${g?.title||'High School Study Guide'}". Read the document carefully, including all topics, tables, equations, definitions, diagrams, and practice questions. Create flashcards ONLY about the actual assigned academic material: subject definitions, exact conversions and constants, when to use each formula, and specific worksheet problems with their answers. DO NOT ask meta questions about general study methods such as what a learner should identify before choosing a formula. Before using a variable, define its meaning, units, and applicable assumptions. Distinguish standard values from problem-specific givens. Flag any missing or ambiguous source information instead of guessing. Keep question and answer short and focused on one concept. Return ONLY valid JSON that can be imported into StudyStackHS using this schema: {"title":"My Study Guide Flashcards","subject":"${g?.subject||'Other'}","cards":[{"front":"Question?","back":"Correct answer with required conditions."}]}. Do not use Markdown code fences.`;
 }
 function hsCreateCards(id){
   const g=hsGuides.find(x=>x.id===id);
