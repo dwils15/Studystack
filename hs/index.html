@@ -159,10 +159,10 @@
     // Show a compact explanation and an exact source bookmark below the flipped answer,
     // without putting a clickable external link inside the flip surface.
     swapOnce('<span class="muted small">Tap to flip ↻</span></div>${learningMode?',
-      '<span class="muted small">Tap to flip ↻</span></div>${flip?hsCardContext(c):''}${learningMode?',
+      "<span class=\"muted small\">Tap to flip ↻</span></div>${flip?hsCardContext(c):''}${learningMode?",
       'explanation and source link on card backs');
-    swapOnce("</p>`:''}<div class="row">${btn('Know it','qyes','good')}",
-      "</p>`:''}${quizAnswered?hsCardContext(c):''}<div class="row">${btn('Know it','qyes','good')}",
+    swapOnce("</p>`:''}<div class=\"row\">${btn('Know it','qyes','good')}",
+      "</p>`:''}${quizAnswered?hsCardContext(c):''}<div class=\"row\">${btn('Know it','qyes','good')}",
       'explanation and source link after quiz answers');
 
     // Add the high-school document library without replacing existing StudyStack features.
