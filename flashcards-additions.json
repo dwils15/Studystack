@@ -1,0 +1,22 @@
+{
+  "decks": [
+    {
+      "file": "english-plural-nouns.json",
+      "title": "Plural Nouns: -s, -es, -ies & Irregular",
+      "subject": "English",
+      "category": "Grammar"
+    },
+    {
+      "file": "english-spelling-bee-grade-2-2026-2027.json",
+      "title": "2nd Grade Spelling Bee 2026–2027 (One Bee)",
+      "subject": "English",
+      "category": "Spelling"
+    },
+    {
+      "file": "social-studies-three-branches-government.json",
+      "title": "Three Branches of U.S. Government",
+      "subject": "Social Studies",
+      "category": "U.S. Government"
+    }
+  ]
+}
