@@ -1,12 +1,12 @@
 {
   "decks": [
     {
-      "title": "Physics Midterm — Exam Essentials",
+      "title": "Physics Midterm — Exam Essentials (Clear Answer Types)",
       "subject": "Physics",
       "file": "physics-midterm-exam-essentials.json"
     },
     {
-      "title": "Physics Midterm — Complete Quick Recall",
+      "title": "Physics Midterm — Quick Recall (Clear Answer Types)",
       "subject": "Physics",
       "file": "physics-midterm-concepts.json"
     }
