@@ -9,6 +9,16 @@
       "title": "Physics Midterm — Quick Recall (Clear Answer Types)",
       "subject": "Physics",
       "file": "physics-midterm-concepts.json"
+    },
+    {
+      "title": "Calculus — Limits & Continuity | Exam Essentials",
+      "subject": "Math",
+      "file": "calculus-limits-exam-essentials.json"
+    },
+    {
+      "title": "Calculus — Limits & Continuity | Complete Quick Recall",
+      "subject": "Math",
+      "file": "calculus-limits-quick-recall.json"
     }
   ]
 }

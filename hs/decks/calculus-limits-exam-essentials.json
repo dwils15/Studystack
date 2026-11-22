@@ -1,0 +1,469 @@
+{
+  "title": "Calculus — Limits & Continuity | Exam Essentials",
+  "subject": "Math",
+  "description": "High-priority on-the-go recall cards based on the course’s memorization chart and lessons; precise source links and explanations.",
+  "cards": [
+    {
+      "front": "DEFINITION • What is x in f(x)?",
+      "back": "Input",
+      "explanation": "x is the value supplied to the function rule, and its value can change.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "DEFINITION • What does f(x) represent?",
+      "back": "Output",
+      "explanation": "The expression f(x) is the result produced by applying function f to input x.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "MEANING • What does x → a mean?",
+      "back": "Approaches a",
+      "explanation": "The arrow says that x is getting closer to a, not necessarily equal to it.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "DIRECTION • What side does x → a⁻ indicate?",
+      "back": "Left",
+      "explanation": "The minus superscript means x approaches a from smaller values.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "DIRECTION • What side does x → a⁺ indicate?",
+      "back": "Right",
+      "explanation": "The plus superscript means x approaches a from larger values.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "DEFINITION • What does “lim” stand for?",
+      "back": "Limit",
+      "explanation": "A limit describes the output approached as the input nears a target.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "MEANING • What do ∞ and −∞ describe?",
+      "back": "Unbounded behavior",
+      "explanation": "They represent growth without bound, not ordinary numbers to substitute.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "VALUE • What is π approximately?",
+      "back": "3.14159",
+      "explanation": "Pi is a standard mathematical constant; it also appears in trigonometric expressions.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "VALUE • What is e approximately?",
+      "back": "2.71828",
+      "explanation": "The constant e is the base of the natural logarithm.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-symbols"
+    },
+    {
+      "front": "RESULT • What is a nonzero number divided by zero?",
+      "back": "Undefined",
+      "explanation": "Ordinary division by zero is not defined, so inspect nearby behavior in a limit.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-divzero"
+    },
+    {
+      "front": "TERM • What does the limit form 0/0 indicate?",
+      "back": "Indeterminate",
+      "explanation": "The form 0/0 does not determine the limit; simplify before concluding.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-divzero"
+    },
+    {
+      "front": "IDENTITY • What is a² − b² equal to?",
+      "back": "(a−b)(a+b)",
+      "explanation": "Difference of squares factors into a difference times a sum.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-factoring"
+    },
+    {
+      "front": "METHOD • When 0/0 has polynomial factors, what method fits?",
+      "back": "Factoring",
+      "explanation": "Factor expressions to expose any common multiplicative factor.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-factoring"
+    },
+    {
+      "front": "TERM • What kind of missing point can canceling a factor create?",
+      "back": "Hole",
+      "explanation": "If a shared factor removes a zero denominator and the nearby limit is finite, a hole can remain.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-cancel"
+    },
+    {
+      "front": "METHOD • For a 0/0 limit containing a root difference, use what?",
+      "back": "Conjugate",
+      "explanation": "Multiplying by the conjugate often turns a radical difference into a factorable expression.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-conjugate"
+    },
+    {
+      "front": "DEFINITION • How do you form the conjugate of a−b?",
+      "back": "a+b",
+      "explanation": "The conjugate of two terms with a minus sign uses the same terms with a plus sign.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-conjugate"
+    },
+    {
+      "front": "IDENTITY • What does (a−b)(a+b) equal?",
+      "back": "a²−b²",
+      "explanation": "This identity explains why conjugates can eliminate a root difference.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-conjugate"
+    },
+    {
+      "front": "DEFINITION • What is a limit?",
+      "back": "Approaching output",
+      "explanation": "The limit describes where function outputs head as inputs approach a target.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-limit"
+    },
+    {
+      "front": "RULE • Must f(a) exist for lim as x→a f(x) to exist?",
+      "back": "No",
+      "explanation": "The approaching value can exist even if the function is missing at the target.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-limit"
+    },
+    {
+      "front": "TERM • What does DNE mean in a limit question?",
+      "back": "Does not exist",
+      "explanation": "A two-sided limit is DNE if left and right approaches fail to match, among other cases.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-limit"
+    },
+    {
+      "front": "RULE • When does a finite two-sided limit exist?",
+      "back": "Both sides agree",
+      "explanation": "Left and right must approach the same finite output for a finite two-sided limit.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-two-sided"
+    },
+    {
+      "front": "RESULT • If left and right limits approach different heights?",
+      "back": "DNE",
+      "explanation": "Different one-sided values prevent a single two-sided limit.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-two-sided"
+    },
+    {
+      "front": "METHOD • Polynomial limit at a finite number: first method?",
+      "back": "Direct substitution",
+      "explanation": "Polynomials are continuous for every real input, so the target may be substituted.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-direct"
+    },
+    {
+      "front": "METHOD • 0/0 with a factorable polynomial: method?",
+      "back": "Factor and cancel",
+      "explanation": "Removing shared factors can reveal the nearby expression and its finite limit.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-factor-limits"
+    },
+    {
+      "front": "METHOD • 0/0 with a square-root difference: method?",
+      "back": "Rationalize",
+      "explanation": "Multiplying by the conjugate can expose a factor that cancels.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-root-limits"
+    },
+    {
+      "front": "SIGN • As x→a⁻, what is the sign of x−a?",
+      "back": "Negative",
+      "explanation": "Values just below a make x−a slightly negative.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-approach-signs"
+    },
+    {
+      "front": "SIGN • As x→a⁺, what is the sign of x−a?",
+      "back": "Positive",
+      "explanation": "Values just above a make x−a slightly positive.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-approach-signs"
+    },
+    {
+      "front": "METHOD • Nonzero/0 in a rational limit: inspect what?",
+      "back": "Signs",
+      "explanation": "Use numerator and denominator signs on the relevant side of the target.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-approach-signs"
+    },
+    {
+      "front": "RESULT • Positive divided by tiny positive tends toward?",
+      "back": "+∞",
+      "explanation": "As a positive denominator tends to zero, the positive ratio grows without bound.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-approach-signs"
+    },
+    {
+      "front": "RESULT • Positive divided by tiny negative tends toward?",
+      "back": "−∞",
+      "explanation": "As a negative denominator tends to zero, the positive ratio decreases without bound.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-approach-signs"
+    },
+    {
+      "front": "TERM • A finite approaching value with a missing point is a?",
+      "back": "Removable discontinuity",
+      "explanation": "If the limit is finite, redefining the point may remove the hole.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-holes"
+    },
+    {
+      "front": "TERM • What is an unbounded graph near a vertical line?",
+      "back": "Vertical asymptote",
+      "explanation": "A vertical asymptote describes outputs growing without bound near an x-value.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-holes"
+    },
+    {
+      "front": "SIGN • For real x≠0, what sign is x⁴?",
+      "back": "Positive",
+      "explanation": "A nonzero real number raised to an even power is positive.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-even-powers"
+    },
+    {
+      "front": "METHOD • Rational limit as x→∞: what should you compare?",
+      "back": "Highest powers",
+      "explanation": "The largest exponents in numerator and denominator control leading end behavior.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-degree"
+    },
+    {
+      "front": "RESULT • At infinity, if top degree is smaller than bottom?",
+      "back": "0",
+      "explanation": "The denominator outgrows the numerator in a rational function.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-degree"
+    },
+    {
+      "front": "RESULT • At infinity, if top and bottom degrees match?",
+      "back": "Leading coefficient ratio",
+      "explanation": "The limit is the numerator's leading coefficient divided by the denominator's.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-degree"
+    },
+    {
+      "front": "METHOD • At infinity, if top degree is greater than bottom?",
+      "back": "Check sign and growth",
+      "explanation": "The magnitude generally grows without bound; the direction controls the sign.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-degree"
+    },
+    {
+      "front": "IDENTITY • What is x⁻ⁿ for x≠0?",
+      "back": "1/xⁿ",
+      "explanation": "A negative exponent means the reciprocal of the positive power.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-negative-exponents"
+    },
+    {
+      "front": "RESULT • As x→+∞, what does 1/xⁿ approach for n>0?",
+      "back": "0",
+      "explanation": "The denominator grows without bound, making the reciprocal shrink.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-negative-exponents"
+    },
+    {
+      "front": "DOMAIN • What real x-values allow ln(x)?",
+      "back": "x > 0",
+      "explanation": "The natural logarithm is defined only on positive real inputs.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-logarithms"
+    },
+    {
+      "front": "RESULT • As x→0⁺, ln(x) approaches?",
+      "back": "−∞",
+      "explanation": "The natural logarithm decreases without bound near zero from the right.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-logarithms"
+    },
+    {
+      "front": "RESULT • As x→+∞, ln(x) approaches?",
+      "back": "+∞",
+      "explanation": "The natural logarithm increases without bound, though slowly.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-logarithms"
+    },
+    {
+      "front": "RESULT • As x→0⁺, 4−ln(x) approaches?",
+      "back": "+∞",
+      "explanation": "Subtracting a quantity tending toward negative infinity yields positive infinity.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-logarithms"
+    },
+    {
+      "front": "RESULT • As x→+∞, 4−ln(x) approaches?",
+      "back": "−∞",
+      "explanation": "The logarithm grows without bound, so subtracting it makes the expression decrease.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-logarithms"
+    },
+    {
+      "front": "CONDITION • First continuity requirement at x=a?",
+      "back": "f(a) defined",
+      "explanation": "A function must have a defined value at the point.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-continuity-conditions"
+    },
+    {
+      "front": "CONDITION • Second continuity requirement at x=a?",
+      "back": "Limit exists",
+      "explanation": "The two-sided limit at a must exist.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-continuity-conditions"
+    },
+    {
+      "front": "CONDITION • Third continuity requirement at x=a?",
+      "back": "Limit = f(a)",
+      "explanation": "The approaching output must equal the function's actual value.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-continuity-conditions"
+    },
+    {
+      "front": "TERM • What discontinuity has equal one-sided limits but a missing point?",
+      "back": "Removable",
+      "explanation": "Setting the function value to the common limit can repair a removable hole.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-discontinuities"
+    },
+    {
+      "front": "TERM • What discontinuity has different finite one-sided limits?",
+      "back": "Jump",
+      "explanation": "A jump occurs when approaching heights from two sides disagree.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-discontinuities"
+    },
+    {
+      "front": "TERM • What discontinuity involves unbounded nearby values?",
+      "back": "Infinite discontinuity",
+      "explanation": "A vertical asymptote is the characteristic picture of unbounded behavior.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-discontinuities"
+    },
+    {
+      "front": "TERM • What is a function with different rules for different x ranges?",
+      "back": "Piecewise function",
+      "explanation": "Piecewise functions select formulas according to input intervals.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-piecewise"
+    },
+    {
+      "front": "METHOD • How should you test limits at a piecewise boundary?",
+      "back": "One side at a time",
+      "explanation": "Use each branch on the side where it applies, then compare the limits.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-piecewise"
+    },
+    {
+      "front": "RULE • At a piecewise boundary, how do you determine f(a)?",
+      "back": "Defined branch",
+      "explanation": "The inequality including equality determines the value at that boundary.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-piecewise"
+    },
+    {
+      "front": "RULE • Where are polynomial functions continuous?",
+      "back": "All real numbers",
+      "explanation": "Polynomials have no denominator, radical or log-domain restrictions.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-polynomials"
+    },
+    {
+      "front": "DOMAIN • What must a real square-root radicand satisfy?",
+      "back": "≥ 0",
+      "explanation": "Real square roots require a nonnegative input.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-polynomials"
+    },
+    {
+      "front": "FORMULA • Write sec(x) using cosine.",
+      "back": "1/cos(x)",
+      "explanation": "Secant is the reciprocal of cosine.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-secant"
+    },
+    {
+      "front": "CONDITION • When is sec(x) undefined?",
+      "back": "cos(x)=0",
+      "explanation": "The reciprocal is undefined when cosine is zero.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-secant"
+    },
+    {
+      "front": "FORMULA • Where does cos(x)=0 occur?",
+      "back": "π/2 + kπ",
+      "explanation": "Here k is any integer; these are the excluded inputs for secant.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-secant"
+    },
+    {
+      "front": "VALUE • What is sec(π/3)?",
+      "back": "2",
+      "explanation": "Secant is 1 divided by cosine, so 1/(1/2)=2.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-secant"
+    },
+    {
+      "front": "UNIT • Use degrees or radians for sin(πt)?",
+      "back": "Radians",
+      "explanation": "An argument written with π denotes radians in the guide.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-secant"
+    },
+    {
+      "front": "THEOREM NAME • Which theorem guarantees an intermediate output?",
+      "back": "Intermediate Value Theorem",
+      "explanation": "A continuous function attains every value between its endpoint values.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-ivt"
+    },
+    {
+      "front": "CONDITION • What interval continuity is required by IVT?",
+      "back": "Closed interval",
+      "explanation": "The theorem assumes continuity on the entire interval including both endpoints.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-ivt"
+    },
+    {
+      "front": "METHOD • For an IVT zero-existence proof, inspect what?",
+      "back": "Endpoint signs",
+      "explanation": "Opposite endpoint signs guarantee a zero somewhere between them.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-ivt"
+    },
+    {
+      "front": "FORMULA • Average velocity from position s(t) over t₁,t₂?",
+      "back": "[s(t₂)−s(t₁)]/(t₂−t₁)",
+      "explanation": "The change in position divided by elapsed time is the secant-line slope.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-avg-velocity"
+    },
+    {
+      "front": "DEFINITION • What does a secant line connect?",
+      "back": "Two graph points",
+      "explanation": "Its slope measures average rate of change between those points.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-avg-velocity"
+    },
+    {
+      "front": "UNIT • If position is meters and time seconds, velocity units?",
+      "back": "m/s",
+      "explanation": "Meters of displacement divided by seconds of elapsed time yields meters per second.",
+      "studyGuideFile": "calculus-limits.html",
+      "studyGuideAnchor": "cal-avg-velocity"
+    }
+  ]
+}
