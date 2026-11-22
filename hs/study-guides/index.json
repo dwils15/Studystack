@@ -16,6 +16,24 @@
         "Forces",
         "Circuits"
       ]
+    },
+    {
+      "id": "calculus-limits",
+      "title": "Calculus — Your Calculus Comeback Course",
+      "subject": "Math",
+      "description": "Beginner-first limits, continuity, asymptotes, piecewise functions, IVT and average velocity; original 19 exam questions and additional guided practice.",
+      "html": "calculus-limits.html",
+      "pdf": "calculus-limits.pdf",
+      "deck": "calculus-limits-quick-recall.json",
+      "topics": [
+        "Algebra rescue kit",
+        "Limit fundamentals",
+        "Algebraic limit types",
+        "One-sided limits",
+        "Infinity",
+        "Continuity",
+        "Trig, IVT and slope"
+      ]
     }
   ]
 }
