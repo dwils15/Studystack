@@ -3,291 +3,1346 @@
   "cards": [
     {
       "front": "What is a noun?",
-      "back": "A person, place, thing, idea, or animal."
+      "back": "A person, place, thing, idea, or animal.",
+      "choices": [
+        "A person, place, thing, idea, or animal.",
+        "A word that shows action.",
+        "A word that describes a noun.",
+        "A word that tells how an action happens."
+      ],
+      "explanation": "A person, place, thing, idea, or animal."
     },
     {
       "front": "What is a common noun?",
-      "back": "A general name."
+      "back": "A general name.",
+      "choices": [
+        "A general name.",
+        "A special name.",
+        "A word showing action.",
+        "A name for more than one thing."
+      ],
+      "explanation": "A general name."
     },
     {
       "front": "What is a proper noun?",
-      "back": "A special name."
+      "back": "A special name.",
+      "choices": [
+        "A special name.",
+        "A general name.",
+        "A word describing a noun.",
+        "A word showing action."
+      ],
+      "explanation": "A special name."
     },
     {
       "front": "What kind of letter begins a proper noun?",
-      "back": "A capital letter."
+      "back": "A capital letter.",
+      "choices": [
+        "A capital letter.",
+        "A lowercase letter.",
+        "A silent letter.",
+        "A letter that must be a vowel."
+      ],
+      "explanation": "A capital letter."
     },
     {
       "front": "What is a singular noun?",
-      "back": "Names one."
+      "back": "Names one.",
+      "choices": [
+        "Names one.",
+        "Names more than one.",
+        "Names an action.",
+        "Names a description."
+      ],
+      "explanation": "Names one."
     },
     {
       "front": "What is a plural noun?",
-      "back": "Names more than one."
+      "back": "Names more than one.",
+      "choices": [
+        "Names more than one.",
+        "Names one.",
+        "Names an action.",
+        "Names a description."
+      ],
+      "explanation": "Names more than one."
     },
     {
       "front": "What is an irregular plural noun?",
-      "back": "A plural that does not follow the usual -s or -es rule."
+      "back": "A plural that does not follow the usual -s or -es rule.",
+      "choices": [
+        "A plural that does not follow the usual -s or -es rule.",
+        "A plural formed by adding -s.",
+        "A plural formed by adding -es.",
+        "A noun that names only one thing."
+      ],
+      "explanation": "A plural that does not follow the usual -s or -es rule."
     },
     {
       "front": "Is dog a common noun or proper noun?",
-      "back": "Common noun"
+      "back": "Common noun",
+      "choices": [
+        "Common noun",
+        "Proper noun"
+      ],
+      "explanation": "Common noun"
     },
     {
       "front": "Is Baton Rouge a common noun or proper noun?",
-      "back": "Proper noun"
+      "back": "Proper noun",
+      "choices": [
+        "Proper noun",
+        "Common noun"
+      ],
+      "explanation": "Proper noun"
     },
     {
       "front": "Is teacher a common noun or proper noun?",
-      "back": "Common noun"
+      "back": "Common noun",
+      "choices": [
+        "Common noun",
+        "Proper noun"
+      ],
+      "explanation": "Common noun"
     },
     {
       "front": "Is Dr. Kelley a common noun or proper noun?",
-      "back": "Proper noun"
+      "back": "Proper noun",
+      "choices": [
+        "Proper noun",
+        "Common noun"
+      ],
+      "explanation": "Proper noun"
     },
     {
       "front": "Is cat singular or plural?",
-      "back": "Singular"
+      "back": "Singular",
+      "choices": [
+        "Singular",
+        "Plural"
+      ],
+      "explanation": "Singular"
     },
     {
       "front": "Is cats singular or plural?",
-      "back": "Plural"
+      "back": "Plural",
+      "choices": [
+        "Plural",
+        "Singular"
+      ],
+      "explanation": "Plural"
     },
     {
       "front": "What is the plural of shoe?",
-      "back": "shoes"
+      "back": "shoes",
+      "choices": [
+        "shoes",
+        "shoees",
+        "shoies",
+        "shoe"
+      ],
+      "explanation": "One shoe; more than one: shoes."
     },
     {
       "front": "What is the plural of glass?",
-      "back": "glasses"
+      "back": "glasses",
+      "choices": [
+        "glasses",
+        "glass",
+        "glasss",
+        "glassies"
+      ],
+      "explanation": "One glass; more than one: glasses."
     },
     {
       "front": "What is the plural of child?",
-      "back": "children"
+      "back": "children",
+      "choices": [
+        "children",
+        "childs",
+        "childes",
+        "childrens"
+      ],
+      "explanation": "One child; more than one: children."
     },
     {
       "front": "What is the plural of man?",
-      "back": "men"
+      "back": "men",
+      "choices": [
+        "men",
+        "mans",
+        "manes",
+        "mens"
+      ],
+      "explanation": "One man; more than one: men."
     },
     {
       "front": "What is the plural of woman?",
-      "back": "women"
+      "back": "women",
+      "choices": [
+        "women",
+        "womans",
+        "womanses",
+        "womens"
+      ],
+      "explanation": "One woman; more than one: women."
     },
     {
       "front": "What is the plural of goose?",
-      "back": "geese"
+      "back": "geese",
+      "choices": [
+        "geese",
+        "gooses",
+        "goose",
+        "geeses"
+      ],
+      "explanation": "One goose; more than one: geese."
     },
     {
       "front": "What is the plural of fish?",
-      "back": "fish"
+      "back": "fish",
+      "choices": [
+        "fish",
+        "fishs",
+        "fishies",
+        "fisheses"
+      ],
+      "explanation": "One fish; more than one: fish."
     },
     {
       "front": "What is the plural of deer?",
-      "back": "deer"
+      "back": "deer",
+      "choices": [
+        "deer",
+        "deers",
+        "deeres",
+        "deeries"
+      ],
+      "explanation": "One deer; more than one: deer."
     },
     {
       "front": "What does SN stand for?",
-      "back": "Subject noun"
+      "back": "Subject noun",
+      "choices": [
+        "Subject noun",
+        "Verb",
+        "Adjective",
+        "Adverb"
+      ],
+      "explanation": "Subject noun"
     },
     {
       "front": "What does V stand for?",
-      "back": "Verb"
+      "back": "Verb",
+      "choices": [
+        "Verb",
+        "Subject noun",
+        "Adjective",
+        "Adverb"
+      ],
+      "explanation": "Verb"
     },
     {
       "front": "What does Adv stand for?",
-      "back": "Adverb"
+      "back": "Adverb",
+      "choices": [
+        "Adverb",
+        "Adjective",
+        "Verb",
+        "Subject noun"
+      ],
+      "explanation": "Adverb"
     },
     {
       "front": "What does Adj stand for?",
-      "back": "Adjective"
+      "back": "Adjective",
+      "choices": [
+        "Adjective",
+        "Adverb",
+        "Verb",
+        "Subject noun"
+      ],
+      "explanation": "Adjective"
     },
     {
       "front": "What does A stand for in sentence classification?",
-      "back": "Article adjective"
+      "back": "Article adjective",
+      "choices": [
+        "Article adjective",
+        "Adverb",
+        "Adjective",
+        "Subject noun"
+      ],
+      "explanation": "Article adjective"
     },
     {
       "front": "What is Pattern 1?",
-      "back": "SN V"
+      "back": "SN V",
+      "choices": [
+        "SN V",
+        "V SN",
+        "SN SN",
+        "V V"
+      ],
+      "explanation": "SN V"
     },
     {
       "front": "Which three questions do adverbs answer?",
-      "back": "How? When? Where?"
+      "back": "How? When? Where?",
+      "choices": [
+        "How? When? Where?",
+        "What kind? Which one? How many?",
+        "What? or Whom?",
+        "Who? or What?"
+      ],
+      "explanation": "How? When? Where?"
     },
     {
       "front": "Which three questions do adjectives answer?",
-      "back": "What kind? Which one? How many?"
+      "back": "What kind? Which one? How many?",
+      "choices": [
+        "What kind? Which one? How many?",
+        "How? When? Where?",
+        "What? or Whom?",
+        "Who? or What?"
+      ],
+      "explanation": "What kind? Which one? How many?"
     },
     {
       "front": "What are the three article adjectives?",
-      "back": "a, an, the"
+      "back": "a, an, the",
+      "choices": [
+        "a, an, the",
+        "is, am, are",
+        "in, on, at",
+        "and, but, or"
+      ],
+      "explanation": "a, an, the"
     },
     {
       "front": "What is a verb?",
-      "back": "A word that tells what someone or something does."
+      "back": "A word that tells what someone or something does.",
+      "choices": [
+        "A word that tells what someone or something does.",
+        "A word that describes a noun.",
+        "A word that names a person or thing.",
+        "A word that tells how an action happens."
+      ],
+      "explanation": "A word that tells what someone or something does."
     },
     {
       "front": "What is an adjective?",
-      "back": "A word that describes a noun."
+      "back": "A word that describes a noun.",
+      "choices": [
+        "A word that describes a noun.",
+        "A word that shows action.",
+        "A word that names a thing.",
+        "A word that tells when an action happens."
+      ],
+      "explanation": "A word that describes a noun."
     },
     {
       "front": "What is an adverb?",
-      "back": "A word that tells how, when, or where."
+      "back": "A word that tells how, when, or where.",
+      "choices": [
+        "A word that tells how, when, or where.",
+        "A word that describes a noun.",
+        "A word that names a person or thing.",
+        "A word that shows action."
+      ],
+      "explanation": "A word that tells how, when, or where."
     },
     {
       "front": "In “The brown goats walked slowly,” what is the subject noun?",
-      "back": "goats"
+      "back": "goats",
+      "choices": [
+        "goats",
+        "brown",
+        "walked",
+        "slowly"
+      ],
+      "explanation": "goats. The subject noun names who or what does the action.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The brown goats walked slowly,” what is the verb?",
-      "back": "walked"
+      "back": "walked",
+      "choices": [
+        "walked",
+        "brown",
+        "goats",
+        "slowly"
+      ],
+      "explanation": "walked. The verb tells the action.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The brown goats walked slowly,” what is the adverb?",
-      "back": "slowly"
+      "back": "slowly",
+      "choices": [
+        "slowly",
+        "brown",
+        "goats",
+        "walked"
+      ],
+      "explanation": "slowly. The adverb tells how, when or where.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The brown goats walked slowly,” what is the adjective?",
-      "back": "brown"
+      "back": "brown",
+      "choices": [
+        "brown",
+        "goats",
+        "walked",
+        "slowly"
+      ],
+      "explanation": "brown. The adjective describes a noun.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The brown goats walked slowly,” what is the article adjective?",
-      "back": "The"
+      "back": "The",
+      "choices": [
+        "The",
+        "brown",
+        "goats",
+        "walked"
+      ],
+      "explanation": "The. The article adjective is one of a, an, the.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The brown goats walked slowly,” what is the sentence pattern?",
-      "back": "SN V"
+      "back": "SN V",
+      "choices": [
+        "SN V",
+        "V SN",
+        "SN SN",
+        "V V"
+      ],
+      "explanation": "SN V",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "To find the subject noun in “The brown goats walked slowly,” what question do you ask?",
-      "back": "What walked slowly?"
+      "back": "What walked slowly?",
+      "choices": [
+        "What walked slowly?",
+        "Walked how?",
+        "What kind of goats?",
+        "How many goats?"
+      ],
+      "explanation": "What walked slowly?. The subject noun names who or what does the action.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "To find the adverb in “The brown goats walked slowly,” what question do you ask?",
-      "back": "Walked how?"
+      "back": "Walked how?",
+      "choices": [
+        "Walked how?",
+        "What walked slowly?",
+        "What kind of goats?",
+        "Which goats?"
+      ],
+      "explanation": "Walked how?. The adverb tells how, when or where.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "To find the adjective in “The brown goats walked slowly,” what question do you ask?",
-      "back": "What kind of goats?"
+      "back": "What kind of goats?",
+      "choices": [
+        "What kind of goats?",
+        "Walked how?",
+        "What walked slowly?",
+        "When did they walk?"
+      ],
+      "explanation": "What kind of goats?. The adjective describes a noun.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The happy dog ran quickly,” what is the subject noun?",
-      "back": "dog"
+      "back": "dog",
+      "choices": [
+        "dog",
+        "happy",
+        "ran",
+        "quickly"
+      ],
+      "explanation": "dog. The subject noun names who or what does the action.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The happy dog ran quickly,” what is the verb?",
-      "back": "ran"
+      "back": "ran",
+      "choices": [
+        "ran",
+        "happy",
+        "dog",
+        "quickly"
+      ],
+      "explanation": "ran. The verb tells the action.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The happy dog ran quickly,” what is the adjective?",
-      "back": "happy"
+      "back": "happy",
+      "choices": [
+        "happy",
+        "dog",
+        "ran",
+        "quickly"
+      ],
+      "explanation": "happy. The adjective describes a noun.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The happy dog ran quickly,” what is the adverb?",
-      "back": "quickly"
+      "back": "quickly",
+      "choices": [
+        "quickly",
+        "happy",
+        "dog",
+        "ran"
+      ],
+      "explanation": "quickly. The adverb tells how, when or where.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "In “The happy dog ran quickly,” what is the article adjective?",
-      "back": "The"
+      "back": "The",
+      "choices": [
+        "The",
+        "happy",
+        "dog",
+        "ran"
+      ],
+      "explanation": "The. The article adjective is one of a, an, the.",
+      "example": {
+        "sentence": "A small bird sings sweetly.",
+        "labels": [
+          {
+            "word": "A",
+            "label": "Article adjective"
+          },
+          {
+            "word": "small",
+            "label": "Adjective"
+          },
+          {
+            "word": "bird",
+            "label": "Subject noun"
+          },
+          {
+            "word": "sings",
+            "label": "Verb"
+          },
+          {
+            "word": "sweetly",
+            "label": "Adverb"
+          }
+        ],
+        "note": "Pattern 1: SN V."
+      }
     },
     {
       "front": "What is a preposition?",
-      "back": "A word that connects words and shows a relationship."
+      "back": "A word that connects words and shows a relationship.",
+      "choices": [
+        "A word that connects words and shows a relationship.",
+        "A word that names a thing.",
+        "A word that describes a noun.",
+        "A word that shows action."
+      ],
+      "explanation": "A word that connects words and shows a relationship. — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "What does P stand for?",
-      "back": "Preposition"
+      "back": "Preposition",
+      "choices": [
+        "Preposition",
+        "Object of the preposition",
+        "Subject noun",
+        "Verb"
+      ],
+      "explanation": "Preposition — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "What does OP stand for?",
-      "back": "Object of the preposition"
+      "back": "Object of the preposition",
+      "choices": [
+        "Object of the preposition",
+        "Preposition",
+        "Subject noun",
+        "Article adjective"
+      ],
+      "explanation": "Object of the preposition — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "What questions help find the object of a preposition?",
-      "back": "What? or Whom?"
+      "back": "What? or Whom?",
+      "choices": [
+        "What? or Whom?",
+        "When? or Where?",
+        "How? or Why?",
+        "Which one? or How many?"
+      ],
+      "explanation": "Ask what or whom after the preposition to find its object.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The boy walked near the dog,” what is the preposition?",
-      "back": "near"
+      "back": "near",
+      "choices": [
+        "near",
+        "boy",
+        "walked",
+        "dog"
+      ],
+      "explanation": "near — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The boy walked near the dog,” what is the object of the preposition?",
-      "back": "dog"
+      "back": "dog",
+      "choices": [
+        "dog",
+        "boy",
+        "walked",
+        "near"
+      ],
+      "explanation": "dog — the noun that completes the prepositional phrase.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "To find the object in “near the dog,” what do you ask?",
-      "back": "Near what?"
+      "back": "Near what?",
+      "choices": [
+        "Near what?",
+        "Walked how?",
+        "Near when?",
+        "Near where?"
+      ],
+      "explanation": "Near what? — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The cat slept under the table,” what is the preposition?",
-      "back": "under"
+      "back": "under",
+      "choices": [
+        "under",
+        "cat",
+        "slept",
+        "table"
+      ],
+      "explanation": "under — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The cat slept under the table,” what is the object of the preposition?",
-      "back": "table"
+      "back": "table",
+      "choices": [
+        "table",
+        "cat",
+        "slept",
+        "under"
+      ],
+      "explanation": "table — the noun that completes the prepositional phrase.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The book is on the desk,” what is the preposition?",
-      "back": "on"
+      "back": "on",
+      "choices": [
+        "on",
+        "book",
+        "is",
+        "desk"
+      ],
+      "explanation": "on — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The book is on the desk,” what is the object of the preposition?",
-      "back": "desk"
+      "back": "desk",
+      "choices": [
+        "desk",
+        "book",
+        "is",
+        "on"
+      ],
+      "explanation": "desk — the noun that completes the prepositional phrase.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The girl stood beside her friend,” what is the preposition?",
-      "back": "beside"
+      "back": "beside",
+      "choices": [
+        "beside",
+        "girl",
+        "stood",
+        "friend"
+      ],
+      "explanation": "beside — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The girl stood beside her friend,” what is the object of the preposition?",
-      "back": "friend"
+      "back": "friend",
+      "choices": [
+        "friend",
+        "girl",
+        "stood",
+        "beside"
+      ],
+      "explanation": "friend — the noun that completes the prepositional phrase.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The ball rolled behind the chair,” what is the preposition?",
-      "back": "behind"
+      "back": "behind",
+      "choices": [
+        "behind",
+        "ball",
+        "rolled",
+        "chair"
+      ],
+      "explanation": "behind — review the preposition and its object in the example.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "In “The ball rolled behind the chair,” what is the object of the preposition?",
-      "back": "chair"
+      "back": "chair",
+      "choices": [
+        "chair",
+        "ball",
+        "rolled",
+        "behind"
+      ],
+      "explanation": "chair — the noun that completes the prepositional phrase.",
+      "example": {
+        "sentence": "The bird flew over the fence.",
+        "labels": [
+          {
+            "word": "over",
+            "label": "Preposition"
+          },
+          {
+            "word": "fence",
+            "label": "Object of the preposition"
+          }
+        ],
+        "note": "Prepositional phrase: over the fence."
+      }
     },
     {
       "front": "What is cargo?",
-      "back": "Goods carried by a plane, train, or ship."
+      "back": "Goods carried by a plane, train, or ship.",
+      "choices": [
+        "Goods carried by a plane, train, or ship.",
+        "People traveling on a ship.",
+        "The driver of a train.",
+        "The place where a ship stops."
+      ],
+      "explanation": "Goods carried by a plane, train, or ship."
     },
     {
       "front": "In “The cargo ship was loaded with toys,” what does cargo mean?",
-      "back": "Goods being carried."
+      "back": "Goods being carried.",
+      "choices": [
+        "Goods being carried.",
+        "People traveling.",
+        "The ship itself.",
+        "The cost of shipping."
+      ],
+      "explanation": "Goods being carried."
     },
     {
       "front": "What are synonyms?",
-      "back": "Words with similar meanings."
+      "back": "Words with similar meanings.",
+      "choices": [
+        "Words with similar meanings.",
+        "Words with opposite meanings.",
+        "Words that rhyme.",
+        "Words that name actions."
+      ],
+      "explanation": "Words with similar meanings."
     },
     {
       "front": "What are antonyms?",
-      "back": "Words with opposite meanings."
+      "back": "Words with opposite meanings.",
+      "choices": [
+        "Words with opposite meanings.",
+        "Words with similar meanings.",
+        "Words that rhyme.",
+        "Words that name actions."
+      ],
+      "explanation": "Words with opposite meanings."
     },
     {
       "front": "cargo — freight",
-      "back": "Synonym"
+      "back": "Synonym",
+      "choices": [
+        "Synonym",
+        "Antonym"
+      ],
+      "explanation": "These words have similar meanings."
     },
     {
       "front": "select — choose",
-      "back": "Synonym"
+      "back": "Synonym",
+      "choices": [
+        "Synonym",
+        "Antonym"
+      ],
+      "explanation": "These words have similar meanings."
     },
     {
       "front": "price — cost",
-      "back": "Synonym"
+      "back": "Synonym",
+      "choices": [
+        "Synonym",
+        "Antonym"
+      ],
+      "explanation": "These words have similar meanings."
     },
     {
       "front": "cargo — passengers",
-      "back": "Antonym"
+      "back": "Antonym",
+      "choices": [
+        "Antonym",
+        "Synonym"
+      ],
+      "explanation": "The study guide contrasts cargo (goods) with passengers (people); these are contrasting categories, not strict dictionary antonyms."
     },
     {
       "front": "long — short",
-      "back": "Antonym"
+      "back": "Antonym",
+      "choices": [
+        "Antonym",
+        "Synonym"
+      ],
+      "explanation": "These words have opposite meanings."
     },
     {
       "front": "vacant — full",
-      "back": "Antonym"
+      "back": "Antonym",
+      "choices": [
+        "Antonym",
+        "Synonym"
+      ],
+      "explanation": "These words have opposite meanings."
     }
-  ]
+  ],
+  "subject": "English Reading"
 }
